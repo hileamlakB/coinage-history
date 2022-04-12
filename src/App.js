@@ -1,7 +1,7 @@
 import IconButton from '@mui/material/IconButton';
 import AddIcon from '@mui/icons-material/Add';
 import coinjpg from "./images/coin.jpg";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import { Button, Typography } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
@@ -56,9 +56,18 @@ function OverLay({visible, changeVisibility}) {
   )
 }
 
-function Event({pic, height, direction, empty, special, element}){
+function Event({pic, maxheight, direction, empty, special, element}){
 
   const [visible, setvisible] = useState("none");
+  const [height, setheight] = useState(0);
+
+  useEffect(() => {
+    setInterval(() => {
+  
+      setheight(height + 10)
+    }, 100);
+  }, [])
+  
 
   function moreInfo (){
     changeVisibility();
@@ -70,6 +79,8 @@ function Event({pic, height, direction, empty, special, element}){
  }
 
   // element.setAttribute('onClick', moreInfo);
+
+
   
   
   return empty? <div style={{minWidth:"80px", margin:"0 20px"}}></div> : 
@@ -85,7 +96,7 @@ function Event({pic, height, direction, empty, special, element}){
             <OverLay visible={visible} changeVisibility={changeVisibility}/>
             
             {direction === "up" ? (special? element : <ImageButton pic = {pic} on_click={moreInfo} /> ) : null}
-            <div style={{color:"orange", minHeight:`${height}`, minWidth:"5px", width:"5px", background:"orange"}}></div>
+            <div style={{color:"orange", minHeight:`${height}px`, minWidth:"5px", width:"5px", background:"orange"}}></div>
             {direction === "down" ? (special? element : <ImageButton pic = {pic} on_click={moreInfo} /> ) : null}
 
           </div>)
@@ -115,11 +126,11 @@ function App() {
     <div className="App" style={{overflowX:"auto", width:"1020%", marginLeft:"80px"}}>
         <div className="upper_time_line" style={{minHeight:'52vh', display:"flex", flexDirection: "column", justifyContent:"end"}}>
           <div className="upper_lines" style={{display:"flex", alignItems:"flex-end"}}>
-              <Event pic={coinjpg} height="40px" direction="up"/>
-              <Event pic={coinjpg} height="110px" direction="up"/>
-              <Event pic={coinjpg} height="180px" direction="up"/>
-              <Event pic={coinjpg} height="110px" direction="up"/>
-              <Event pic={coinjpg} height="40px" direction="up"/>
+              <Event pic={coinjpg} height="40" direction="up"/>
+              <Event pic={coinjpg} height="110" direction="up"/>
+              <Event pic={coinjpg} height="180" direction="up"/>
+              <Event pic={coinjpg} height="110" direction="up"/>
+              <Event pic={coinjpg} height="40" direction="up"/>
 
               <Event empty="true"/>
               <Event empty="true"/>
@@ -144,11 +155,11 @@ function App() {
         <Event empty="true"/>
         <Event empty="true"/>
         
-        <Event pic={coinjpg} height="40px" direction="down"/>
-        <Event pic={coinjpg} height="110px" direction="down"/>
-        <Event pic={coinjpg} height="180px" direction="down"/>
-        <Event pic={coinjpg} height="110px" direction="down"/>
-        <Event pic={coinjpg} height="40px" direction="down"/>
+        <Event pic={coinjpg} height="40" direction="down"/>
+        <Event pic={coinjpg} height="110" direction="down"/>
+        <Event pic={coinjpg} height="180" direction="down"/>
+        <Event pic={coinjpg} height="110" direction="down"/>
+        <Event pic={coinjpg} height="40" direction="down"/>
 
       </div>
     </div>
