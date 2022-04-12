@@ -62,11 +62,14 @@ function Event({pic, maxheight, direction, empty, special, element}){
   const [height, setheight] = useState(0);
 
   useEffect(() => {
-    setInterval(() => {
-  
-      setheight(height + 10)
+    const interval = setInterval(() => {
+      setheight(height => height + 1);
     }, 100);
-  }, [])
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
   
 
   function moreInfo (){
@@ -96,7 +99,7 @@ function Event({pic, maxheight, direction, empty, special, element}){
             <OverLay visible={visible} changeVisibility={changeVisibility}/>
             
             {direction === "up" ? (special? element : <ImageButton pic = {pic} on_click={moreInfo} /> ) : null}
-            <div style={{color:"orange", minHeight:`${height}px`, minWidth:"5px", width:"5px", background:"orange"}}></div>
+            <div style={{color:"orange", minHeight:`${height}px`, height:`${height}px`, minWidth:"5px", width:"5px", background:"orange"}}></div>
             {direction === "down" ? (special? element : <ImageButton pic = {pic} on_click={moreInfo} /> ) : null}
 
           </div>)
