@@ -3,7 +3,9 @@ import './App.css';
 import React from 'react'
 import { useState, useEffect, useRef } from 'react';
 
-import AddIcon from '@mui/icons-material/Add';
+
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { Button, Typography } from '@mui/material';
 import ModeNightIcon from '@mui/icons-material/ModeNight';
 import IconButton from '@mui/material/IconButton';
@@ -13,22 +15,20 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import {DottedLines, OverLay, ImageButton, useWindowSize} from "./BasicComponents.js";
 import {TimeLineData} from "./timelinecontent"
 
-import coinjpg from "./images/coin.jpg";
-import { display } from '@mui/system';
-import { MarkEmailRead } from '@mui/icons-material';
 
 
 
 
 
-function CoinEvent({pic, maxheight, startTime, coinPeriod, direction, empty, special, element, motion=false}){
+function CoinEvent({title, subtitle, obverse, reverse, coinStartTime, coinSize, detail, referances, maxheight, animationStartTime, coinPeriodP, direction, empty, special, element, motion=false}){
 
   const [visible, setvisible] = useState("none");
   const [height, setheight] = useState(motion? 0: maxheight);
+  const [hover_visibility, sethover_visibility] = useState("none");
   const dir = useRef(-1)
 
   useEffect(() => {
-    setTimeout(()=> setInterval(update_height, 5), startTime);
+    setTimeout(()=> setInterval(update_height, 5), animationStartTime);
 
   
   }, []);
@@ -57,11 +57,11 @@ function CoinEvent({pic, maxheight, startTime, coinPeriod, direction, empty, spe
   }
 
   function changeVisibility (){
-    visible === "none" ? setvisible('block') : setvisible('none')
+    visible === "none" ? setvisible('flex') : setvisible('none')
  }
 
   // element.setAttribute('onClick', moreInfo);
-  return empty? <div style={{minWidth:"80px", position:"absolute", margin:"0 20px"}}></div> : 
+  return empty? <div style={{minWidth:"100px", position:"absolute", margin:"0 20px"}}></div> : 
         (<div
             style = {{
               position:"absolute",
@@ -70,25 +70,54 @@ function CoinEvent({pic, maxheight, startTime, coinPeriod, direction, empty, spe
               justifyItems: "center",
               alignItems: "center",
               margin:"0 20px", 
-              left:`${coinPeriod}px`
+              left:`${coinPeriodP}px`
+              
             }}
+            onMouseOver={() => {sethover_visibility("block")}} 
+            onMouseOut={() => {sethover_visibility("none")}}
           >
-            <OverLay visible={visible} changeVisibility={changeVisibility}/>
+             <div
+          className='history_tooltip' 
+          style={{
+            background:"black", 
+            padding:"10px", 
+            width:"300px",
+            border:"1px solid white", 
+            color:"white", position:"absolute", 
+            display:`${hover_visibility}`,
+            top: "-60px",
+            left: "-100px",
+            justifyContent: "center",
+            alignItems: "center"
             
-            {direction === "up" ? (special? element : <ImageButton pic = {pic} on_click={moreInfo} /> ) : null}
+            }}>
+          <h2>{title}</h2>
+          <p>{coinStartTime}</p>
+
+        </div>
+            <OverLay title= {title} subtitle={subtitle} period={coinStartTime} img1={obverse} img2={reverse} size={coinSize} detail={detail} visible={visible} referances = {referances} changeVisibility={changeVisibility}/>
+            
+            {direction === "up" ? (special? element : <ImageButton pic = {obverse} on_click={moreInfo} /> ) : null}
             <DottedLines color="white" width={height}/>
             {/* <div style={{color:"orange", minHeight:`${height}px`, height:`${height}px`, minWidth:"5px", width:"5px", background:"linear-gradient(black, white);"}}></div> */}
-            {direction === "down" ? (special? element : <ImageButton pic = {pic} on_click={moreInfo} /> ) : null}
+            {direction === "down" ? (special? element : <ImageButton pic = {obverse} on_click={moreInfo} /> ) : null}
 
           </div>)
   
 }
 
-function HistoryEvent({eventPeriod, width = 20}){
+function HistoryEvent({eventPeriod, title, startTime, endTime, detail, width = 20}){
 
+  const [visible, setvisible] = useState("none");
+  const [hover_visibility, sethover_visibility] = useState("none");
+
+  function changeVisibility (){
+    visible === "none" ? setvisible('flex') : setvisible('none')
+  }
+  
   
  
-    return (
+  return (
     <div 
      
       style={{
@@ -100,8 +129,31 @@ function HistoryEvent({eventPeriod, width = 20}){
         position:"absolute",
         left:`${eventPeriod}px`
       }}
+      onClick={changeVisibility}
+      onMouseOver={() => {sethover_visibility("block")}} 
+      onMouseOut={() => {sethover_visibility("none")}}
       >
+        <div
+          className='history_tooltip' 
+          style={{
+            background:"black", 
+            padding:"10px", 
+            width:"300px",
+            border:"1px solid white", 
+            color:"white", position:"absolute", 
+            display:`${hover_visibility}`,
+            top: "-110px",
+            left: "-130px",
+            justifyContent: "center",
+            alignItems: "center"
+            
+            }}>
+          <h2>{title}</h2>
+          <p>{startTime}{endTime?" - "+endTime + " BCE":null}</p>
 
+        </div>
+  <OverLay title= {title} period={startTime} image={false} detail={detail} visible={visible} changeVisibility={changeVisibility}/>
+          
     </div>)
 
 }
@@ -136,7 +188,10 @@ function MarkerEvent({name, eventPeriod}){
 function App() {
 
   const [bg, setbg] = useState("black");
-  const winSize = useWindowSize()
+  const [maxWidth, setmaxWidth] = useState(0);
+  const [scrollLeft, setscrollLeft] = useState(0);
+  const [scrollRight, setscrollRight] = useState(0);
+  const winSize = useWindowSize();
 
   
   const [content, setcontent] = useState(
@@ -149,6 +204,9 @@ function App() {
   useEffect(() => {
     document.body.style.background = 'black';
   }, [])
+
+ 
+  
 
   useEffect(() => {
     console.log('resizeing')
@@ -171,10 +229,14 @@ function App() {
 
 
     let history_start = parseInt(TimeLineData['1'].Start);;
+    let new_max = maxWidth;
     
     for (let i = 1; i <= Object.keys(TimeLineData).length; i++)
     {
       let plocation = timeToPixel(history_start - parseInt(TimeLineData[`${i}`].Start))
+      if (plocation > new_max){
+        new_max = plocation
+      }
       if (TimeLineData[`${i}`].Type === "Coin") {
         
       
@@ -182,21 +244,39 @@ function App() {
           upper_timeline.push(
             <CoinEvent 
              key = {i}
-             pic={coinjpg} 
-             maxheight="40" 
+
+             title={TimeLineData[`${i}`].Name} 
+             subtitle={TimeLineData[`${i}`].Subtitle} 
+             reverse={TimeLineData[`${i}`].Reverse} 
+             coinStartTime={TimeLineData[`${i}`].Start + " BCE"}
+             coinSize={TimeLineData[`${i}`].Mass+" g"} 
+             detail={TimeLineData[`${i}`].Detail} 
+             referances={TimeLineData[`${i}`].References}
+             obverse={TimeLineData[`${i}`].Obverse} 
+
+             maxheight="90" 
              direction="up" 
-             coinPeriod={plocation}
-             startTime={0}/>)
+             coinPeriodP={plocation}
+             animationStartTime={0}/>)
         } 
         else if (TimeLineData[`${i}`].Location === "Below") {
           lower_timeline.push(
             <CoinEvent 
              key = {i}
-             pic={coinjpg} 
-             maxheight="40" 
+             
+             title={TimeLineData[`${i}`].Name} 
+             subtitle={TimeLineData[`${i}`].Subtitle} 
+             reverse={TimeLineData[`${i}`].Reverse} 
+             coinStartTime={TimeLineData[`${i}`].Start  + " BCE"}
+             coinSize={TimeLineData[`${i}`].Mass+" g"} 
+             detail={TimeLineData[`${i}`].Detail} 
+             referances={TimeLineData[`${i}`].References}
+             obverse={TimeLineData[`${i}`].Obverse} 
+
+             maxheight="90" 
              direction="down" 
-             coinPeriod={plocation}
-             startTime={0}/>)
+             coinPeriodP={plocation}
+             animationStartTime={0}/>)
 
         }
         
@@ -212,6 +292,11 @@ function App() {
               timeToPixel(
                 parseInt(TimeLineData[`${i}`].Start) - 
                 parseInt(TimeLineData[`${i}`].End))}
+            
+            title={TimeLineData[`${i}`].Name} 
+            startTime={TimeLineData[`${i}`].Start  + " BCE"}
+            endTime={TimeLineData[`${i}`].End}
+            detail={TimeLineData[`${i}`].Detail} 
 
 
             eventPeriod={plocation}
@@ -230,7 +315,8 @@ function App() {
 
     }
     console.log(middle_timeline);
-    setcontent( {middle_timeline:middle_timeline, lower_timeline:lower_timeline, upper_timeline:upper_timeline})    
+    setcontent( {middle_timeline:middle_timeline, lower_timeline:lower_timeline, upper_timeline:upper_timeline})   
+    setmaxWidth(new_max); 
   }, [winSize.width])
   
 
@@ -252,7 +338,38 @@ function App() {
   }
   return (
   <>
-    <div className="App" style={{overflowX:"auto", width:"1020%", marginLeft:"10px"}}>
+    <div className="App" style={{overflowX:"auto", width:`${maxWidth + 200}px`, marginLeft:"10px"}}>
+
+      <Typography variant='h4' sx={{left:"calc(50% - 300px)",fontFamily:`MonoLisa, Menlo, Monaco, "Courier New", monospace`, color:"white", position:"fixed", padding:"10px"}}>Coinage of the Roman Republic</Typography>
+      <IconButton 
+        sx={{
+          position:"fixed", 
+          top: "50%",
+          padding:"10px",
+          background: "linear-gradient(45deg, black, transparent)",
+          right: "0",
+          color:"white",
+          borderRadius:"0",
+          zIndex:"5"}}    
+        onMouseOut={()=>clearInterval(scrollRight)} 
+        onMouseOver={()=>{setscrollRight(setInterval(() =>{window.scrollBy(10, 0)}, 10))}}>
+          <ArrowForwardIosIcon /></IconButton>
+      
+      
+      <IconButton  
+        sx={{
+          position:"fixed", 
+          top: "50%",
+          padding:"10px",
+          background: "linear-gradient(45deg, black, transparent)",
+          left: "0",
+          color:"white",
+          borderRadius:"0",
+        zIndex:"5"}}   
+        onMouseOut={()=>clearInterval(scrollLeft)} 
+        onMouseOver={()=>{setscrollLeft(setInterval(() =>{window.scrollBy(-10, 0)}, 10))}}>
+          <ArrowBackIosIcon /></IconButton>
+
         <div className="upper_time_line" style={{minHeight:'52vh', display:"flex", flexDirection: "column", justifyContent:"end"}}>
           <div className="upper_lines" style={{display:"flex", alignItems:"flex-end"}}>
           {/* Increase the width whenever more coins are added */}

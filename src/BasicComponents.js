@@ -2,7 +2,6 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { Button, Typography } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
-import coinjpg from "./images/coin.jpg";
 import CloseIcon from '@mui/icons-material/Close';
 
 
@@ -44,36 +43,40 @@ export function DottedLines({color, width, inverted=true}){
   
   }
 
-export function OverLay({visible, changeVisibility}) {
+export function OverLay({title, subtitle, period, img1, img2, size, detail, referances, visible, changeVisibility, image=true}) {
   
 
  
     return (
   
-      <div className="overlay" style={{width:"100%", top:"0", left:"0", position:"absolute", zIndex:"2", minHeight:"100vh", marginTop:"0", borderRadius:"10px", background:"rgba(255, 165, 0, 0.50)", display:`${visible}`}}>
-        <IconButton color="warning" variant="contained" onClick={changeVisibility}><CloseIcon /></IconButton>
+      <div className="overlay" style={{width:"100%", top:"0", left:"0", position:"fixed", zIndex:"2", minHeight:"100vh", marginTop:"0", borderRadius:"10px", background:"black", display:`${visible}`, flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
+        <IconButton sx ={{alignSelf:"flex-start"}} color="warning" variant="contained" onClick={changeVisibility}><CloseIcon /></IconButton>
   
-        <div className='coinInfo' style={{display:"flex", justifyContent:"center", alignItems:"center", minHeight:"100vh"}}>
-          <div className="contente" style={{display:"flex", background:"white", boxShadow:""}}>
-            <div className='coinImages' style={{display:"flex", flexDirection:"column", margin:"20px", padding:"10px"}}>
-              {/* figure out how you can layout information ontop of a coin */}
-              <img src={coinjpg} alt="coin_name" style={{borderRadius:"50px", width:"80px", height:"80px"}}></img>
-              <img src={coinjpg} alt="coin_name" style={{borderRadius:"50px", width:"80px", height:"80px"}}></img>
+        <div className='overlayInfo' style={{display:"flex", justifyContent:"center", alignItems:"center", minHeight:"100vh", background:"black", color:"white",  maxWidth:"90%", flexWrap:"wrap"}}>
+          <div className="content" style={{display:"flex", fontFamily:`MonoLisa, Menlo, Monaco, "Courier New", monospace`, justifyContent:"center", alignItems:"center", boxShadow:"4px 2px 20px 0px white", padding:"40px", maxHeight:"90%", overflowY:"auto"}}>
+            {image?<div className='overlayImages' style={{display:"flex", flexDirection:"column", margin:"10px", padding:"10px"}}>
+              {/* figure out how you can layout information ontop of a overlay */}
+              <img src={img1} alt="overlay_name" style={{borderRadius:"50px", width:"400px" }}></img>
+              <img src={img2} alt="overlay_name" style={{borderRadius:"50px", width:"400px"}}></img>
   
   
-            </div>
-            <div className="coinInfo" style={{maxWidth:"800px"}}>
-              <Typography>Roman Republic</Typography>
-              <Typography>M. Junius Brutus</Typography>
-              <Typography>AE Denarius</Typography>
-              <Typography>54 BCE</Typography>
-              <model-viewer src="assets/cons.glb" alt="VR Headset" enable-pan auto-rotate rotation-per-second="300deg" camera-controls ar camera-target="0m 0m 0m" camera-orbit="-90deg 90deg 1.5m"></model-viewer>
-                  
+            </div>:null}
+            <div className="overlayInfo" style={{maxWidth:"800px"}}>
+              <Typography variant="h2">{title}</Typography>
+              
+              {image?<div style={{display:"flex", justifyContent:"space-between", alignItems:"center"}}>
+                <Typography variant="h4">{subtitle}</Typography>
+                <Typography variant="h5">{size}</Typography>
+              </div>:null}
+              <Typography>{period}</Typography>
+              {/* <model-viewer src="assets/cons.glb" alt="VR Headset" enable-pan auto-rotate rotation-per-second="300deg" camera-controls ar camera-target="0m 0m 0m" camera-orbit="-90deg 90deg 1.5m"></model-viewer>
+                   */}
   
-              <p>
-                This first paragraph will describe the coin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at libero vel neque pretium consectetur eget non metus. Morbi sapien massa, semper ut convallis ut, porttitor non nisl. Vestibulum ac ante erat.
-  
-                This second paragraph will provide historical context. Donec condimentum, augue egestas convallis auctor, leo nisl congue…
+              <p style={{textAlign:"jutify"}}>
+                {detail}
+                {/* <Typography variant="h5">Referances</Typography>
+                {referances} */}
+                
               </p>
             </div>
   
@@ -89,7 +92,7 @@ export function OverLay({visible, changeVisibility}) {
   
 export function ImageButton({pic, on_click}){
     return (<IconButton aria-label="fingerprint" color="warning" sx={{padding:0}} onClick={on_click}>
-    <img src={pic} alt="coin_name" style={{borderRadius:"50px", width:"80px", height:"80px"}}></img>
+    <img src={pic} alt="overlay_name" style={{borderRadius:"50px", width:"120px", height:"120px"}}></img>
     </IconButton>)
 }
 

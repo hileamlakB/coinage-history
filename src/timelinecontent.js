@@ -8,6 +8,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -20,6 +21,7 @@ export const TimeLineData = {
         "Name": "Rome was founded",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "Much of what we know about the founding of Rome derives from legend. The story popularized by Virgil in the Aeneid attempts to fuse two myths, the Greek myth of Aeneas and the myth of Romulus and Remus. Virgil describes how Prince Aeneas flees from Troy after the Trojan War and eventually arrives at the banks of the Tiber River, where he establishes a marriage alliance with Lavinia, the daughter of King Latinus. Aeneas marries Lavinia and founds the city of Lavinium; his son Ascanius would found the city of Alba Longa. Many years later, the last king of Alba Longa, King Numitor, would be deposed by his brother Amulius. Romulus and Remus are the grandsons of Numitor through his daughter Rhea Silvia and Mars, the god of war. They were abandoned on the banks of the Tiber, then raised by a she-wolf and a shepherd named Faustulus. Although the two brothers initially intended to found separate cities, a conflict arose between them which ended in Remus's death and the beginnings of what would become Rome.",
         "References": "https://www.britannica.com/topic/Aeneid; https://www.history.com/this-day-in-history/rome-founded"
     },
@@ -32,6 +34,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -44,6 +47,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -56,6 +60,7 @@ export const TimeLineData = {
         "Name": "Start of Roman Republic",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "The early Romans derived from mostly Latin heritage. They were ruled by kings, as were many Latin towns and cities. The nobility were organized into the Senate, which advised the king. A series of kings, both Roman and Etruscan, had led Rome's successful expansion among the Latins. However, in the course of the two centuries prior to the establishment of the Roman Republic, royal power had gradually declined in favor of the power of the nobility. The last king, an Etruscan named Lucius Tarquinius Superbus, was a tyrant who brutally suppressed the Senate and precipitated a revolt which effectively ended the monarchy. Instead of a king, two consuls were elected annually to lead the new Roman Republic. The consuls possessed military, administrative, and judicial authority. Of note, the new Republican system allowed for the appointment of dictators with supreme power during six months of military emergency, a fact which would foreshadow Rome's eventual transition into an empire.",
         "References": "https://www.gutenberg.org/files/32624/32624-pdf.pdf; https://www.britannica.com/biography/Tarquin-king-of-Rome-534-509-BC; https://www.worldhistory.org/Lucius_Tarquinius_Superbus/"
     },
@@ -68,6 +73,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -80,6 +86,7 @@ export const TimeLineData = {
         "Name": "First written law code",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "The Law of the Twelve Tables was the first written law code in Rome and marked the transition to  a more egalitarian society. Displayed in the Forum, these laws arose from a growing resentment felt by the plebeian class towards the aristocratic patricians, who wielded extreme power in the Senate. Punishments outlined in the Twelve Tables were applicable to all Roman citizens, and ranged from confiscation of property to death.",
         "References": "https://www.gutenberg.org/files/32624/32624-pdf.pdf; https://www.worldhistory.org/Twelve_Tables/"
     },
@@ -92,6 +99,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -104,6 +112,7 @@ export const TimeLineData = {
         "Name": "Sack of Rome by Gallic tribe",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "Around 390 BCE, the Romans were defeated by the Gallic Senones in a major battle and Rome was sacked. The remnants of the Senate and Roman military fled to the top of the Capitoline Hill, to which the Gauls laid seige for seven months. A Roman dictator, Marcus Furius Camillus, was appointed and finally managed to drive out the Gauls after a series of bloody battles. The effect of this episode was that the Romans realized the inadequacy of their army and thus made great strides in strengthening their military organization as well as the physical fortifications of the city. In the following eight centuries, maintaining the Roman military would become an ever more expensive obligation of the state and contribute to its eventual economic downfall.",
         "References": "https://www.worldhistory.org/article/910/the-sack-of-rome-by-the-gauls-390-bce/"
     },
@@ -116,6 +125,7 @@ export const TimeLineData = {
         "Name": "First plebeian consul elected",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "In a major win for the plebeians in their struggle for political representation, the first plebeian consul was elected in 362 BCE. IN 340 BCE it became required for at least one consul to be plebeian. During the mid-fourth century BCE, plebeians occupied at various times the positions of the dictatorship, the censorship, and the praetorship, all major political positions within the Roman government. Plebians eventually occupied a large fraction of the Senate, although in some ways class divisions were perpetuated by the fact that only prominent plebian families were represented in these offices.",
         "References": "https://www.gutenberg.org/files/32624/32624-pdf.pdf"
     },
@@ -128,6 +138,7 @@ export const TimeLineData = {
         "Name": "Second Latin War",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "As the Romans achieved increasing prominence and power in the Italian peninsula, there was growing discontent among the other Latin city-states. For Rome had begin to consolidate so much power in the so-called Latin League that they became the de facto leader of this military alliance, established some 150 years earlier under the Treaty of Cassius. The Romans took advantage of this alliance to expand their own territories, and after a series of conflicts with the other Latin states eventually absorbed them after the Second Latin War.",
         "References": "https://delong.typepad.com/forsythe-rome.pdf"
     },
@@ -140,6 +151,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -152,6 +164,7 @@ export const TimeLineData = {
         "Name": "Third Samnite War",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "The Samnites were a resource-poor society living in the Apennine Mountains east of Rome. As they sought to expand into richer lands, they came into conflict with the Romans. The first war between the two societies occurred in 343 BCE, a second war in 326 BCE, and the third and final Samnite War in 298 BCE. During this time, Rome continued to expand, founding sixteen colonies. By the end of the third war, Roman power in Italy was further consolidated.",
         "References": "https://delong.typepad.com/forsythe-rome.pdf"
     },
@@ -164,10 +177,11 @@ export const TimeLineData = {
         "Name": "Aes signatum",
         "Person": "M. Junius Brutus",
         "Subtitle": "AE Aes signatum",
-        "Detail": "Unlike their Greek neighbors, the inhabitants of the Italian peninsula did not enjoy large natural deposits of silver and gold. Thus the earliest Roman currencies were made of bronze (aes) or copper. The aes signatum was a large cast brick of bronze \n\nThis example of an aes signatum exhibits an eagle standing on a thunderbolt on the obverse and a pegasus on the reverse. Both were common Greek motifs, illustrating the heavy Greek influence on early Roman coinage. The reverse inscription ROMANOM, however, makes it clear the identity of the issuers. At 1.39 kilograms, this bronze bar would have been quite cumbersome to transport and ",
-        "References": "https://delong.typepad.com/forsythe-rome.pdf; https://webarchive.nationalarchives.gov.uk/ukgwa/20190801144951/https://www.britishmuseum.org/research/publications/online_research_catalogues/search_object_details.aspx?objectid=1171049&partid=1&numpages=12&output=bibliography/!!/OR/!!/6738/!//!/A+catalogue+of+the+Roman+Republican+Coins+in+the+British+Museum,+with+descriptions+and+chronology+based+on+M.H.+Crawford,+Roman+Republican+Coinage+(1974)/!//!!//!!!/&sortBy=catNumber&orig=/research/publications/online_research_catalogues/russian_icons/catalogue_of_russian_icons.aspx&catalogueOnly=True&catparentPageId=29127&catalogueName=Roman%20Republican%20coins%20in%20the%20British%20Museum&catalogueSection=A%20catalogue%20of%20the%20Roman%20Republican%20Coins%20in%20the%20British%20Museum,%20with%20descriptions%20and%20chronology%20based%20on%20M.H.%20Crawford,%20Roman%20Republican%20Coinage%20(1974)&currentPage=1",
-        "obverse": "280_aes_signatum_obverse.png",
-        "reverse": "280_aes_signatum_reverse.png"
+        "Mass": "1389",
+        "Detail": "Unlike their Greek neighbors, the inhabitants of the Italian peninsula did not enjoy large natural deposits of silver and gold. Thus the earliest Roman currencies were made of bronze (aes) or copper. The aes signatum was a large cast brick of bronze with animal or mythological motifs on either side, and were preceded only by the aes rude, which were lumps of bronze lacking any shape whatsoever. \n\nThis example of an aes signatum exhibits an eagle standing on a thunderbolt on the obverse and a pegasus on the reverse. Both were common Greek motifs, illustrating the heavy Greek influence on early Roman coinage. The reverse inscription ROMANOM, however, makes it clear the identity of the issuers. The obverse and reverse style indicate that this piece is of Romano-Campanian origin. At 1.39 kilograms, this bronze bar would have been quite cumbersome to transport and is theorized to have been restricted to ceremonial use, large transactions, or for export.",
+        "References": "https://delong.typepad.com/forsythe-rome.pdf; https://www.jstor.org/stable/pdf/43594117.pdf; https://webarchive.nationalarchives.gov.uk/ukgwa/20190801144951/https://www.britishmuseum.org/research/publications/online_research_catalogues/search_object_details.aspx?objectid=1171049&partid=1&numpages=12&output=bibliography/!!/OR/!!/6738/!//!/A+catalogue+of+the+Roman+Republican+Coins+in+the+British+Museum,+with+descriptions+and+chronology+based+on+M.H.+Crawford,+Roman+Republican+Coinage+(1974)/!//!!//!!!/&sortBy=catNumber&orig=/research/publications/online_research_catalogues/russian_icons/catalogue_of_russian_icons.aspx&catalogueOnly=True&catparentPageId=29127&catalogueName=Roman%20Republican%20coins%20in%20the%20British%20Museum&catalogueSection=A%20catalogue%20of%20the%20Roman%20Republican%20Coins%20in%20the%20British%20Museum,%20with%20descriptions%20and%20chronology%20based%20on%20M.H.%20Crawford,%20Roman%20Republican%20Coinage%20(1974)&currentPage=1",
+        "Obverse": "assets/images/280_aes_signatum_obverse.png",
+        "Reverse": "assets/images/280_aes_signatum_reverse.png"
     },
     "15": {
         "ID": "15",
@@ -178,8 +192,9 @@ export const TimeLineData = {
         "Name": "Pyrrhic War",
         "Person": "",
         "Subtitle": "",
-        "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
-        "References": ""
+        "Mass": "",
+        "Detail": "The war with King Pyrrhus marked Rome's first conflict with Greek populations outside the Italian peninsula. It was precipitated by a call for help from the Greek colony of Tarentum in southern Italy to King Pyrrhus of Epirus in Magna Graecia, after Romans violated a treaty by sailing ships into Tarentum waters. Pyrrhus was one of the foremost Greek military leaders, and his army included 20 elephants. An initial hard-fought victory by Pyrrhus was followed by the rejection of a peace settlement by the Romans, and another battle with nearly ten thousand total casualties took place at Apulia. Although both battles ended in the defeat of the Romans, they inspired the phrase \"Pyrrhic victory\" due to the great losses incurred by the victorious party. Soon Pyrrhus would abandon Italy and go to campaign against the Carthaginians, and Tarentum would fall. By 264 BCE the entirety of the Italian peninsula would become controlled by the Romans.",
+        "References": "https://delong.typepad.com/forsythe-rome.pdf"
     },
     "16": {
         "ID": "16",
@@ -189,11 +204,12 @@ export const TimeLineData = {
         "End": "",
         "Name": "Romano-Campanian didrachm",
         "Person": "M. Junius Brutus",
-        "Subtitle": "",
-        "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
-        "References": "",
-        "obverse": "269_romano-campanian_didrachm_obverse.png",
-        "reverse": "269_romano-campanian_didrachm_reverse.png"
+        "Subtitle": "AR Didrachm",
+        "Mass": "6.87",
+        "Detail": "Despite occasional conflict between the Romans and the Greeks, the latter had an undoubtably large influence on the former in the early years of the Republic. In fact, the earliest silver Roman coins were Greek denominations: the didrachm, worth two drachmae. The style of these coins were also very Greek, featuring Greek gods such as Apollo. This did not exclude the presence of certain Roman motifs, however; as shown here, the she-wolf suckling Romulus and Remus was a motif which would remain popular on Roman coinage for at least seven centuries. The obverse of this coin shows the head of Hercules with a Greek headband (tainia), along with his traditional gear: a club over his right shoulder and lion skin around his neck. The reverse features, along with the she-wolf and twins, the inscription ROMANO in the exergue.\n\nThe source of metal for these newly minted silver coins was not local mines, but rather war booty. Rome's ongoing wars of expansion gave it the resources to establish sophisticated Hellenistic monetary systems, even as it fueled the need for increasingly complex economies. These coins were most likely used to fund anbitious building projects such as the Via Appia as well as the Pyrrhic War of the early third century BCE.",
+        "References": "https://hvrd.art/o/197428; https://delong.typepad.com/forsythe-rome.pdf",
+        "Obverse": "assets/images/269_romano_campanian_didrachm_obverse.png",
+        "Reverse": "assets/images/269_romano_campanian_didrachm_reverse.png"
     },
     "17": {
         "ID": "17",
@@ -204,6 +220,7 @@ export const TimeLineData = {
         "Name": "First Punic War",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": ""
     },
@@ -216,10 +233,11 @@ export const TimeLineData = {
         "Name": "Aes Grave As",
         "Person": "M. Junius Brutus",
         "Subtitle": "AE Aes Grave",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": "",
-        "obverse": "225_aes_grave_as_obverse.png",
-        "reverse": "225_aes_grave_as_reverse.png"
+        "Obverse": "assets/images/225_aes_grave_as_obverse.png",
+        "Reverse": "assets/images/225_aes_grave_as_reverse.png"
     },
     "19": {
         "ID": "19",
@@ -230,10 +248,11 @@ export const TimeLineData = {
         "Name": "Romano-Campanian didrachm",
         "Person": "M. Junius Brutus",
         "Subtitle": "AR Didrachm",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": "",
-        "obverse": "225_romano-campanian_didrachm_obverse.png",
-        "reverse": "225_romano-campanian_didrachm_reverse.png"
+        "Obverse": "assets/images/225_romano_campanian_didrachm_obverse.png",
+        "Reverse": "assets/images/225_romano_campanian_didrachm_reverse.png"
     },
     "20": {
         "ID": "20",
@@ -244,6 +263,7 @@ export const TimeLineData = {
         "Name": "Second Punic War",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": ""
     },
@@ -256,10 +276,11 @@ export const TimeLineData = {
         "Name": "Sixty-as coin",
         "Person": "M. Junius Brutus",
         "Subtitle": "AV",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": "",
-        "obverse": "211_sixty-as_coin_obverse.png",
-        "reverse": "211_sixty-as_coin_reverse.png"
+        "Obverse": "assets/images/211_sixty_as_coin_obverse.png",
+        "Reverse": "assets/images/211_sixty_as_coin_reverse.png"
     },
     "22": {
         "ID": "22",
@@ -270,6 +291,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -282,6 +304,7 @@ export const TimeLineData = {
         "Name": "Third Punic War",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": ""
     },
@@ -294,10 +317,11 @@ export const TimeLineData = {
         "Name": "Denarius of L. Sempronius Pitio",
         "Person": "M. Junius Brutus",
         "Subtitle": "AR Denarius",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": "",
-        "obverse": "148_denarius_of_l._sempronius_pitio_obverse.png",
-        "reverse": "148_denarius_of_l._sempronius_pitio_reverse.png"
+        "Obverse": "assets/images/148_denarius_of_l_sempronius_pitio_obverse.png",
+        "Reverse": "assets/images/148_denarius_of_l_sempronius_pitio_reverse.png"
     },
     "25": {
         "ID": "25",
@@ -308,6 +332,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -320,10 +345,11 @@ export const TimeLineData = {
         "Name": "Denarius of the Social War",
         "Person": "M. Junius Brutus",
         "Subtitle": "AR Denarius",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": "",
-        "obverse": "90_denarius_of_the_social_war_obverse.png",
-        "reverse": "90_denarius_of_the_social_war_reverse.png"
+        "Obverse": "assets/images/90_denarius_of_the_social_war_obverse.png",
+        "Reverse": "assets/images/90_denarius_of_the_social_war_reverse.png"
     },
     "27": {
         "ID": "27",
@@ -334,6 +360,7 @@ export const TimeLineData = {
         "Name": "Sulla marches on Rome",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": ""
     },
@@ -346,6 +373,7 @@ export const TimeLineData = {
         "Name": "Cicero elected as consul",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": ""
     },
@@ -358,6 +386,7 @@ export const TimeLineData = {
         "Name": "Pompey captures Syria",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": ""
     },
@@ -370,6 +399,7 @@ export const TimeLineData = {
         "Name": "First Triumvirate (Caesar, Crassus, & Pompey)",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": ""
     },
@@ -382,6 +412,7 @@ export const TimeLineData = {
         "Name": "Caesar conquers Gaul",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": ""
     },
@@ -394,6 +425,7 @@ export const TimeLineData = {
         "Name": "Caesar crosses the Rubicon",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": ""
     },
@@ -406,10 +438,11 @@ export const TimeLineData = {
         "Name": "Denarius of Julius Caesar",
         "Person": "M. Junius Brutus",
         "Subtitle": "AR Denarius",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": "",
-        "obverse": "49_denarius_of_julius_caesar_obverse.png",
-        "reverse": "49_denarius_of_julius_caesar_reverse.png"
+        "Obverse": "assets/images/49_denarius_of_julius_caesar_obverse.png",
+        "Reverse": "assets/images/49_denarius_of_julius_caesar_reverse.png"
     },
     "34": {
         "ID": "34",
@@ -420,6 +453,7 @@ export const TimeLineData = {
         "Name": "Caesar assasinated",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": ""
     },
@@ -432,10 +466,11 @@ export const TimeLineData = {
         "Name": "EID MAR coin of Brutus",
         "Person": "M. Junius Brutus",
         "Subtitle": "AR",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": "",
-        "obverse": "43_eid_mar_coin_of_brutus_obverse.png",
-        "reverse": "43_eid_mar_coin_of_brutus_reverse.png"
+        "Obverse": "assets/images/43_eid_mar_coin_of_brutus_obverse.png",
+        "Reverse": "assets/images/43_eid_mar_coin_of_brutus_reverse.png"
     },
     "36": {
         "ID": "36",
@@ -446,10 +481,11 @@ export const TimeLineData = {
         "Name": "Coin of Octavian",
         "Person": "M. Junius Brutus",
         "Subtitle": "AR",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": "",
-        "obverse": "38_coin_of_octavian_obverse.png",
-        "reverse": "38_coin_of_octavian_reverse.png"
+        "Obverse": "assets/images/38_coin_of_octavian_obverse.png",
+        "Reverse": "assets/images/38_coin_of_octavian_reverse.png"
     },
     "37": {
         "ID": "37",
@@ -460,6 +496,7 @@ export const TimeLineData = {
         "Name": "Octavian becomes first Roman emperor",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
         "References": ""
     },
@@ -472,6 +509,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -484,6 +522,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -496,6 +535,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -508,6 +548,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -520,6 +561,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -532,6 +574,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -544,6 +587,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -556,6 +600,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -568,6 +613,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -580,6 +626,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     },
@@ -592,6 +639,7 @@ export const TimeLineData = {
         "Name": "",
         "Person": "",
         "Subtitle": "",
+        "Mass": "",
         "Detail": "",
         "References": ""
     }

@@ -4,3 +4,6 @@
   box-sizing: border-box;
 }
 
+.content *{
+  margin-bottom:20px !important;
+}
