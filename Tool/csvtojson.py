@@ -12,9 +12,9 @@ with open('timelinecontent.csv', encoding='utf-8') as csvf:
         key = rows['ID']            
         data[key] = rows
         if rows["Type"] == "Coin":
-            image_name = str(rows["Start"]) + "_" +rows["Name"].lower().replace(" ", "_") + "_{type}.png"
-            data[key]["obverse"] = image_name.format(type="obverse")
-            data[key]["reverse"] = image_name.format(type="reverse")
+            image_name = 'assets/images/' + str(rows["Start"]) + "_" +rows["Name"].lower().replace(" ", "_").replace(".", "").replace("-","_") + "_{type}.png"
+            data[key]["Obverse"] = image_name.format(type="obverse")
+            data[key]["Reverse"] = image_name.format(type="reverse")
             
 
 # Open a json writer, and use the json.dumps()
