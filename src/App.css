@@ -7,3 +7,19 @@
 .content *{
   margin-bottom:20px !important;
 }
+
+.cnizel{
+  font-family: 'Cinzel', serif;
+}
+
+.coding{
+  font-family:MonoLisa, Menlo, Monaco, "Courier New", monospace !important;
+}
+
+.playfair{
+  font-family: 'Playfair Display', serif !important;
+}
+
+.clickable:hover{
+  cursor: pointer !important;
+}

@@ -49,11 +49,12 @@ export function OverLay({title, subtitle, period, img1, img2, size, detail, refe
  
     return (
   
-      <div className="overlay" style={{width:"100%", top:"0", left:"0", position:"fixed", zIndex:"2", minHeight:"100vh", marginTop:"0", borderRadius:"10px", background:"black", display:`${visible}`, flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
-        <IconButton sx ={{alignSelf:"flex-start"}} color="warning" variant="contained" onClick={changeVisibility}><CloseIcon /></IconButton>
+      <div className="overlay" style={{width:"100vw", top:"0", left:"0", position:"fixed", zIndex:"20", minHeight:"100vh", marginTop:"0", borderRadius:"10px", background:"#00000099", display:`${visible}`, flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
+       
   
-        <div className='overlayInfo' style={{display:"flex", justifyContent:"center", alignItems:"center", minHeight:"100vh", background:"black", color:"white",  maxWidth:"90%", flexWrap:"wrap"}}>
-          <div className="content" style={{display:"flex", fontFamily:`MonoLisa, Menlo, Monaco, "Courier New", monospace`, justifyContent:"center", alignItems:"center", boxShadow:"4px 2px 20px 0px white", padding:"40px", maxHeight:"90%", overflowY:"auto"}}>
+        <div className='overlayInfo' style={{display:"flex", justifyContent:"center", alignItems:"center", minHeight:"100vh", background:"black", color:"white",  maxWidth:"90vw", flexWrap:"wrap"}}>
+          <div className="content" style={{display:"flex", fontFamily:`MonoLisa, Menlo, Monaco, "Courier New", monospace`, justifyContent:"center", alignItems:"center", boxShadow:"4px 2px 20px 0px white", padding:"40px", maxHeight:"90vw", overflowY:"auto", position:"relative"}}>
+          <IconButton sx ={{alignSelf:"flex-start", position:"absolute", top:"10px", left:"10px", color:"rgb(255, 217, 102)"}} variant="contained" onClick={changeVisibility}><CloseIcon sx={{fontSize:"2rem"}} /></IconButton>
             {image?<div className='overlayImages' style={{display:"flex", flexDirection:"column", margin:"10px", padding:"10px"}}>
               {/* figure out how you can layout information ontop of a overlay */}
               <img src={img1} alt="overlay_name" style={{borderRadius:"50px", width:"400px" }}></img>
@@ -72,7 +73,7 @@ export function OverLay({title, subtitle, period, img1, img2, size, detail, refe
               {/* <model-viewer src="assets/cons.glb" alt="VR Headset" enable-pan auto-rotate rotation-per-second="300deg" camera-controls ar camera-target="0m 0m 0m" camera-orbit="-90deg 90deg 1.5m"></model-viewer>
                    */}
   
-              <p style={{textAlign:"jutify"}}>
+              <p className="playfair" style={{textAlign:"jutify"}}>
                 {detail}
                 {/* <Typography variant="h5">Referances</Typography>
                 {referances} */}

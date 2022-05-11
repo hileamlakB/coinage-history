@@ -75,6 +75,7 @@ function CoinEvent({title, subtitle, obverse, reverse, coinStartTime, coinSize, 
             }}
             onMouseOver={() => {sethover_visibility("block")}} 
             onMouseOut={() => {sethover_visibility("none")}}
+        
           >
              <div
           className='history_tooltip' 
@@ -85,7 +86,7 @@ function CoinEvent({title, subtitle, obverse, reverse, coinStartTime, coinSize, 
             border:"1px solid white", 
             color:"white", position:"absolute", 
             display:`${hover_visibility}`,
-            top: "-60px",
+            top: direction=="up"?"-80px":"220px",
             left: "-100px",
             justifyContent: "center",
             alignItems: "center"
@@ -97,10 +98,10 @@ function CoinEvent({title, subtitle, obverse, reverse, coinStartTime, coinSize, 
         </div>
             <OverLay title= {title} subtitle={subtitle} period={coinStartTime} img1={obverse} img2={reverse} size={coinSize} detail={detail} visible={visible} referances = {referances} changeVisibility={changeVisibility}/>
             
-            {direction === "up" ? (special? element : <ImageButton pic = {obverse} on_click={moreInfo} /> ) : null}
+            {direction === "up" ? (special? element : <ImageButton pic = {obverse} on_click={moreInfo} className="clickable" /> ) : null}
             <DottedLines color="white" width={height}/>
             {/* <div style={{color:"orange", minHeight:`${height}px`, height:`${height}px`, minWidth:"5px", width:"5px", background:"linear-gradient(black, white);"}}></div> */}
-            {direction === "down" ? (special? element : <ImageButton pic = {obverse} on_click={moreInfo} /> ) : null}
+            {direction === "down" ? (special? element : <ImageButton pic = {obverse} on_click={moreInfo} className="clickable" /> ) : null}
 
           </div>)
   
@@ -119,10 +120,10 @@ function HistoryEvent({eventPeriod, title, startTime, endTime, detail, width = 2
  
   return (
     <div 
-     
+     className="clickable"
       style={{
         width:`${width}px`,
-        padding:"10px",
+        padding:"20px",
         border:"3px solid rgb(255, 217, 102)",
         borderRadius:"50px",
         background:"black",
@@ -165,6 +166,7 @@ function MarkerEvent({name, eventPeriod}){
  
   return (
   <div 
+  className='cnizel'
     style={{
       padding:"10px",
       position:"absolute",
@@ -178,7 +180,7 @@ function MarkerEvent({name, eventPeriod}){
       
     }}
     >
-      <Typography>{name}</Typography>
+      <Typography className="cnizel" sx={{whiteSpace:"nowrap"}}>{name}</Typography>
       <LocationOnIcon />
 
   </div>)
@@ -209,8 +211,7 @@ function App() {
   
 
   useEffect(() => {
-    console.log('resizeing')
-    
+
     function timeToPixel(period){
       // 1 year = 25 pixels, when screen_width = 2000 can't be more than 100
       // and less than 15
@@ -243,6 +244,8 @@ function App() {
         if (TimeLineData[`${i}`].Location === "Above"){
           upper_timeline.push(
             <CoinEvent 
+
+
              key = {i}
 
              title={TimeLineData[`${i}`].Name} 
@@ -314,7 +317,7 @@ function App() {
       
 
     }
-    console.log(middle_timeline);
+    
     setcontent( {middle_timeline:middle_timeline, lower_timeline:lower_timeline, upper_timeline:upper_timeline})   
     setmaxWidth(new_max); 
   }, [winSize.width])
@@ -340,37 +343,74 @@ function App() {
   <>
     <div className="App" style={{overflowX:"auto", width:`${maxWidth + 200}px`, marginLeft:"10px"}}>
 
-      <Typography variant='h4' sx={{left:"calc(50% - 300px)",fontFamily:`MonoLisa, Menlo, Monaco, "Courier New", monospace`, color:"white", position:"fixed", padding:"10px"}}>Coinage of the Roman Republic</Typography>
-      <IconButton 
+      <div style={{left:"calc(50vw - 450px)", color:"white", position:"fixed", padding:"10px", display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
+        <Typography className="coding" variant='h3'>Coinage of the Roman Republic</Typography>
+        <Typography className="coding" variant='h4'>An interactive timeline</Typography>
+        <p className="coding">Click on coin or event to show detail</p>
+      </div>
+     
+      <div style={{
+          display:"flex",
+          justifyContent:"center",
+          alignItems:"center",
+          position:"fixed",
+          left:"0",
+          background: "linear-gradient(90deg, black,#000000d4,#000000a1, #00000094, transparent)",
+          height:"100vh",
+          zIndex:"5"
+          
+
+
+      }
+      }>
+            <IconButton  
         sx={{
-          position:"fixed", 
-          top: "50%",
-          padding:"10px",
-          background: "linear-gradient(45deg, black, transparent)",
-          right: "0",
-          color:"white",
-          borderRadius:"0",
-          zIndex:"5"}}    
-        onMouseOut={()=>clearInterval(scrollRight)} 
-        onMouseOver={()=>{setscrollRight(setInterval(() =>{window.scrollBy(10, 0)}, 10))}}>
-          <ArrowForwardIosIcon /></IconButton>
-      
-      
-      <IconButton  
-        sx={{
-          position:"fixed", 
-          top: "50%",
-          padding:"10px",
-          background: "linear-gradient(45deg, black, transparent)",
+        
+          padding:"40px",
+          fontSize:"40px",
           left: "0",
           color:"white",
           borderRadius:"0",
-        zIndex:"5"}}   
+        color:"rgb(255, 217, 102)"}}   
         onMouseOut={()=>clearInterval(scrollLeft)} 
         onMouseOver={()=>{setscrollLeft(setInterval(() =>{window.scrollBy(-10, 0)}, 10))}}>
-          <ArrowBackIosIcon /></IconButton>
+          <ArrowBackIosIcon sx={{fontSize:"3rem !important"}}/></IconButton>
+      </div>
 
-        <div className="upper_time_line" style={{minHeight:'52vh', display:"flex", flexDirection: "column", justifyContent:"end"}}>
+      <div style={{
+          display:"flex",
+          justifyContent:"center",
+          alignItems:"center",
+          position:"fixed",
+          right:"0",
+          background: "linear-gradient(90deg, transparent, #00000094, #000000a1, #000000d4, black)",
+          height:"100vh",
+          zIndex:"5"
+
+
+      }
+      }>
+
+<IconButton 
+        sx={{
+          padding:"40px",
+          fontSize:"3rem !important",
+          right: "0",
+          color:"white",
+          borderRadius:"0",
+          color:"rgb(255, 217, 102)"}}    
+        onMouseOut={()=>clearInterval(scrollRight)} 
+        onMouseOver={()=>{setscrollRight(setInterval(() =>{window.scrollBy(10, 0)}, 10))}}>
+          <ArrowForwardIosIcon sx={{fontSize:"3rem !important"}} /></IconButton>
+        </div>
+    
+      
+      
+      
+
+
+      
+        <div className="upper_time_line" style={{minHeight:'50vh', display:"flex", flexDirection: "column", justifyContent:"end"}}>
           <div className="upper_lines" style={{display:"flex", alignItems:"flex-end"}}>
           {/* Increase the width whenever more coins are added */}
           {/* background:"linear-gradient(0deg, grey, white)",  */}
