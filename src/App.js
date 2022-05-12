@@ -343,7 +343,7 @@ function App() {
   <>
     <div className="App" style={{overflowX:"auto", width:`${maxWidth + 200}px`, marginLeft:"10px"}}>
 
-      <div style={{left:"calc(50vw - 450px)", color:"white", position:"fixed", top:"10px", padding:"10px", display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
+      <div style={{left:"calc(50vw - 450px)", color:"white", position:"fixed", top:"30px", padding:"10px", display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
         <Typography className="cnizel" variant='h3'>Coinage of the Roman Republic</Typography> {/* change className to change font */}
         <Typography className="cnizel" variant='h4'>An interactive timeline</Typography>
         <p className="cnizel">Click on coin or event to show detail</p>
