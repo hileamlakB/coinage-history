@@ -181,7 +181,7 @@ function MarkerEvent({name, eventPeriod}){
       
     }}
     >
-      <Typography className="cnizel" sx={{whiteSpace:"nowrap"}}>{name}</Typography>
+      <Typography className="cnizel" variant="h5" sx={{whiteSpace:"nowrap"}}>{name}</Typography>
       <LocationOnIcon />
 
   </div>)

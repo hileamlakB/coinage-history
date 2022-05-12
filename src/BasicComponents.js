@@ -63,13 +63,13 @@ export function OverLay({title, subtitle, period, img1, img2, size, detail, refe
   
             </div>:null}
             <div className="overlayInfo" style={{maxWidth:"800px"}}>
-              <Typography variant="h2" className='cnizel'>{title}</Typography>
+              <Typography variant="h3" className='cnizel'>{title}</Typography>
               
               {image?<div style={{display:"flex", justifyContent:"space-between", alignItems:"center"}}>
                 <Typography variant="h4" className='cnizel'>{subtitle}</Typography>
                 <Typography variant="h5" className='cnizel'>{size}</Typography>
               </div>:null}
-              <Typography className='cnizel'>{period}</Typography>
+              <Typography variant="h5" className='cnizel'>{period}</Typography>
               {/* <model-viewer src="assets/cons.glb" alt="VR Headset" enable-pan auto-rotate rotation-per-second="300deg" camera-controls ar camera-target="0m 0m 0m" camera-orbit="-90deg 90deg 1.5m"></model-viewer>
                    */}
   
@@ -77,8 +77,12 @@ export function OverLay({title, subtitle, period, img1, img2, size, detail, refe
                 {detail}                
               </p>
               <br/>
-              <Typography className="cnizel" variant="h5" style={{whiteSpace:"pre-wrap !important"}}>References</Typography>
-                {referances}
+              <Typography className="cnizel" variant="h5" style={{whiteSpace:"pre-wrap !important"}}>
+                References
+              </Typography>
+              <p className="playfair" style={{whiteSpace:"pre-wrap"}}>
+                {referances}                
+              </p>
             </div>
   
           </div>
