@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e85f6c5f6e1714b425e3",
+    "revision": "663796302208f0383b60",
     "url": "/coinage-history/static/css/main.6f861c1e.chunk.css"
   },
   {
-    "revision": "e85f6c5f6e1714b425e3",
-    "url": "/coinage-history/static/js/main.e85f6c5f.chunk.js"
+    "revision": "663796302208f0383b60",
+    "url": "/coinage-history/static/js/main.66379630.chunk.js"
   },
   {
     "revision": "7ef873392d73c34b4b72",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/coinage-history/static/js/runtime~main.2f524beb.js"
   },
   {
-    "revision": "febe39fa5c8902c72e9814f5bd3b8077",
+    "revision": "6322368e4284fdc327549af79dce96c6",
     "url": "/coinage-history/index.html"
   }
 ];
