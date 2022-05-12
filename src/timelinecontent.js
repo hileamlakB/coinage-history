@@ -18,7 +18,7 @@ export const TimeLineData = {
         "Location": "Center",
         "Start": "753",
         "End": "",
-        "Name": "Rome was founded",
+        "Name": "Rome founded",
         "Person": "",
         "Subtitle": "",
         "Mass": "",
@@ -234,8 +234,8 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "",
-        "References": ""
+        "Detail": "The Illyrians lived on the Adriatic coast and, while allied with Macedonia, harassed the cities of southern Italy through piracy. Rome, which had recently built up a formidable navy from its war with Carthage, easily neutralized the Illyrian threat. Though Macedonia did not retaliate, this episode would foreshadow Rome's conflict with this foremost Greek power just a decade and a half later. Evidently, Rome had built up the confidence to expand its influence into the Greek world east of the Adriatic.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan."
     },
     "19": {
         "ID": "19",
@@ -277,8 +277,8 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "",
-        "References": ""
+        "Detail": "At the end of the first Illyrian War, the Romans found a new ally against the Illyrians: Demetrius of Pharos, who betrayed his Greek brethren to aid Rome. However, his loyalty to Rome was short-lived. As Demetrius consolidated power in the eastern Adriatic after the war, he began to attack cities which were allied with Rome and renewed his alliance with Macedonia. The Romans declared war and quickly overcame Demetrius, who fled eastward to become an adviser to Philip V of Macedonia.",
+        "References": "Rickard, J (4 November 2008), Second Illyrian War, 219 BC. Retrieved May 12, 2022, from http://www.historyofwar.org/articles/wars_second_illyrian.html\n\nBoak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan."
     },
     "22": {
         "ID": "22",
@@ -295,6 +295,19 @@ export const TimeLineData = {
     },
     "23": {
         "ID": "23",
+        "Type": "Event",
+        "Location": "Center",
+        "Start": "214",
+        "End": "205",
+        "Name": "First Macedonian War",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "As Hannibal terrorized Rome during the Second Punic War, Philip V of Macedonia took notice and thought he might exploit the situation to make some gains against what had become a irritatingly powerful neighbor. The Romans, who were very much preoccupied in dealing with the Carthaginians, enlisted the help of the Aetolian League to defend against Philip. Macedonia had many enemies, and several of these, including Sparta, chose to support the Romans. However, without the full power of the Roman navy, the anti-Macedonia coalition was unable to overcome Philip and made peace with him in 206 BCE. After Hannibal left Italy, Rome made a halfhearted attempt to mount a campaign against Philip, but both sides were tired of war. However, the time of peace which followed would not last long, as Rome's power continued its inevitable spread.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nThe First Macedonian War. Ancient Rome History at UNRV.com. (n.d.). Retrieved May 12, 2022, from https://www.unrv.com/empire/first-macedonian-war.php"
+    },
+    "24": {
+        "ID": "24",
         "Type": "Coin",
         "Location": "Above",
         "Start": "211",
@@ -304,12 +317,12 @@ export const TimeLineData = {
         "Subtitle": "AV Sixty-As",
         "Mass": "3.36",
         "Detail": "Worth an incredible 60 asses, this coin is an example of the gold coins minted in the Second Punic War as a result of financial emergency. On the obverse is a bellicose design very appropriate for the times: the head of Mars, wearing a Corinthian helmet. Letters below the head indicate the value of this coin at 60 asses. On the reverse is an eagle standing on Zeus's thunderbolt, with the word ROMA below.",
-        "References": "Harvard Art Museums Collections #1.1965.81. Retrieved May 11, 2022, from https://hvrd.art/o/197522\n\nRoman Republican Coinage. The British Museum. (n.d.). Retrieved May 12, 2022, from https://www.britishmuseum.org/research/publications/online_research_catalogues/rrc/roman_republican_coins/roman_republican_coinage.aspx ",
+        "References": "",
         "Obverse": "assets/images/211_sixty_as_coin_obverse.png",
         "Reverse": "assets/images/211_sixty_as_coin_reverse.png"
     },
-    "24": {
-        "ID": "24",
+    "25": {
+        "ID": "25",
         "Type": "Event",
         "Location": "Center",
         "Start": "200",
@@ -321,8 +334,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "25": {
-        "ID": "25",
+    "26": {
+        "ID": "26",
         "Type": "Marker",
         "Location": "Above",
         "Start": "200",
@@ -334,8 +347,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "26": {
-        "ID": "26",
+    "27": {
+        "ID": "27",
         "Type": "Event",
         "Location": "Center",
         "Start": "192",
@@ -347,8 +360,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "27": {
-        "ID": "27",
+    "28": {
+        "ID": "28",
         "Type": "Event",
         "Location": "Center",
         "Start": "171",
@@ -360,8 +373,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "28": {
-        "ID": "28",
+    "29": {
+        "ID": "29",
         "Type": "Event",
         "Location": "Center",
         "Start": "149",
@@ -373,8 +386,8 @@ export const TimeLineData = {
         "Detail": "At the end of the Second Punic War, Rome had instated a loyal Numidian king, Masinissa, to harass Carthage in Africa. Additionally, they had forbade the Carthaginians to make war without the express permission of Rome. These factors enabled Masinissa to grow his kingdom without restraint, and eventually brought him into conflict with Carthage. At the same time, Rome was again alarmed by the economic recovery of Carthage and, fueled by the rhetoric of senator Cato the Elder, feared it might become a threat again. Thus they used the Carthaginian-Masinissa conflict (which was technically not approved by Rome) as an excuse to lay siege to Carthage. Scipio Aemilianus, the adopted son of the Scipio who led Rome to victory in the Second Punic War, fought his way into the city and completely levelled it. Thus the civilization of Carthage was no more, and from its land was born the new Roman province, Africa.",
         "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan."
     },
-    "29": {
-        "ID": "29",
+    "30": {
+        "ID": "30",
         "Type": "Coin",
         "Location": "Below",
         "Start": "148",
@@ -388,8 +401,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/148_denarius_of_l_sempronius_pitio_obverse.png",
         "Reverse": "assets/images/148_denarius_of_l_sempronius_pitio_reverse.png"
     },
-    "30": {
-        "ID": "30",
+    "31": {
+        "ID": "31",
         "Type": "Event",
         "Location": "Above",
         "Start": "146",
@@ -401,8 +414,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "31": {
-        "ID": "31",
+    "32": {
+        "ID": "32",
         "Type": "Marker",
         "Location": "Above",
         "Start": "100",
@@ -414,8 +427,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "32": {
-        "ID": "32",
+    "33": {
+        "ID": "33",
         "Type": "Coin",
         "Location": "Above",
         "Start": "90",
@@ -429,8 +442,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/90_denarius_of_the_social_war_obverse.png",
         "Reverse": "assets/images/90_denarius_of_the_social_war_reverse.png"
     },
-    "33": {
-        "ID": "33",
+    "34": {
+        "ID": "34",
         "Type": "Coin",
         "Location": "Below",
         "Start": "90",
@@ -444,8 +457,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/90_quinarius_of_q_titius_mutto_obverse.png",
         "Reverse": "assets/images/90_quinarius_of_q_titius_mutto_reverse.png"
     },
-    "34": {
-        "ID": "34",
+    "35": {
+        "ID": "35",
         "Type": "Event",
         "Location": "Center",
         "Start": "88",
@@ -457,8 +470,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "35": {
-        "ID": "35",
+    "36": {
+        "ID": "36",
         "Type": "Coin",
         "Location": "Above",
         "Start": "76",
@@ -472,8 +485,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/76_denarius_of_l_lucretius_trio_obverse.png",
         "Reverse": "assets/images/76_denarius_of_l_lucretius_trio_reverse.png"
     },
-    "36": {
-        "ID": "36",
+    "37": {
+        "ID": "37",
         "Type": "Coin",
         "Location": "Below",
         "Start": "67",
@@ -487,8 +500,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/67_denarius_of_m_plaetorius_mf_cestianus_obverse.png",
         "Reverse": "assets/images/67_denarius_of_m_plaetorius_mf_cestianus_reverse.png"
     },
-    "37": {
-        "ID": "37",
+    "38": {
+        "ID": "38",
         "Type": "Event",
         "Location": "Center",
         "Start": "63",
@@ -500,8 +513,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "38": {
-        "ID": "38",
+    "39": {
+        "ID": "39",
         "Type": "Event",
         "Location": "Center",
         "Start": "63",
@@ -513,8 +526,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "39": {
-        "ID": "39",
+    "40": {
+        "ID": "40",
         "Type": "Coin",
         "Location": "Above",
         "Start": "63",
@@ -528,8 +541,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/63_denarius_of_l_furius_cnf_brocchus_obverse.png",
         "Reverse": "assets/images/63_denarius_of_l_furius_cnf_brocchus_reverse.png"
     },
-    "40": {
-        "ID": "40",
+    "41": {
+        "ID": "41",
         "Type": "Event",
         "Location": "Center",
         "Start": "60",
@@ -541,8 +554,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "41": {
-        "ID": "41",
+    "42": {
+        "ID": "42",
         "Type": "Event",
         "Location": "Center",
         "Start": "58",
@@ -554,8 +567,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "42": {
-        "ID": "42",
+    "43": {
+        "ID": "43",
         "Type": "Event",
         "Location": "Center",
         "Start": "49",
@@ -567,8 +580,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "43": {
-        "ID": "43",
+    "44": {
+        "ID": "44",
         "Type": "Coin",
         "Location": "Above",
         "Start": "49",
@@ -582,8 +595,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/49_denarius_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/49_denarius_of_julius_caesar_reverse.png"
     },
-    "44": {
-        "ID": "44",
+    "45": {
+        "ID": "45",
         "Type": "Coin",
         "Location": "Below",
         "Start": "47",
@@ -597,8 +610,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/47_denarius_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/47_denarius_of_julius_caesar_reverse.png"
     },
-    "45": {
-        "ID": "45",
+    "46": {
+        "ID": "46",
         "Type": "Coin",
         "Location": "Above",
         "Start": "46",
@@ -612,8 +625,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/46_aureus_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/46_aureus_of_julius_caesar_reverse.png"
     },
-    "46": {
-        "ID": "46",
+    "47": {
+        "ID": "47",
         "Type": "Event",
         "Location": "Center",
         "Start": "44",
@@ -625,8 +638,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "47": {
-        "ID": "47",
+    "48": {
+        "ID": "48",
         "Type": "Coin",
         "Location": "Above",
         "Start": "43",
@@ -640,8 +653,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/43_quinarius_of_marc_antony_obverse.png",
         "Reverse": "assets/images/43_quinarius_of_marc_antony_reverse.png"
     },
-    "48": {
-        "ID": "48",
+    "49": {
+        "ID": "49",
         "Type": "Coin",
         "Location": "Below",
         "Start": "43",
@@ -655,8 +668,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/43_eid_mar_coin_of_brutus_obverse.png",
         "Reverse": "assets/images/43_eid_mar_coin_of_brutus_reverse.png"
     },
-    "49": {
-        "ID": "49",
+    "50": {
+        "ID": "50",
         "Type": "Coin",
         "Location": "Above",
         "Start": "38",
@@ -670,8 +683,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/38_coin_of_octavian_obverse.png",
         "Reverse": "assets/images/38_coin_of_octavian_reverse.png"
     },
-    "50": {
-        "ID": "50",
+    "51": {
+        "ID": "51",
         "Type": "Event",
         "Location": "Center",
         "Start": "31",
@@ -683,24 +696,11 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "51": {
-        "ID": "51",
+    "52": {
+        "ID": "52",
         "Type": "Marker",
         "Location": "Above",
         "Start": "0",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "52": {
-        "ID": "52",
-        "Type": "",
-        "Location": "",
-        "Start": "",
         "End": "",
         "Name": "",
         "Person": "",
@@ -867,6 +867,19 @@ export const TimeLineData = {
     },
     "65": {
         "ID": "65",
+        "Type": "",
+        "Location": "",
+        "Start": "",
+        "End": "",
+        "Name": "",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "",
+        "References": ""
+    },
+    "66": {
+        "ID": "66",
         "Type": "",
         "Location": "",
         "Start": "",
