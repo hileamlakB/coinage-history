@@ -179,7 +179,7 @@ export const TimeLineData = {
         "Subtitle": "AE Aes signatum",
         "Mass": "1389",
         "Detail": "Unlike their Greek neighbors, the inhabitants of the Italian peninsula did not enjoy large natural deposits of silver and gold. Thus the earliest Roman currencies were made of bronze (aes) or copper. The aes signatum was a large cast brick of bronze with animal or mythological motifs on either side, and were preceded only by the aes rude, which were lumps of bronze lacking any shape whatsoever. \n\nThis example of an aes signatum exhibits an eagle standing on a thunderbolt on the obverse and a pegasus on the reverse. Both were common Greek motifs, illustrating the heavy Greek influence on early Roman coinage. The reverse inscription ROMANOM, however, makes it clear the identity of the issuers. The obverse and reverse style indicate that this piece is of Romano-Campanian origin. At 1.39 kilograms, this bronze bar would have been quite cumbersome to transport and is theorized to have been restricted to ceremonial use, large transactions, or for export.",
-        "References": "https://delong.typepad.com/forsythe-rome.pdf; https://www.jstor.org/stable/pdf/43594117.pdf; https://webarchive.nationalarchives.gov.uk/ukgwa/20190801144951/https://www.britishmuseum.org/research/publications/online_research_catalogues/search_object_details.aspx?objectid=1171049&partid=1&numpages=12&output=bibliography/!!/OR/!!/6738/!//!/A+catalogue+of+the+Roman+Republican+Coins+in+the+British+Museum,+with+descriptions+and+chronology+based+on+M.H.+Crawford,+Roman+Republican+Coinage+(1974)/!//!!//!!!/&sortBy=catNumber&orig=/research/publications/online_research_catalogues/russian_icons/catalogue_of_russian_icons.aspx&catalogueOnly=True&catparentPageId=29127&catalogueName=Roman%20Republican%20coins%20in%20the%20British%20Museum&catalogueSection=A%20catalogue%20of%20the%20Roman%20Republican%20Coins%20in%20the%20British%20Museum,%20with%20descriptions%20and%20chronology%20based%20on%20M.H.%20Crawford,%20Roman%20Republican%20Coinage%20(1974)&currentPage=1",
+        "References": "Forsythe, G. (2006). A critical history of early rome: From prehistory to the first Punic War. University of California Press.\n\nComparette, T. L. (1918). Aes Signatum. American Journal of Numismatics (1897-1924), 52, 1-61.\n\nBritish Museum Collections #1867,0212.1. Retrieved May 11, 2022, from https://www.britishmuseum.org/collection/object/C_1867-0212-1",
         "Obverse": "assets/images/280_aes_signatum_obverse.png",
         "Reverse": "assets/images/280_aes_signatum_reverse.png"
     },
@@ -390,7 +390,7 @@ export const TimeLineData = {
     },
     "30": {
         "ID": "30",
-        "Type": "Coin",
+        "Type": "Event",
         "Location": "Above",
         "Start": "146",
         "End": "",
@@ -399,9 +399,7 @@ export const TimeLineData = {
         "Subtitle": "",
         "Mass": "",
         "Detail": "",
-        "References": "",
-        "Obverse": "assets/images/146_sack_of_corinth_obverse.png",
-        "Reverse": "assets/images/146_sack_of_corinth_reverse.png"
+        "References": ""
     },
     "31": {
         "ID": "31",

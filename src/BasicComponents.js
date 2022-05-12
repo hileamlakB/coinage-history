@@ -49,7 +49,7 @@ export function OverLay({title, subtitle, period, img1, img2, size, detail, refe
  
     return (
   
-      <div className="overlay" style={{width:"100vw", top:"0", left:"0", position:"fixed", zIndex:"20", minHeight:"100vh", marginTop:"0", borderRadius:"10px", background:"#00000099", display:`${visible}`, flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
+      <div className="overlay" style={{width:"100vw", top:"0", left:"0", position:"fixed", zIndex:"20", minHeight:"100vh", marginTop:"0", borderRadius:"10px", background:"#00000099", display:`${visible}`, flexDirection:"column", alignItems:"center", justifyContent:"center", color:"#E4E4E4"}}>
        
   
         <div className='overlayInfo' style={{display:"flex", justifyContent:"center", alignItems:"center", minHeight:"100vh", background:"black", color:"white",  maxWidth:"90vw", flexWrap:"wrap"}}>
@@ -67,7 +67,7 @@ export function OverLay({title, subtitle, period, img1, img2, size, detail, refe
               
               {image?<div style={{display:"flex", justifyContent:"space-between", alignItems:"center"}}>
                 <Typography variant="h4" className='cnizel'>{subtitle}</Typography>
-                <Typography variant="h5" className='cnizel'>{size}</Typography>
+                <Typography variant="h4" className='cnizel'>{size}</Typography>
               </div>:null}
               <Typography variant="h5" className='cnizel'>{period}</Typography>
               {/* <model-viewer src="assets/cons.glb" alt="VR Headset" enable-pan auto-rotate rotation-per-second="300deg" camera-controls ar camera-target="0m 0m 0m" camera-orbit="-90deg 90deg 1.5m"></model-viewer>
