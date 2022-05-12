@@ -107,7 +107,7 @@ function CoinEvent({title, subtitle, obverse, reverse, coinStartTime, coinSize, 
   
 }
 
-function HistoryEvent({eventPeriod, title, startTime, endTime, detail, width = 20}){
+function HistoryEvent({eventPeriod, title, startTime, endTime, detail, referances, width = 20}){
 
   const [visible, setvisible] = useState("none");
   const [hover_visibility, sethover_visibility] = useState("none");
@@ -153,7 +153,7 @@ function HistoryEvent({eventPeriod, title, startTime, endTime, detail, width = 2
           <p className='cnizel'>{startTime}{endTime?" - "+endTime + " BCE":null}</p>
 
         </div>
-  <OverLay title= {title} period={startTime} image={false} detail={detail} visible={visible} changeVisibility={changeVisibility}/>
+  <OverLay title= {title} period={startTime} image={false} detail={detail} visible={visible} referances = {referances} changeVisibility={changeVisibility}/>
           
     </div>)
 
@@ -300,7 +300,7 @@ function App() {
             startTime={TimeLineData[`${i}`].Start  + " BCE"}
             endTime={TimeLineData[`${i}`].End}
             detail={TimeLineData[`${i}`].Detail} 
-
+            referances={TimeLineData[`${i}`].References}
 
             eventPeriod={plocation}
           />
@@ -343,10 +343,11 @@ function App() {
   <>
     <div className="App" style={{overflowX:"auto", width:`${maxWidth + 200}px`, marginLeft:"10px"}}>
 
-      <div style={{left:"calc(50vw - 450px)", color:"white", position:"fixed", top:"30px", padding:"10px", display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
-        <Typography className="cnizel" variant='h3'>Coinage of the Roman Republic</Typography> {/* change className to change font */}
-        <Typography className="cnizel" variant='h4'>An interactive timeline</Typography>
-        <p className="cnizel">Click on coin or event to show detail</p>
+      <div style={{left:"calc(50vw - 417px)", color:"white", position:"fixed", top:"30px", padding:"10px", display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
+        <Typography className="cnizel" variant='h2'>Coinage of the Roman Republic</Typography> {/* change className to change font */}
+        <Typography className="cnizel" variant='h3'>An interactive timeline</Typography>
+        <br/>
+        <p className="cnizel" variant='h4'>Click on coin or event to show detail</p>
       </div>
      
       <div style={{
