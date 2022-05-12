@@ -14,6 +14,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 import {DottedLines, OverLay, ImageButton, useWindowSize} from "./BasicComponents.js";
 import {TimeLineData} from "./timelinecontent"
+import { textAlign } from '@mui/system';
 
 
 
@@ -343,11 +344,11 @@ function App() {
   <>
     <div className="App" style={{overflowX:"auto", width:`${maxWidth + 200}px`, marginLeft:"10px"}}>
 
-      <div style={{left:"calc(50vw - 417px)", color:"white", position:"fixed", top:"30px", padding:"10px", display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
+      <div style={{left:"calc(50vw - 473px)", color:"white", position:"fixed", top:"30px", padding:"10px", display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", textAlign:"center"}}>
         <Typography className="cnizel" variant='h2'>Coinage of the Roman Republic</Typography> {/* change className to change font */}
         <Typography className="cnizel" variant='h3'>An interactive timeline</Typography>
         <br/>
-        <p className="cnizel" variant='h4'>Click on coin or event to show detail</p>
+        <Typography className="cnizel" variant='h5'>Click on coin or event to show detail</Typography>
       </div>
      
       <div style={{
