@@ -62,7 +62,7 @@ export const TimeLineData = {
         "Subtitle": "",
         "Mass": "",
         "Detail": "The early Romans derived from mostly Latin heritage. They were ruled by kings, as were many Latin towns and cities. The nobility were organized into the Senate, which advised the king. A series of kings, both Roman and Etruscan, had led Rome's successful expansion among the Latins. However, in the course of the two centuries prior to the establishment of the Roman Republic, royal power had gradually declined in favor of the power of the nobility. The last king, an Etruscan named Lucius Tarquinius Superbus, was a tyrant who brutally suppressed the Senate and precipitated a revolt which effectively ended the monarchy. Instead of a king, two consuls were elected annually to lead the new Roman Republic. The consuls possessed military, administrative, and judicial authority. Of note, the new Republican system allowed for the appointment of dictators with supreme power during six months of military emergency, a fact which would foreshadow Rome's eventual transition into an empire.",
-        "References": "https://www.gutenberg.org/files/32624/32624-pdf.pdf; https://www.britannica.com/biography/Tarquin-king-of-Rome-534-509-BC; https://www.worldhistory.org/Lucius_Tarquinius_Superbus/"
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nEncyclop\u00e6dia Britannica, inc. (n.d.). Tarquin. Encyclop\u00e6dia Britannica. Retrieved May 12, 2022, from https://www.britannica.com/biography/Tarquin-king-of-Rome-534-509-BC\n\nCartwright, M. (2022, May 8). Lucius Tarquinius Superbus. World History Encyclopedia. Retrieved May 12, 2022, from https://www.worldhistory.org/Lucius_Tarquinius_Superbus/"
     },
     "6": {
         "ID": "6",
@@ -88,7 +88,7 @@ export const TimeLineData = {
         "Subtitle": "",
         "Mass": "",
         "Detail": "The Law of the Twelve Tables was the first written law code in Rome and marked the transition to  a more egalitarian society. Displayed in the Forum, these laws arose from a growing resentment felt by the plebeian class towards the aristocratic patricians, who wielded extreme power in the Senate. Punishments outlined in the Twelve Tables were applicable to all Roman citizens, and ranged from confiscation of property to death.",
-        "References": "https://www.gutenberg.org/files/32624/32624-pdf.pdf; https://www.worldhistory.org/Twelve_Tables/"
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nCartwright, M. (2022, May 8). Twelve Tables. World History Encyclopedia. Retrieved May 12, 2022, from https://www.worldhistory.org/Twelve_Tables/ "
     },
     "8": {
         "ID": "8",
@@ -114,7 +114,7 @@ export const TimeLineData = {
         "Subtitle": "",
         "Mass": "",
         "Detail": "Around 390 BCE, the Romans were defeated by the Gallic Senones in a major battle and Rome was sacked. The remnants of the Senate and Roman military fled to the top of the Capitoline Hill, to which the Gauls laid seige for seven months. A Roman dictator, Marcus Furius Camillus, was appointed and finally managed to drive out the Gauls after a series of bloody battles. The effect of this episode was that the Romans realized the inadequacy of their army and thus made great strides in strengthening their military organization as well as the physical fortifications of the city. In the following eight centuries, maintaining the Roman military would become an ever more expensive obligation of the state and contribute to its eventual economic downfall.",
-        "References": "https://www.worldhistory.org/article/910/the-sack-of-rome-by-the-gauls-390-bce/"
+        "References": "Dyck, L. H. (2022, May 9). The Sack of Rome by the Gauls, 390 BCE. World History Encyclopedia. Retrieved May 12, 2022, from https://www.worldhistory.org/article/910/the-sack-of-rome-by-the-gauls-390-bce/ "
     },
     "10": {
         "ID": "10",
@@ -127,7 +127,7 @@ export const TimeLineData = {
         "Subtitle": "",
         "Mass": "",
         "Detail": "In a major win for the plebeians in their struggle for political representation, the first plebeian consul was elected in 362 BCE. IN 340 BCE it became required for at least one consul to be plebeian. During the mid-fourth century BCE, plebeians occupied at various times the positions of the dictatorship, the censorship, and the praetorship, all major political positions within the Roman government. Plebians eventually occupied a large fraction of the Senate, although in some ways class divisions were perpetuated by the fact that only prominent plebian families were represented in these offices.",
-        "References": "https://www.gutenberg.org/files/32624/32624-pdf.pdf"
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan."
     },
     "11": {
         "ID": "11",
@@ -140,7 +140,7 @@ export const TimeLineData = {
         "Subtitle": "",
         "Mass": "",
         "Detail": "As the Romans achieved increasing prominence and power in the Italian peninsula, there was growing discontent among the other Latin city-states. For Rome had begin to consolidate so much power in the so-called Latin League that they became the de facto leader of this military alliance, established some 150 years earlier under the Treaty of Cassius. The Romans took advantage of this alliance to expand their own territories, and after a series of conflicts with the other Latin states eventually absorbed them after the Second Latin War.",
-        "References": "https://delong.typepad.com/forsythe-rome.pdf"
+        "References": "Forsythe, G. (2006). A critical history of early Rome: From prehistory to the first Punic War. University of California Press."
     },
     "12": {
         "ID": "12",
@@ -166,7 +166,7 @@ export const TimeLineData = {
         "Subtitle": "",
         "Mass": "",
         "Detail": "The Samnites were a resource-poor society living in the Apennine Mountains east of Rome. As they sought to expand into richer lands, they came into conflict with the Romans. The first war between the two societies occurred in 343 BCE, a second war in 326 BCE, and the third and final Samnite War in 298 BCE. During this time, Rome continued to expand, founding sixteen colonies. By the end of the third war, Roman power in Italy was further consolidated.",
-        "References": "https://delong.typepad.com/forsythe-rome.pdf"
+        "References": "Forsythe, G. (2006). A critical history of early Rome: From prehistory to the first Punic War. University of California Press."
     },
     "14": {
         "ID": "14",
@@ -179,7 +179,7 @@ export const TimeLineData = {
         "Subtitle": "AE Aes signatum",
         "Mass": "1389",
         "Detail": "Unlike their Greek neighbors, the inhabitants of the Italian peninsula did not enjoy large natural deposits of silver and gold. Thus the earliest Roman currencies were made of bronze (aes) or copper. The aes signatum was a large cast brick of bronze with animal or mythological motifs on either side, and were preceded only by the aes rude, which were lumps of bronze lacking any shape whatsoever. \n\nThis example of an aes signatum exhibits an eagle standing on a thunderbolt on the obverse and a pegasus on the reverse. Both were common Greek motifs, illustrating the heavy Greek influence on early Roman coinage. The reverse inscription ROMANOM, however, makes it clear the identity of the issuers. The obverse and reverse style indicate that this piece is of Romano-Campanian origin. At 1.39 kilograms, this bronze bar would have been quite cumbersome to transport and is theorized to have been restricted to ceremonial use, large transactions, or for export.",
-        "References": "Forsythe, G. (2006). A critical history of early rome: From prehistory to the first Punic War. University of California Press.\n\nComparette, T. L. (1918). Aes Signatum. American Journal of Numismatics (1897-1924), 52, 1-61.\n\nBritish Museum Collections #1867,0212.1. Retrieved May 11, 2022, from https://www.britishmuseum.org/collection/object/C_1867-0212-1",
+        "References": "British Museum Collections #1867,0212.1. Retrieved May 11, 2022, from https://www.britishmuseum.org/collection/object/C_1867-0212-1\n\nForsythe, G. (2006). A critical history of early Rome: From prehistory to the first Punic War. University of California Press.\n\nComparette, T. L. (1918). Aes Signatum. American Journal of Numismatics (1897-1924), 52, 1-61.",
         "Obverse": "assets/images/280_aes_signatum_obverse.png",
         "Reverse": "assets/images/280_aes_signatum_reverse.png"
     },
@@ -194,7 +194,7 @@ export const TimeLineData = {
         "Subtitle": "",
         "Mass": "",
         "Detail": "The war with King Pyrrhus marked Rome's first conflict with Greek populations outside the Italian peninsula. It was precipitated by a call for help from the Greek colony of Tarentum in southern Italy to King Pyrrhus of Epirus in Magna Graecia, after Romans violated a treaty by sailing ships into Tarentum waters. Pyrrhus was one of the foremost Greek military leaders, and his army included 20 elephants. An initial hard-fought victory by Pyrrhus was followed by the rejection of a peace settlement by the Romans, and another battle with nearly ten thousand total casualties took place at Apulia. Although both battles ended in the defeat of the Romans, they inspired the phrase \"Pyrrhic victory\" due to the great losses incurred by the victorious party. Soon Pyrrhus would abandon Italy and go to campaign against the Carthaginians, and Tarentum would fall. By 264 BCE the entirety of the Italian peninsula would become controlled by the Romans.",
-        "References": "https://delong.typepad.com/forsythe-rome.pdf"
+        "References": "Forsythe, G. (2006). A critical history of early Rome: From prehistory to the first Punic War. University of California Press."
     },
     "16": {
         "ID": "16",
@@ -207,7 +207,7 @@ export const TimeLineData = {
         "Subtitle": "AR Didrachm",
         "Mass": "6.87",
         "Detail": "Despite occasional conflict between the Romans and the Greeks, the latter had an undoubtably large influence on the former in the early years of the Republic. In fact, the earliest silver Roman coins were Greek denominations: the didrachm, worth two drachmae. The style of these coins were also very Greek, featuring Greek gods such as Apollo. This did not exclude the presence of certain Roman motifs, however; as shown here, the she-wolf suckling Romulus and Remus was a motif which would remain popular on Roman coinage for at least seven centuries. The obverse of this coin shows the head of Hercules with a Greek headband (tainia), along with his traditional gear: a club over his right shoulder and lion skin around his neck. The reverse features, along with the she-wolf and twins, the inscription ROMANO in the exergue.\n\nThe source of metal for these newly minted silver coins was not local mines, but rather war booty. Rome's ongoing wars of expansion gave it the resources to establish sophisticated Hellenistic monetary systems, even as it fueled the need for increasingly complex economies. These coins were most likely used to fund anbitious building projects such as the Via Appia as well as the Pyrrhic War of the early third century BCE.",
-        "References": "https://hvrd.art/o/197428; https://delong.typepad.com/forsythe-rome.pdf",
+        "References": "Harvard Art Museums Collections #1.1965.78. Retrieved May 11, 2022, from https://hvrd.art/o/197428\n\nForsythe, G. (2006). A critical history of early Rome: From prehistory to the first Punic War. University of California Press.",
         "Obverse": "assets/images/269_romano_campanian_didrachm_obverse.png",
         "Reverse": "assets/images/269_romano_campanian_didrachm_reverse.png"
     },
@@ -222,7 +222,7 @@ export const TimeLineData = {
         "Subtitle": "",
         "Mass": "",
         "Detail": "The first of several great wars between Rome and Carthage, this conflict arose from Rome's desire to drive the Carthaginians out of Sicily. The Romans constructed 120 battleships to confront the Carthaginians in Sicily, then northern Africa, and back in Sicily. In 241 BCE Carthage conceded defeat and agreed to relinquish Sicily as well as pay 3200 talents of ransom. Soon after, Rome also acquired the islands of Sardinia and Corsica from Carthage. With the bullion acquired from Carthage, Rome was finally able to ramp up its minting of silver coinage and begin the transition into a more monetized economy.",
-        "References": "https://www.gutenberg.org/files/32624/32624-pdf.pdf; https://www.google.com/books/edition/Coinage_in_the_Roman_Economy_300_B_C_to/5yPDL0EykeAC?hl=en&gbpv=1&dq=second+punic+war+on+Roman+economy&pg=PR9&printsec=frontcover"
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nHarl, K. W. (1996). Coinage in the Roman economy, 300 B.C. to A.D. 700. Johns Hopkins University Press."
     },
     "18": {
         "ID": "18",
@@ -248,7 +248,7 @@ export const TimeLineData = {
         "Subtitle": "AE Aes Grave",
         "Mass": "262.5",
         "Detail": "Concurrently with the early Greek-style silver coinage, Rome continued to mint bronze currency in order to meet the financial needs of the First Punic War. In fact, bronze was still the major currency as silver and gold were scarce. The bronze aes signatum bars had evolved into circular cast aes grave, which are considered as one of the first bronze Roman coins. These were large and heavy, and served mostly as a means of standardizing the measurement and transfer of bronze metal. The denominations of aes grave were based on the as, a Roman pound (~324 g). Each as was worth 12 ounces (unciae), and intermediate denominations such as semis (six unciae), triens (four unciae), quadrans (three unciae) and sextans (two unciae) were also produced.\n\nThis as is significantly undersized, weighing in at only 262.5 grams. Though the first aes grave minted in 290 BCE were full-sized and obeyed the libral standard, later issues suffered from inflation due to the First and Second Punic Wars. The reduced libral standard was introduced in 270 BCE at 274 grams (10 unciae) per as, and this is closest to the weight of this example. Shortly after this coin was minted, the standard dropped again to the semilibral standard, meaning that one as was only 137 grams (6 unciae). The weight standard would continue to drop until 91 BCE, well into the late Republic. As all the successive sub-as denominations also dropped in weight and adopted more manageable sizes, they heralded a new stage of minting in which coins were struck rather than cast. Denominational marks, such as the vertical line on the obverse and reverse of this coin, also became necessary to indicate the value of each coin, which was no longer its intrinsic metal value.\n\nThe design of the as was fairly standardized, with a janiform head on the obverse and a ship's prow on the reverse. The coin shown here is one such example.",
-        "References": "https://webarchive.nationalarchives.gov.uk/ukgwa/20190801121058/https://www.britishmuseum.org/research/publications/online_research_catalogues/rrc/roman_republican_coins/roman_republican_coinage.aspx; https://collectingancientcoins.co.uk/getting-started-with-roman-coins-aes-grave-heavy-bronze-coinage-290-bc-to-211-bc/; https://harvardartmuseums.org/collections/object/180981?position=2",
+        "References": "Harvard Art Museums Collections #1979.428.595. Retrieved May 11, 2022, from https://hvrd.art/o/180981\n\nRoman Republican Coinage. The British Museum. (n.d.). Retrieved May 12, 2022, from https://www.britishmuseum.org/research/publications/online_research_catalogues/rrc/roman_republican_coins/roman_republican_coinage.aspx\n\nAes Grave (Heavy Bronze) Coinage (290 BC to 211 BC). Collecting Ancient Coins. (2019, August 28). Retrieved May 12, 2022, from https://collectingancientcoins.co.uk/getting-started-with-roman-coins-aes-grave-heavy-bronze-coinage-290-bc-to-211-bc/ ",
         "Obverse": "assets/images/225_aes_grave_as_obverse.png",
         "Reverse": "assets/images/225_aes_grave_as_reverse.png"
     },
@@ -263,7 +263,7 @@ export const TimeLineData = {
         "Subtitle": "AR Didrachm",
         "Mass": "6.63",
         "Detail": "With new influxes of silver from Rome's victories against Carthage, the didrachm silver coinage became standardized towards the end of the 3rd century BCE, with a janiform head on the obverse and a quadriga (four-horse chariot) on the reverse. The coin shown here depicts the Dioscuri, twin brothers Castor and Pollux who were children of Leda. Castor was the mortal son of Leda and King Tyndareus of Lacedaemon, and Pollux was the demigod son of Leda and Zeus. They were associated with horsemanship and travelers. The incuse inscription ROMA on the reverse indicates that this coin was struck at Rome itself.\n\nInterestingly, this coin exhibits evidence of a double-strike, as shown by the doubled profiles of the nose, chin, and lips on the obverse. It is unclear whether this is a true double strike, however, as other elements of the obverse (such as the beaded border) are normal. Regardless, this coin showcases the Romans' adoption of struck coinage, which would become the norm in the later days of the Republic and then Empire. The design also marks the transition from Greek style to the distinctively Roman denarius, which would appear during the Second Punic War.",
-        "References": "https://www.theoi.com/Ouranios/Dioskouroi.html; https://webarchive.nationalarchives.gov.uk/ukgwa/20190801121058/https://www.britishmuseum.org/research/publications/online_research_catalogues/rrc/roman_republican_coins/roman_republican_coinage.aspx; https://harvardartmuseums.org/collections/object/197429?position=4; https://www.google.com/books/edition/Coinage_in_the_Roman_Economy_300_B_C_to/5yPDL0EykeAC?hl=en&gbpv=1&dq=second+punic+war+on+Roman+economy&pg=PR9&printsec=frontcover",
+        "References": "Harvard Art Museums Collections #1.1965.80. Retrieved May 11, 2022, from https://hvrd.art/o/197429\n\nDioskouroi. Theoi Greek Mythology. (n.d.). Retrieved May 12, 2022, from https://www.theoi.com/Ouranios/Dioskouroi.html\n\nRoman Republican Coinage. The British Museum. (n.d.). Retrieved May 12, 2022, from https://www.britishmuseum.org/research/publications/online_research_catalogues/rrc/roman_republican_coins/roman_republican_coinage.aspx\n\nHarl, K. W. (1996). Coinage in the Roman economy, 300 B.C. to A.D. 700. Johns Hopkins University Press.",
         "Obverse": "assets/images/225_romano_campanian_didrachm_obverse.png",
         "Reverse": "assets/images/225_romano_campanian_didrachm_reverse.png"
     },
@@ -291,7 +291,7 @@ export const TimeLineData = {
         "Subtitle": "",
         "Mass": "",
         "Detail": "Deprived of their naval superiority after the First Punic War, the Carthaginians focused on expanding their territories in Spain. This brought them into conflict with the tow of Saguntum, which was allied with the Romans. Hungry for revenge, the Carthaginians jumped at the chance to fight Rome again, this time led by the brothers Hasdrubal and Hannibal. Despite Rome's aggressive plans to attack the Carthaginians in both Spain and Africa, Hannibal's tactic of marching straight into Italy itself surprised the Romans and in a few short years was able to erode much of the Roman federation. A series of crushing defeats suffered by the Romans (who at one point appointed two dictators out of desperation) culminated in the Battle of Cannae, in which 35,000 out of the 50,000-strong Roman army were killed or captured. Finally, Rome recovered Syracuse and Capua, strategically important cities in Sicily and on the Italian mainland, respectively. In an all-out effort to end the war in Spain, 24 year-old Publius Cornelius Scipio (son of the eponymous general who fell in battle against Hasdrubal) was appointed to command the Roman forces. After the capture of New Carthage and thus the effective end of the war in Spain, the Romans saw Hasdrubal march to Italy to assist his brother, whose forces were in need of support. Fortunately for Rome, Hasdrubal's forces were intercepted in Northern Italy and destroyed. In the last chapter of the war, Scipio brought his forces to successfullly invade Carthaginian territory in Africa itself. This finally brought peace, with Carthage reduced to a shadow of its former glory.\n\nDespite its victory, Rome was almost financially ruined by this war. With much of the male population off to battle, Roman agriculture suffered greatly. A reserve fund from the treasury was tapped into for the first time in thirty years. Severe shortages of silver brought about the debasement of the silver didrachms, and the first gold coins (aurei and quinaarii) were minted for use in high-value transactions. The weight standard of the bronze as was repeatedly reduced. In around 212 BCE, Rome created a new silver currency system based on the denarius, valued at 10 asses. Thus the Romans gradually weaned off of the Greek didrachms and established a new standard which would last for over 400 years.",
-        "References": "https://www.google.com/books/edition/Coinage_in_the_Roman_Economy_300_B_C_to/5yPDL0EykeAC?hl=en&gbpv=1&dq=second+punic+war+on+Roman+economy&pg=PR9&printsec=frontcover; https://www.gutenberg.org/files/32624/32624-pdf.pdf"
+        "References": "Harl, K. W. (1996). Coinage in the Roman economy, 300 B.C. to A.D. 700. Johns Hopkins University Press.\n\nBoak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan."
     },
     "23": {
         "ID": "23",
@@ -304,7 +304,7 @@ export const TimeLineData = {
         "Subtitle": "AV Sixty-As",
         "Mass": "3.36",
         "Detail": "Worth an incredible 60 asses, this coin is an example of the gold coins minted in the Second Punic War as a result of financial emergency. On the obverse is a bellicose design very appropriate for the times: the head of Mars, wearing a Corinthian helmet. Letters below the head indicate the value of this coin at 60 asses. On the reverse is an eagle standing on Zeus's thunderbolt, with the word ROMA below.",
-        "References": "https://harvardartmuseums.org/collections/object/197522?position=0; https://webarchive.nationalarchives.gov.uk/ukgwa/20190801121058/https://www.britishmuseum.org/research/publications/online_research_catalogues/rrc/roman_republican_coins/roman_republican_coinage.aspxhttps://webarchive.nationalarchives.gov.uk/ukgwa/20190801121058/https://www.britishmuseum.org/research/publications/online_research_catalogues/rrc/roman_republican_coins/roman_republican_coinage.aspx",
+        "References": "Harvard Art Museums Collections #1.1965.81. Retrieved May 11, 2022, from https://hvrd.art/o/197522\n\nRoman Republican Coinage. The British Museum. (n.d.). Retrieved May 12, 2022, from https://www.britishmuseum.org/research/publications/online_research_catalogues/rrc/roman_republican_coins/roman_republican_coinage.aspx ",
         "Obverse": "assets/images/211_sixty_as_coin_obverse.png",
         "Reverse": "assets/images/211_sixty_as_coin_reverse.png"
     },
@@ -371,7 +371,7 @@ export const TimeLineData = {
         "Subtitle": "",
         "Mass": "",
         "Detail": "At the end of the Second Punic War, Rome had instated a loyal Numidian king, Masinissa, to harass Carthage in Africa. Additionally, they had forbade the Carthaginians to make war without the express permission of Rome. These factors enabled Masinissa to grow his kingdom without restraint, and eventually brought him into conflict with Carthage. At the same time, Rome was again alarmed by the economic recovery of Carthage and, fueled by the rhetoric of senator Cato the Elder, feared it might become a threat again. Thus they used the Carthaginian-Masinissa conflict (which was technically not approved by Rome) as an excuse to lay siege to Carthage. Scipio Aemilianus, the adopted son of the Scipio who led Rome to victory in the Second Punic War, fought his way into the city and completely levelled it. Thus the civilization of Carthage was no more, and from its land was born the new Roman province, Africa.",
-        "References": "https://www.gutenberg.org/files/32624/32624-pdf.pdf"
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan."
     },
     "29": {
         "ID": "29",
@@ -384,7 +384,7 @@ export const TimeLineData = {
         "Subtitle": "AR Denarius",
         "Mass": "3.64",
         "Detail": "By now the new currency system of the denarius had become firmly established in the Roman economy. In fact, devaluation had already begun, with the original weight of 4.5 grams being reduced so that this example is only 3.64 grams. It displays the helmeted head of Roma on the obverse and the Dioscuri riding two horses on the reverse. An X below the chin of Roma indicates the coin's value at 10 asses. As with the old didrachms, ROMA appears in the exergue. Of note is the mark of the moneyer, Lucius Sempronius Pitio, which now appears on the obverse and reverse of the coin. The Sempronii were a prominent Roman family who occupied positions such as the consulship in the early Republic. L. Sempronius Pitio was one example of a Roman moneyer, a private citizen given the authority to mint coinage, and his role reflected the need for the Republic to quickly expand its coinage to meet the financial necessities of war.\n\nRome's transition to a monetized economy was finally complete, with vast reserves of wealth acquired from its foreign conquests. Countless gold and silver coins from Sicily, Carthage, and Rome's enemies on the Italian peninsula were melted and re-coined, meaning that the denarii such as this one became the dominant form of currency in the region. The Roman population had also learned to accept and use coins for their transactions, with so many men having served in the military and received the new denarii as wages. In contrast with the Greeks, Rome did not need large silver denominations such as the tetradrachm, and the minting of gold coins was largely restricted to times of financial emergency. Therefore its bimetallic (silver and bronze) currency system was ideally designed for everyday domestic transactions, and quickly entered the everyday lives of Mediterraneans.",
-        "References": "https://harvardartmuseums.org/collections/object/180925?position=52; https://sites.lsa.umich.edu/bcoppola/2018/07/07/sempronius-pitio-roman-republic-denarius-minted-148-bce/; https://collectingancientcoins.co.uk/getting-started-with-roman-coins-denarius-coinage-sextanal-standard-211-bc-82-bc/; https://www.google.com/books/edition/Coinage_in_the_Roman_Economy_300_B_C_to/5yPDL0EykeAC?hl=en&gbpv=1&dq=second+punic+war+on+Roman+economy&pg=PR9&printsec=frontcover",
+        "References": "Harvard Art Museums Collections #1954.70.3. Retrieved May 11, 2022, from https://hvrd.art/o/180925\n\nCoppola, B. P. (2018, July 7). Sempronius Pitio Roman Republic Denarius (minted 148 BCE). University of Michigan LSA. Retrieved May 12, 2022, from https://sites.lsa.umich.edu/bcoppola/2018/07/07/sempronius-pitio-roman-republic-denarius-minted-148-bce/\n\nDenarius Coinage (Sextanal Standard) (211 BC - 82 BC). Collecting Ancient Coins. (2019, August 28). Retrieved May 12, 2022, from https://collectingancientcoins.co.uk/getting-started-with-roman-coins-denarius-coinage-sextanal-standard-211-bc-82-bc/\n\nHarl, K. W. (1996). Coinage in the Roman economy, 300 B.C. to A.D. 700. Johns Hopkins University Press.",
         "Obverse": "assets/images/148_denarius_of_l_sempronius_pitio_obverse.png",
         "Reverse": "assets/images/148_denarius_of_l_sempronius_pitio_reverse.png"
     },
@@ -421,11 +421,11 @@ export const TimeLineData = {
         "Start": "90",
         "End": "",
         "Name": "Denarius of the Social War",
-        "Person": "M. Junius Brutus",
+        "Person": "Anonymous",
         "Subtitle": "AR Denarius",
         "Mass": "",
-        "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
-        "References": "",
+        "Detail": "",
+        "References": "Harvard Art Museums Collections #1.1965.77. Retrieved May 11, 2022, from https://hvrd.art/o/197427",
         "Obverse": "assets/images/90_denarius_of_the_social_war_obverse.png",
         "Reverse": "assets/images/90_denarius_of_the_social_war_reverse.png"
     },
@@ -439,7 +439,7 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
+        "Detail": "",
         "References": ""
     },
     "34": {
@@ -452,7 +452,7 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
+        "Detail": "",
         "References": ""
     },
     "35": {
@@ -465,7 +465,7 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
+        "Detail": "",
         "References": ""
     },
     "36": {
@@ -478,7 +478,7 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
+        "Detail": "",
         "References": ""
     },
     "37": {
@@ -491,7 +491,7 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
+        "Detail": "",
         "References": ""
     },
     "38": {
@@ -504,7 +504,7 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
+        "Detail": "",
         "References": ""
     },
     "39": {
@@ -514,11 +514,11 @@ export const TimeLineData = {
         "Start": "49",
         "End": "",
         "Name": "Denarius of Julius Caesar",
-        "Person": "M. Junius Brutus",
+        "Person": "Julius Caesar",
         "Subtitle": "AR Denarius",
         "Mass": "",
-        "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
-        "References": "",
+        "Detail": "",
+        "References": "Harvard Art Museums Collections #1942.176.45. Retrieved May 11, 2022, from https://hvrd.art/o/180991",
         "Obverse": "assets/images/49_denarius_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/49_denarius_of_julius_caesar_reverse.png"
     },
@@ -532,7 +532,7 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
+        "Detail": "",
         "References": ""
     },
     "41": {
@@ -542,11 +542,11 @@ export const TimeLineData = {
         "Start": "43",
         "End": "",
         "Name": "EID MAR coin of Brutus",
-        "Person": "M. Junius Brutus",
+        "Person": "L. Junius Brutus",
         "Subtitle": "AR",
         "Mass": "",
-        "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
-        "References": "",
+        "Detail": "",
+        "References": "Harvard Art Museums Collections #1972.244. Retrieved May 11, 2022, from https://hvrd.art/o/195435",
         "Obverse": "assets/images/43_eid_mar_coin_of_brutus_obverse.png",
         "Reverse": "assets/images/43_eid_mar_coin_of_brutus_reverse.png"
     },
@@ -557,11 +557,11 @@ export const TimeLineData = {
         "Start": "38",
         "End": "",
         "Name": "Coin of Octavian",
-        "Person": "M. Junius Brutus",
-        "Subtitle": "AR",
+        "Person": "Octavian",
+        "Subtitle": "AE Sestertius (?)",
         "Mass": "",
-        "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
-        "References": "",
+        "Detail": "",
+        "References": "Harvard Art Museums Collections #1942.176.57. Retrieved May 11, 2022, from https://hvrd.art/o/181346",
         "Obverse": "assets/images/38_coin_of_octavian_obverse.png",
         "Reverse": "assets/images/38_coin_of_octavian_reverse.png"
     },
@@ -575,7 +575,7 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at augue quis mauris efficitur porta eget vitae metus. Mauris aliquet pharetra velit, eu feugiat arcu blandit a. Nam venenatis tellus sit amet orci tempor commodo. Mauris condimentum, risus sit amet porta blandit, lacus purus lobortis massa, sit amet egestas lorem sapien eget mauris. Phasellus vitae arcu ut risus vulputate tempor. Morbi imperdiet id nulla ac fringilla. In porttitor purus et vulputate convallis. Aliquam ullamcorper est ipsum, et fermentum mauris ornare vitae. Sed id enim risus. Aenean quis ipsum vel nibh bibendum scelerisque sed et justo. Curabitur massa libero, congue non ipsum et, posuere gravida diam. Maecenas sit amet lacus accumsan, ornare purus quis, porta erat. Maecenas sed arcu ac metus aliquam porta. Integer sed nulla scelerisque dolor rutrum faucibus ac nec ante. Aenean sed vehicula nibh.",
+        "Detail": "",
         "References": ""
     },
     "44": {

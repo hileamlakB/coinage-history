@@ -124,7 +124,7 @@ function HistoryEvent({eventPeriod, title, startTime, endTime, detail, referance
      className="clickable"
       style={{
         width:`${width}px`,
-        padding:"15px", // event marker size
+        padding:"12px", // event marker size
         border:"5px solid rgb(255, 217, 102)", // event marker stroke
         borderRadius:"50px",
         background:"black",
