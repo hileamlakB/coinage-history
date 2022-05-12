@@ -92,8 +92,8 @@ function CoinEvent({title, subtitle, obverse, reverse, coinStartTime, coinSize, 
             alignItems: "center"
             
             }}>
-          <h2>{title}</h2>
-          <p>{coinStartTime}</p>
+          <h2 className='cnizel'>{title}</h2> {/* // Coins mouseover box  */}
+          <p className='cnizel'>{coinStartTime}</p>
 
         </div>
             <OverLay title= {title} subtitle={subtitle} period={coinStartTime} img1={obverse} img2={reverse} size={coinSize} detail={detail} visible={visible} referances = {referances} changeVisibility={changeVisibility}/>
@@ -123,8 +123,8 @@ function HistoryEvent({eventPeriod, title, startTime, endTime, detail, width = 2
      className="clickable"
       style={{
         width:`${width}px`,
-        padding:"20px",
-        border:"3px solid rgb(255, 217, 102)",
+        padding:"15px", // event marker size
+        border:"5px solid rgb(255, 217, 102)", // event marker stroke
         borderRadius:"50px",
         background:"black",
         position:"absolute",
@@ -149,8 +149,8 @@ function HistoryEvent({eventPeriod, title, startTime, endTime, detail, width = 2
             alignItems: "center"
             
             }}>
-          <h2>{title}</h2>
-          <p>{startTime}{endTime?" - "+endTime + " BCE":null}</p>
+          <h2 className='cnizel'>{title}</h2> {/* Event mouseover box */}
+          <p className='cnizel'>{startTime}{endTime?" - "+endTime + " BCE":null}</p>
 
         </div>
   <OverLay title= {title} period={startTime} image={false} detail={detail} visible={visible} changeVisibility={changeVisibility}/>
@@ -343,10 +343,10 @@ function App() {
   <>
     <div className="App" style={{overflowX:"auto", width:`${maxWidth + 200}px`, marginLeft:"10px"}}>
 
-      <div style={{left:"calc(50vw - 450px)", color:"white", position:"fixed", padding:"10px", display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
-        <Typography className="coding" variant='h3'>Coinage of the Roman Republic</Typography>
-        <Typography className="coding" variant='h4'>An interactive timeline</Typography>
-        <p className="coding">Click on coin or event to show detail</p>
+      <div style={{left:"calc(50vw - 450px)", color:"white", position:"fixed", top:"10px", padding:"10px", display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
+        <Typography className="cnizel" variant='h3'>Coinage of the Roman Republic</Typography> {/* change className to change font */}
+        <Typography className="cnizel" variant='h4'>An interactive timeline</Typography>
+        <p className="cnizel">Click on coin or event to show detail</p>
       </div>
      
       <div style={{

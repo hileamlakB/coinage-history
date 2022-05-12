@@ -53,7 +53,7 @@ export function OverLay({title, subtitle, period, img1, img2, size, detail, refe
        
   
         <div className='overlayInfo' style={{display:"flex", justifyContent:"center", alignItems:"center", minHeight:"100vh", background:"black", color:"white",  maxWidth:"90vw", flexWrap:"wrap"}}>
-          <div className="content" style={{display:"flex", fontFamily:`MonoLisa, Menlo, Monaco, "Courier New", monospace`, justifyContent:"center", alignItems:"center", boxShadow:"4px 2px 20px 0px white", padding:"40px", maxHeight:"90vw", overflowY:"auto", position:"relative"}}>
+          <div className="content" style={{display:"flex", fontFamily:"'Playfair Display', serif", justifyContent:"center", alignItems:"center", boxShadow:"4px 2px 20px 0px white", padding:"40px", maxHeight:"90vw", overflowY:"auto", position:"relative"}}>
           <IconButton sx ={{alignSelf:"flex-start", position:"absolute", top:"10px", left:"10px", color:"rgb(255, 217, 102)"}} variant="contained" onClick={changeVisibility}><CloseIcon sx={{fontSize:"2rem"}} /></IconButton>
             {image?<div className='overlayImages' style={{display:"flex", flexDirection:"column", margin:"10px", padding:"10px"}}>
               {/* figure out how you can layout information ontop of a overlay */}
@@ -63,13 +63,13 @@ export function OverLay({title, subtitle, period, img1, img2, size, detail, refe
   
             </div>:null}
             <div className="overlayInfo" style={{maxWidth:"800px"}}>
-              <Typography variant="h2">{title}</Typography>
+              <Typography variant="h2" className='cnizel'>{title}</Typography>
               
               {image?<div style={{display:"flex", justifyContent:"space-between", alignItems:"center"}}>
-                <Typography variant="h4">{subtitle}</Typography>
-                <Typography variant="h5">{size}</Typography>
+                <Typography variant="h4" className='cnizel'>{subtitle}</Typography>
+                <Typography variant="h5" className='cnizel'>{size}</Typography>
               </div>:null}
-              <Typography>{period}</Typography>
+              <Typography className='cnizel'>{period}</Typography>
               {/* <model-viewer src="assets/cons.glb" alt="VR Headset" enable-pan auto-rotate rotation-per-second="300deg" camera-controls ar camera-target="0m 0m 0m" camera-orbit="-90deg 90deg 1.5m"></model-viewer>
                    */}
   
