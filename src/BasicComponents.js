@@ -73,12 +73,12 @@ export function OverLay({title, subtitle, period, img1, img2, size, detail, refe
               {/* <model-viewer src="assets/cons.glb" alt="VR Headset" enable-pan auto-rotate rotation-per-second="300deg" camera-controls ar camera-target="0m 0m 0m" camera-orbit="-90deg 90deg 1.5m"></model-viewer>
                    */}
   
-              <p className="playfair" style={{textAlign:"jutify"}}>
-                {detail}
-                {/* <Typography variant="h5">Referances</Typography>
-                {referances} */}
-                
+              <p className="playfair" style={{textAlign:"justify", whiteSpace:"pre-wrap"}}>
+                {detail}                
               </p>
+              <br/>
+              <Typography className="cnizel" variant="h5" style={{whiteSpace:"pre-wrap !important"}}>References</Typography>
+                {referances}
             </div>
   
           </div>
