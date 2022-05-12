@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/coinage-history/static/js/runtime~main.2f524beb.js"
   },
   {
-    "revision": "285da0cbbf8cad9777f87f6a54f194bd",
+    "revision": "b28072b35d1bb44f4a22fc9e1bf43236",
     "url": "/coinage-history/index.html"
   }
 ];
