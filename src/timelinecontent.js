@@ -431,6 +431,21 @@ export const TimeLineData = {
     },
     "33": {
         "ID": "33",
+        "Type": "Coin",
+        "Location": "Below",
+        "Start": "90",
+        "End": "",
+        "Name": "Quinarius of Q. Titius Mutto",
+        "Person": "Q. Titius Mutto",
+        "Subtitle": "AR Quinarius",
+        "Mass": "",
+        "Detail": "",
+        "References": "Harvard Art Museums Collections #1942.176.39. Retrieved May 11, 2022, from https://hvrd.art/o/181440",
+        "Obverse": "assets/images/90_quinarius_of_q_titius_mutto_obverse.png",
+        "Reverse": "assets/images/90_quinarius_of_q_titius_mutto_reverse.png"
+    },
+    "34": {
+        "ID": "34",
         "Type": "Event",
         "Location": "Center",
         "Start": "88",
@@ -442,8 +457,38 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "34": {
-        "ID": "34",
+    "35": {
+        "ID": "35",
+        "Type": "Coin",
+        "Location": "Above",
+        "Start": "76",
+        "End": "",
+        "Name": "Denarius of L. Lucretius Trio",
+        "Person": "L. Lucretius Trio",
+        "Subtitle": "AR Denarius",
+        "Mass": "",
+        "Detail": "",
+        "References": "Harvard Art Museums Collections #1942.176.25. Retrieved May 11, 2022, from https://hvrd.art/o/179833",
+        "Obverse": "assets/images/76_denarius_of_l_lucretius_trio_obverse.png",
+        "Reverse": "assets/images/76_denarius_of_l_lucretius_trio_reverse.png"
+    },
+    "36": {
+        "ID": "36",
+        "Type": "Coin",
+        "Location": "Below",
+        "Start": "67",
+        "End": "",
+        "Name": "Denarius of M. Plaetorius M.f. Cestianus",
+        "Person": "M. Plaetorius M.f. Cestianus",
+        "Subtitle": "AR Denarius",
+        "Mass": "",
+        "Detail": "",
+        "References": "Harvard Art Museums Collections #1942.176.35. Retrieved May 11, 2022, from https://hvrd.art/o/180997",
+        "Obverse": "assets/images/67_denarius_of_m_plaetorius_mf_cestianus_obverse.png",
+        "Reverse": "assets/images/67_denarius_of_m_plaetorius_mf_cestianus_reverse.png"
+    },
+    "37": {
+        "ID": "37",
         "Type": "Event",
         "Location": "Center",
         "Start": "63",
@@ -455,8 +500,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "35": {
-        "ID": "35",
+    "38": {
+        "ID": "38",
         "Type": "Event",
         "Location": "Center",
         "Start": "63",
@@ -468,8 +513,23 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "36": {
-        "ID": "36",
+    "39": {
+        "ID": "39",
+        "Type": "Coin",
+        "Location": "Above",
+        "Start": "63",
+        "End": "",
+        "Name": "Denarius of L. Furius Cn.f. Brocchus",
+        "Person": "L. Furius Cn.f. Brocchus",
+        "Subtitle": "AR Denarius",
+        "Mass": "",
+        "Detail": "",
+        "References": "Harvard Art Museums Collections #1942.176.27. Retrieved May 11, 2022, from https://hvrd.art/o/180687",
+        "Obverse": "assets/images/63_denarius_of_l_furius_cnf_brocchus_obverse.png",
+        "Reverse": "assets/images/63_denarius_of_l_furius_cnf_brocchus_reverse.png"
+    },
+    "40": {
+        "ID": "40",
         "Type": "Event",
         "Location": "Center",
         "Start": "60",
@@ -481,8 +541,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "37": {
-        "ID": "37",
+    "41": {
+        "ID": "41",
         "Type": "Event",
         "Location": "Center",
         "Start": "58",
@@ -494,8 +554,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "38": {
-        "ID": "38",
+    "42": {
+        "ID": "42",
         "Type": "Event",
         "Location": "Center",
         "Start": "49",
@@ -507,10 +567,10 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "39": {
-        "ID": "39",
+    "43": {
+        "ID": "43",
         "Type": "Coin",
-        "Location": "Below",
+        "Location": "Above",
         "Start": "49",
         "End": "",
         "Name": "Denarius of Julius Caesar",
@@ -522,8 +582,38 @@ export const TimeLineData = {
         "Obverse": "assets/images/49_denarius_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/49_denarius_of_julius_caesar_reverse.png"
     },
-    "40": {
-        "ID": "40",
+    "44": {
+        "ID": "44",
+        "Type": "Coin",
+        "Location": "Below",
+        "Start": "47",
+        "End": "",
+        "Name": "Denarius of Julius Caesar",
+        "Person": "Julius Caesar",
+        "Subtitle": "AR Denarius",
+        "Mass": "",
+        "Detail": "",
+        "References": "Harvard Art Museums Collections #1942.176.47. Retrieved May 11, 2022, from https://hvrd.art/o/181008",
+        "Obverse": "assets/images/47_denarius_of_julius_caesar_obverse.png",
+        "Reverse": "assets/images/47_denarius_of_julius_caesar_reverse.png"
+    },
+    "45": {
+        "ID": "45",
+        "Type": "Coin",
+        "Location": "Above",
+        "Start": "46",
+        "End": "",
+        "Name": "Aureus of Julius Caesar",
+        "Person": "A. Hirtius A.f.",
+        "Subtitle": "AV Aureus",
+        "Mass": "",
+        "Detail": "",
+        "References": "Harvard Art Museums Collections #1942.176.50. Retrieved May 11, 2022, from https://hvrd.art/o/181625",
+        "Obverse": "assets/images/46_aureus_of_julius_caesar_obverse.png",
+        "Reverse": "assets/images/46_aureus_of_julius_caesar_reverse.png"
+    },
+    "46": {
+        "ID": "46",
         "Type": "Event",
         "Location": "Center",
         "Start": "44",
@@ -535,25 +625,40 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "41": {
-        "ID": "41",
+    "47": {
+        "ID": "47",
         "Type": "Coin",
         "Location": "Above",
         "Start": "43",
         "End": "",
+        "Name": "Quinarius of Marc Antony",
+        "Person": "Marc Antony",
+        "Subtitle": "AR Quinarius",
+        "Mass": "",
+        "Detail": "",
+        "References": "Harvard Art Museums Collections #1942.176.56. Retrieved May 11, 2022, from https://hvrd.art/o/195435",
+        "Obverse": "assets/images/43_quinarius_of_marc_antony_obverse.png",
+        "Reverse": "assets/images/43_quinarius_of_marc_antony_reverse.png"
+    },
+    "48": {
+        "ID": "48",
+        "Type": "Coin",
+        "Location": "Below",
+        "Start": "43",
+        "End": "",
         "Name": "EID MAR coin of Brutus",
         "Person": "L. Junius Brutus",
-        "Subtitle": "AR",
+        "Subtitle": "AR Denarius",
         "Mass": "",
         "Detail": "",
         "References": "Harvard Art Museums Collections #1972.244. Retrieved May 11, 2022, from https://hvrd.art/o/195435",
         "Obverse": "assets/images/43_eid_mar_coin_of_brutus_obverse.png",
         "Reverse": "assets/images/43_eid_mar_coin_of_brutus_reverse.png"
     },
-    "42": {
-        "ID": "42",
+    "49": {
+        "ID": "49",
         "Type": "Coin",
-        "Location": "Below",
+        "Location": "Above",
         "Start": "38",
         "End": "",
         "Name": "Coin of Octavian",
@@ -565,8 +670,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/38_coin_of_octavian_obverse.png",
         "Reverse": "assets/images/38_coin_of_octavian_reverse.png"
     },
-    "43": {
-        "ID": "43",
+    "50": {
+        "ID": "50",
         "Type": "Event",
         "Location": "Center",
         "Start": "31",
@@ -578,102 +683,11 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "44": {
-        "ID": "44",
+    "51": {
+        "ID": "51",
         "Type": "Marker",
         "Location": "Above",
         "Start": "0",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "45": {
-        "ID": "45",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "46": {
-        "ID": "46",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "47": {
-        "ID": "47",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "48": {
-        "ID": "48",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "49": {
-        "ID": "49",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "50": {
-        "ID": "50",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "51": {
-        "ID": "51",
-        "Type": "",
-        "Location": "",
-        "Start": "",
         "End": "",
         "Name": "",
         "Person": "",
@@ -749,6 +763,110 @@ export const TimeLineData = {
     },
     "57": {
         "ID": "57",
+        "Type": "",
+        "Location": "",
+        "Start": "",
+        "End": "",
+        "Name": "",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "",
+        "References": ""
+    },
+    "58": {
+        "ID": "58",
+        "Type": "",
+        "Location": "",
+        "Start": "",
+        "End": "",
+        "Name": "",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "",
+        "References": ""
+    },
+    "59": {
+        "ID": "59",
+        "Type": "",
+        "Location": "",
+        "Start": "",
+        "End": "",
+        "Name": "",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "",
+        "References": ""
+    },
+    "60": {
+        "ID": "60",
+        "Type": "",
+        "Location": "",
+        "Start": "",
+        "End": "",
+        "Name": "",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "",
+        "References": ""
+    },
+    "61": {
+        "ID": "61",
+        "Type": "",
+        "Location": "",
+        "Start": "",
+        "End": "",
+        "Name": "",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "",
+        "References": ""
+    },
+    "62": {
+        "ID": "62",
+        "Type": "",
+        "Location": "",
+        "Start": "",
+        "End": "",
+        "Name": "",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "",
+        "References": ""
+    },
+    "63": {
+        "ID": "63",
+        "Type": "",
+        "Location": "",
+        "Start": "",
+        "End": "",
+        "Name": "",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "",
+        "References": ""
+    },
+    "64": {
+        "ID": "64",
+        "Type": "",
+        "Location": "",
+        "Start": "",
+        "End": "",
+        "Name": "",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "",
+        "References": ""
+    },
+    "65": {
+        "ID": "65",
         "Type": "",
         "Location": "",
         "Start": "",

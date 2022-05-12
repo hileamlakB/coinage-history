@@ -81,28 +81,36 @@ Harl, K. W. (1996). Coinage in the Roman economy, 300 B.C. to A.D. 700. Johns Ho
 30,Event,Above,146,,Sack of Corinth,,,,,
 31,Marker,Above,100,,,,,,,
 32,Coin,Above,90,,Denarius of the Social War,Anonymous,AR Denarius,,,"Harvard Art Museums Collections #1.1965.77. Retrieved May 11, 2022, from https://hvrd.art/o/197427"
-33,Event,Center,88,,Sulla marches on Rome,,,,,
-34,Event,Center,63,,Cicero elected as consul,,,,,
-35,Event,Center,63,,Pompey captures Syria,,,,,
-36,Event,Center,60,,"First Triumvirate (Caesar, Crassus, & Pompey)",,,,,
-37,Event,Center,58,51,Caesar conquers Gaul,,,,,
-38,Event,Center,49,,Caesar crosses the Rubicon,,,,,
-39,Coin,Below,49,,Denarius of Julius Caesar,Julius Caesar,AR Denarius,,,"Harvard Art Museums Collections #1942.176.45. Retrieved May 11, 2022, from https://hvrd.art/o/180991"
-40,Event,Center,44,,Caesar assasinated,,,,,
-41,Coin,Above,43,,EID MAR coin of Brutus,L. Junius Brutus,AR,,,"Harvard Art Museums Collections #1972.244. Retrieved May 11, 2022, from https://hvrd.art/o/195435"
-42,Coin,Below,38,,Coin of Octavian,Octavian,AE Sestertius (?),,,"Harvard Art Museums Collections #1942.176.57. Retrieved May 11, 2022, from https://hvrd.art/o/181346"
-43,Event,Center,31,,Octavian becomes first Roman emperor,,,,,
-44,Marker,Above,0,,,,,,,
-45,,,,,,,,,,
-46,,,,,,,,,,
-47,,,,,,,,,,
-48,,,,,,,,,,
-49,,,,,,,,,,
-50,,,,,,,,,,
-51,,,,,,,,,,
+33,Coin,Below,90,,Quinarius of Q. Titius Mutto,Q. Titius Mutto,AR Quinarius,,,"Harvard Art Museums Collections #1942.176.39. Retrieved May 11, 2022, from https://hvrd.art/o/181440"
+34,Event,Center,88,,Sulla marches on Rome,,,,,
+35,Coin,Above,76,,Denarius of L. Lucretius Trio,L. Lucretius Trio,AR Denarius,,,"Harvard Art Museums Collections #1942.176.25. Retrieved May 11, 2022, from https://hvrd.art/o/179833"
+36,Coin,Below,67,,Denarius of M. Plaetorius M.f. Cestianus,M. Plaetorius M.f. Cestianus,AR Denarius,,,"Harvard Art Museums Collections #1942.176.35. Retrieved May 11, 2022, from https://hvrd.art/o/180997"
+37,Event,Center,63,,Cicero elected as consul,,,,,
+38,Event,Center,63,,Pompey captures Syria,,,,,
+39,Coin,Above,63,,Denarius of L. Furius Cn.f. Brocchus,L. Furius Cn.f. Brocchus,AR Denarius,,,"Harvard Art Museums Collections #1942.176.27. Retrieved May 11, 2022, from https://hvrd.art/o/180687"
+40,Event,Center,60,,"First Triumvirate (Caesar, Crassus, & Pompey)",,,,,
+41,Event,Center,58,51,Caesar conquers Gaul,,,,,
+42,Event,Center,49,,Caesar crosses the Rubicon,,,,,
+43,Coin,Above,49,,Denarius of Julius Caesar,Julius Caesar,AR Denarius,,,"Harvard Art Museums Collections #1942.176.45. Retrieved May 11, 2022, from https://hvrd.art/o/180991"
+44,Coin,Below,47,,Denarius of Julius Caesar,Julius Caesar,AR Denarius,,,"Harvard Art Museums Collections #1942.176.47. Retrieved May 11, 2022, from https://hvrd.art/o/181008"
+45,Coin,Above,46,,Aureus of Julius Caesar,A. Hirtius A.f.,AV Aureus,,,"Harvard Art Museums Collections #1942.176.50. Retrieved May 11, 2022, from https://hvrd.art/o/181625"
+46,Event,Center,44,,Caesar assasinated,,,,,
+47,Coin,Above,43,,Quinarius of Marc Antony,Marc Antony,AR Quinarius,,,"Harvard Art Museums Collections #1942.176.56. Retrieved May 11, 2022, from https://hvrd.art/o/195435"
+48,Coin,Below,43,,EID MAR coin of Brutus,L. Junius Brutus,AR Denarius,,,"Harvard Art Museums Collections #1972.244. Retrieved May 11, 2022, from https://hvrd.art/o/195435"
+49,Coin,Above,38,,Coin of Octavian,Octavian,AE Sestertius (?),,,"Harvard Art Museums Collections #1942.176.57. Retrieved May 11, 2022, from https://hvrd.art/o/181346"
+50,Event,Center,31,,Octavian becomes first Roman emperor,,,,,
+51,Marker,Above,0,,,,,,,
 52,,,,,,,,,,
 53,,,,,,,,,,
 54,,,,,,,,,,
 55,,,,,,,,,,
 56,,,,,,,,,,
 57,,,,,,,,,,
+58,,,,,,,,,,
+59,,,,,,,,,,
+60,,,,,,,,,,
+61,,,,,,,,,,
+62,,,,,,,,,,
+63,,,,,,,,,,
+64,,,,,,,,,,
+65,,,,,,,,,,
