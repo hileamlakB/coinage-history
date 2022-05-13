@@ -375,6 +375,21 @@ export const TimeLineData = {
     },
     "29": {
         "ID": "29",
+        "Type": "Coin",
+        "Location": "Above",
+        "Start": "157",
+        "End": "",
+        "Name": "Anonymous Denarius",
+        "Person": "Anonymous",
+        "Subtitle": "AV Denarius",
+        "Mass": "",
+        "Detail": "The defeat of Macedonia by the Romans brought many Greek tetradrachmae to the mints of Rome to be re-coined into denarii. This coin is an example of the new denarius design, with Victory driving a two-horse chariot (biga) in celebration of the Roman victory. The obverse depicts the helmeted head of Roma, with a mark of value (X) below. ",
+        "References": "Harvard Art Museums Collections #1986.498. Retrieved May 11, 2022, from https://hvrd.art/o/195228\n\nHarl, K. W. (1996). Coinage in the Roman economy, 300 B.C. to A.D. 700. Johns Hopkins University Press.",
+        "Obverse": "assets/images/157_anonymous_denarius_obverse.png",
+        "Reverse": "assets/images/157_anonymous_denarius_reverse.png"
+    },
+    "30": {
+        "ID": "30",
         "Type": "Event",
         "Location": "Center",
         "Start": "149",
@@ -386,8 +401,8 @@ export const TimeLineData = {
         "Detail": "At the end of the Second Punic War, Rome had instated a loyal Numidian king, Masinissa, to harass Carthage in Africa. Additionally, they had forbade the Carthaginians to make war without the express permission of Rome. These factors enabled Masinissa to grow his kingdom without restraint, and eventually brought him into conflict with Carthage. At the same time, Rome was again alarmed by the economic recovery of Carthage and, fueled by the rhetoric of senator Cato the Elder, feared it might become a threat again. Thus they used the Carthaginian-Masinissa conflict (which was technically not approved by Rome) as an excuse to lay siege to Carthage. Scipio Aemilianus, the adopted son of the Scipio who led Rome to victory in the Second Punic War, fought his way into the city and completely levelled it. Thus the civilization of Carthage was no more, and from its land was born the new Roman province, Africa.",
         "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan."
     },
-    "30": {
-        "ID": "30",
+    "31": {
+        "ID": "31",
         "Type": "Event",
         "Location": "Center",
         "Start": "149",
@@ -399,8 +414,8 @@ export const TimeLineData = {
         "Detail": "Widespread resentment among the Greek states under Roman purview induced a rebellion to happen under Andriscus, the alleged son of Perseus. This was quickly quelled and Macedonia was made the first Roman province.",
         "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nEncyclop\u00e6dia Britannica, inc. (n.d.). Macedonian Wars. Encyclop\u00e6dia Britannica. Retrieved May 13, 2022, from https://www.britannica.com/event/Macedonian-Wars "
     },
-    "31": {
-        "ID": "31",
+    "32": {
+        "ID": "32",
         "Type": "Coin",
         "Location": "Below",
         "Start": "148",
@@ -409,13 +424,13 @@ export const TimeLineData = {
         "Person": "L. Sempronius Pitio",
         "Subtitle": "AR Denarius",
         "Mass": "3.64",
-        "Detail": "By now the new currency system of the denarius had become firmly established in the Roman economy. In fact, devaluation had already begun, with the original weight of 4.5 grams being reduced so that this example is only 3.64 grams. It displays the helmeted head of Roma on the obverse and the Dioscuri riding two horses on the reverse. An X below the chin of Roma indicates the coin's value at 10 asses. As with the old didrachms, ROMA appears in the exergue. Of note is the mark of the moneyer, Lucius Sempronius Pitio, which now appears on the obverse and reverse of the coin. The Sempronii were a prominent Roman family who occupied positions such as the consulship in the early Republic. L. Sempronius Pitio was one example of a Roman moneyer, a private citizen given the authority to mint coinage, and his role reflected the need for the Republic to quickly expand its coinage to meet the financial necessities of war.\n\nRome's transition to a monetized economy was finally complete, with vast reserves of wealth acquired from its foreign conquests. Countless gold and silver coins from Sicily, Carthage, and Rome's enemies on the Italian peninsula were melted and re-coined, meaning that the denarii such as this one became the dominant form of currency in the region. The Roman population had also learned to accept and use coins for their transactions, with so many men having served in the military and received the new denarii as wages. In contrast with the Greeks, Rome did not need large silver denominations such as the tetradrachm, and the minting of gold coins was largely restricted to times of financial emergency. Therefore its bimetallic (silver and bronze) currency system was ideally designed for everyday domestic transactions, and quickly entered the everyday lives of Mediterraneans.",
+        "Detail": "By now the new currency system of the denarius had become firmly established in the Roman economy. In fact, devaluation had already begun, with the original weight of 4.5 grams (72 to the pound) being reduced to 3.86 grams (84 to the pound). This example weighs only 3.64 grams. It displays the helmeted head of Roma on the obverse and the Dioscuri riding two horses on the reverse. An X below the chin of Roma indicates the coin's value at 10 asses. As with the old didrachms, ROMA appears in the exergue. Of note is the mark of the moneyer, Lucius Sempronius Pitio, which now appears on the obverse and reverse of the coin. The Sempronii were a prominent Roman family who occupied positions such as the consulship in the early Republic. L. Sempronius Pitio was one example of a Roman moneyer, a private citizen given the authority to mint coinage, and his role reflected the need for the Republic to quickly expand its coinage to meet the financial necessities of war.\n\nRome's transition to a monetized economy was finally complete, with vast reserves of wealth acquired from its foreign conquests. Countless gold and silver coins from Sicily, Carthage, and Rome's enemies on the Italian peninsula were melted and re-coined, meaning that the denarii such as this one became the dominant form of currency in the region. The Roman population had also learned to accept and use coins for their transactions, with so many men having served in the military and received the new denarii as wages. In contrast with the Greeks, Rome did not need large silver denominations such as the tetradrachm, and the minting of gold coins was largely restricted to times of financial emergency. Therefore its bimetallic (silver and bronze) currency system was ideally designed for small domestic transactions, and quickly entered the everyday lives of Mediterraneans.",
         "References": "Harvard Art Museums Collections #1954.70.3. Retrieved May 11, 2022, from https://hvrd.art/o/180925\n\nCoppola, B. P. (2018, July 7). Sempronius Pitio Roman Republic Denarius (minted 148 BCE). University of Michigan LSA. Retrieved May 12, 2022, from https://sites.lsa.umich.edu/bcoppola/2018/07/07/sempronius-pitio-roman-republic-denarius-minted-148-bce/\n\nDenarius Coinage (Sextanal Standard) (211 BC - 82 BC). Collecting Ancient Coins. (2019, August 28). Retrieved May 12, 2022, from https://collectingancientcoins.co.uk/getting-started-with-roman-coins-denarius-coinage-sextanal-standard-211-bc-82-bc/\n\nHarl, K. W. (1996). Coinage in the Roman economy, 300 B.C. to A.D. 700. Johns Hopkins University Press.",
         "Obverse": "assets/images/148_denarius_of_l_sempronius_pitio_obverse.png",
         "Reverse": "assets/images/148_denarius_of_l_sempronius_pitio_reverse.png"
     },
-    "32": {
-        "ID": "32",
+    "33": {
+        "ID": "33",
         "Type": "Event",
         "Location": "Above",
         "Start": "146",
@@ -427,8 +442,8 @@ export const TimeLineData = {
         "Detail": "The Achaean League, which had at various points in time been either fighting alongside or against the Romans, once more became the enemies of Rome when they attacked Sparta. Rome responded by sacking Corinth and, with the threat of a similar fate befalling the other cities of the League, broke up this confederation and made its constituents either Roman allies or tributes.",
         "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan."
     },
-    "33": {
-        "ID": "33",
+    "34": {
+        "ID": "34",
         "Type": "Marker",
         "Location": "Above",
         "Start": "100",
@@ -440,8 +455,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "34": {
-        "ID": "34",
+    "35": {
+        "ID": "35",
         "Type": "Coin",
         "Location": "Above",
         "Start": "90",
@@ -449,14 +464,14 @@ export const TimeLineData = {
         "Name": "Denarius of the Social War",
         "Person": "Anonymous",
         "Subtitle": "AR Denarius",
-        "Mass": "",
-        "Detail": "",
-        "References": "Harvard Art Museums Collections #1.1965.77. Retrieved May 11, 2022, from https://hvrd.art/o/197427",
+        "Mass": "3.69",
+        "Detail": "Here is a coin minted by a member of the socii, modeled after the Roman denarius. Instead of Roma, however, the obverse features the head of Italia, which symbolized the united socii. Behind the head is the Oscan inscription VITELIV, meaning Italia. The reverse shows a solder trampling a Roman standard, in defiance of Rome. A bull, a mascot of the Italians, reclines to the left of the soldier. ",
+        "References": "Harvard Art Museums Collections #1.1965.77. Retrieved May 11, 2022, from https://hvrd.art/o/197427\n\nChatigny, C. (2014, December 23). Choice Social War Denarius of the Marsic Confederation. Stacks Bowers Rare Money Blog. Retrieved May 13, 2022, from http://stacksbowers.com/News/Pages/Blogs.aspx?ArticleID=social-war-denarius ",
         "Obverse": "assets/images/90_denarius_of_the_social_war_obverse.png",
         "Reverse": "assets/images/90_denarius_of_the_social_war_reverse.png"
     },
-    "35": {
-        "ID": "35",
+    "36": {
+        "ID": "36",
         "Type": "Coin",
         "Location": "Below",
         "Start": "90",
@@ -464,14 +479,40 @@ export const TimeLineData = {
         "Name": "Quinarius of Q. Titius Mutto",
         "Person": "Q. Titius Mutto",
         "Subtitle": "AR Quinarius",
-        "Mass": "",
-        "Detail": "",
-        "References": "Harvard Art Museums Collections #1942.176.39. Retrieved May 11, 2022, from https://hvrd.art/o/181440",
+        "Mass": "2.12",
+        "Detail": "This is a quinarius minted by Q. Titius Mutto in Rome. The quinarius was a silver denomination introduced in the Second Punic War, worth half as much as a denarius (thus five asses instead of 10). However with the revaluing of the denarius in 141 BCE to 16 asses (due to the steadily decreasing weight of the bronze as), the quinarius became worth 8 asses. This particular example shows the draped bust of Victory on the obverse and a pegasus on the reverse with the cognomen of the moneyer. From this perriod onwards we begin to see increasing diversity in the design of Roman coinage, reflecting the desire of the moneyers for self-promotion and mirroring the fractious politics which would eventually culminate in civil war and the end of the Republic.",
+        "References": "Harvard Art Museums Collections #1942.176.39. Retrieved May 11, 2022, from https://hvrd.art/o/181440\n\nMarkowitz, M. (2022, February 22). The quinarius: An ancient roman coin you've never heard of. CoinWeek. Retrieved May 13, 2022, from https://coinweek.com/ancient-coins/the-quinarius-an-ancient-roman-coin-youve-never-heard-of/ ",
         "Obverse": "assets/images/90_quinarius_of_q_titius_mutto_obverse.png",
         "Reverse": "assets/images/90_quinarius_of_q_titius_mutto_reverse.png"
     },
-    "36": {
-        "ID": "36",
+    "37": {
+        "ID": "37",
+        "Type": "Event",
+        "Location": "Center",
+        "Start": "90",
+        "End": "88",
+        "Name": "Social War",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "Rome's Italian allies (known as socii) were discontent with their lack of power in their relationship with Rome, and pressed for Roman citizenship. When refused, they declared independence and attacked Campania. Rome ended the war not by unconditional military victory but by passing laws which granted citizenship rights to rebels who would give up the fight. Thus the socii ultimately achieved what they wanted, and the Italian peninsula became integrated into a single Latin nation.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nRoman Republic Timeline. World History Encyclopedia RSS. (n.d.). Retrieved May 13, 2022, from https://www.worldhistory.org/timeline/Roman_Republic/ "
+    },
+    "38": {
+        "ID": "38",
+        "Type": "Event",
+        "Location": "Center",
+        "Start": "89",
+        "End": "63",
+        "Name": "Mithridatic Wars",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "In 89 BCE Mithradates VI saw that Rome was distracted by its war against the socii and took the opportunity to attack the Roman province of Asia. The destruction of the Roman port at Delos prompted the appointment of the consul Sulla to command the Roman response. Gaius Marius, a general who was jealous of Sulla's achievements, enlisted the help of the equestrians and the plebeian tribunes to wrest control of the command from Sulla. The equestrians were a Roman social class which developed in the second century BCE and often opposed the Senate, and the plebeians had cause to diminish the power of the patrician aristocrats. In this way, the conflict between Sulla and Marius rekindled the centuries-old struggle between the aristocrats (known as the Optimates) and the common people (known as the Populares) which had been simmering since the early Republic. The ensuing civil wars would eventually bring about the Republic's demise.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nEncyclop\u00e6dia Britannica, inc. (n.d.). Sulla. Encyclop\u00e6dia Britannica. Retrieved May 13, 2022, from https://www.britannica.com/biography/Sulla \n\nSulla's First Civil War (88-87 BC). History of War. (n.d.). Retrieved May 13, 2022, from http://www.historyofwar.org/articles/wars_sullas_first_civil_war.html "
+    },
+    "39": {
+        "ID": "39",
         "Type": "Event",
         "Location": "Center",
         "Start": "88",
@@ -480,11 +521,37 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "",
+        "Detail": "Marius was successful in removing Sulla from his post as commander of the war against Mithridates. In response, Sulla gathered the support of the Roman army and marched on Rome itself. This event was significant for marking the first time a Roman army would choose to follow the interests of a military leader rather than the Senate (which represented the interests of the Republic). His successful invasion of Rome paved the way for him to diminish the power of the popular assembly which had removed him from his post. With his command of the war restored, Sulla left Rome to fight Mithridates.",
+        "References": "Encyclop\u00e6dia Britannica, inc. (n.d.). Sulla. Encyclop\u00e6dia Britannica. Retrieved May 13, 2022, from https://www.britannica.com/biography/Sulla\n\nSulla's First Civil War (88-87 BC). History of War. (n.d.). Retrieved May 13, 2022, from http://www.historyofwar.org/articles/wars_sullas_first_civil_war.html "
+    },
+    "40": {
+        "ID": "40",
+        "Type": "Event",
+        "Location": "Center",
+        "Start": "83",
+        "End": "82",
+        "Name": "Sulla's Civil War",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "While Sulla campaigned in Greece, the supporters of Marius quickly undid his laws and confiscated his property. By 85 BCE Sulla had been victorious against Mithridates and prepared to lead his army back to Rome. Joined by Marcus Licinius Crassus and Pompey, Sulla overcame the Marian resistance and became dictator. His goals were to reorganize the Roman government and restore the Optimates to power. Sulla's reforms would pave the way for the transition of Rome to an imperial government.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nEncyclop\u00e6dia Britannica, inc. (n.d.). Sulla. Encyclop\u00e6dia Britannica. Retrieved May 13, 2022, from https://www.britannica.com/biography/Sulla \n\nSulla's First Civil War (88-87 BC). History of War. (n.d.). Retrieved May 13, 2022, from http://www.historyofwar.org/articles/wars_sullas_first_civil_war.html "
+    },
+    "41": {
+        "ID": "41",
+        "Type": "Event",
+        "Location": "Center",
+        "Start": "78",
+        "End": "",
+        "Name": "Rise of Pompey",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "With Sulla's retirement, his enemies once again staged revolts against ",
         "References": ""
     },
-    "37": {
-        "ID": "37",
+    "42": {
+        "ID": "42",
         "Type": "Coin",
         "Location": "Above",
         "Start": "76",
@@ -492,14 +559,14 @@ export const TimeLineData = {
         "Name": "Denarius of L. Lucretius Trio",
         "Person": "L. Lucretius Trio",
         "Subtitle": "AR Denarius",
-        "Mass": "",
-        "Detail": "",
+        "Mass": "3.72",
+        "Detail": "This denarius was minted just a few years after Sulla's retirement of the dictatorship in 79 BCE, during the rise of Pompey the Great. It depicts the laureate head of Neptune and his trident on the obverse, along with a control mark XXIIII specific to the moneyer (L. Lucretius Trio). On the reverse is a winged boy riding a dolphin and the moneyer's name.",
         "References": "Harvard Art Museums Collections #1942.176.25. Retrieved May 11, 2022, from https://hvrd.art/o/179833",
         "Obverse": "assets/images/76_denarius_of_l_lucretius_trio_obverse.png",
         "Reverse": "assets/images/76_denarius_of_l_lucretius_trio_reverse.png"
     },
-    "38": {
-        "ID": "38",
+    "43": {
+        "ID": "43",
         "Type": "Coin",
         "Location": "Below",
         "Start": "67",
@@ -507,27 +574,14 @@ export const TimeLineData = {
         "Name": "Denarius of M. Plaetorius M.f. Cestianus",
         "Person": "M. Plaetorius M.f. Cestianus",
         "Subtitle": "AR Denarius",
-        "Mass": "",
-        "Detail": "",
-        "References": "Harvard Art Museums Collections #1942.176.35. Retrieved May 11, 2022, from https://hvrd.art/o/180997",
+        "Mass": "3.86",
+        "Detail": "Another example of a late Republican denarius, with the head of the goddess Cybele on the obverse, next to a globe and forepart of lion and surrounded by a fancy beaded border. The name of the moneyer, M. Plaetorius M.f. Cestianus, can also be found on the obverse. The reverse has notably more text than is typical on coins up to this point, surrounding a curule chair (the chair of magistrates and, by extension, of power in Rome). The text, M.PLAETORIVS.AED.CVR.EX.S.C., expands to read \"Marcus Plaetorius Aedilis Curulis Ex Senatus Consulto\", or \"Marcus Plaetorius, Aedile Curule, By Decree of the Senate\". The Aedile Curulis was a prominent position within the Roman government, and the inclusion of this title, as well as the chair, on Cestianus's coin indicates his desire to be recognized for his power. The design of Roman coinage thus transitioned from glorifying the Republic to glorifying individuals of power, and this reflected the power struggles and civil wars of increasing frequency and severity.",
+        "References": "Harvard Art Museums Collections #1942.176.35. Retrieved May 11, 2022, from https://hvrd.art/o/180997\n\nDenarius, Roman Republic (ancient). Numista. (n.d.). Retrieved May 13, 2022, from https://en.numista.com/catalogue/pieces66908.html ",
         "Obverse": "assets/images/67_denarius_of_m_plaetorius_mf_cestianus_obverse.png",
         "Reverse": "assets/images/67_denarius_of_m_plaetorius_mf_cestianus_reverse.png"
     },
-    "39": {
-        "ID": "39",
-        "Type": "Event",
-        "Location": "Center",
-        "Start": "63",
-        "End": "",
-        "Name": "Cicero elected as consul",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "40": {
-        "ID": "40",
+    "44": {
+        "ID": "44",
         "Type": "Event",
         "Location": "Center",
         "Start": "63",
@@ -539,8 +593,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "41": {
-        "ID": "41",
+    "45": {
+        "ID": "45",
         "Type": "Coin",
         "Location": "Above",
         "Start": "63",
@@ -554,8 +608,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/63_denarius_of_l_furius_cnf_brocchus_obverse.png",
         "Reverse": "assets/images/63_denarius_of_l_furius_cnf_brocchus_reverse.png"
     },
-    "42": {
-        "ID": "42",
+    "46": {
+        "ID": "46",
         "Type": "Event",
         "Location": "Center",
         "Start": "60",
@@ -567,8 +621,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "43": {
-        "ID": "43",
+    "47": {
+        "ID": "47",
         "Type": "Event",
         "Location": "Center",
         "Start": "58",
@@ -580,8 +634,21 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "44": {
-        "ID": "44",
+    "48": {
+        "ID": "48",
+        "Type": "Event",
+        "Location": "Center",
+        "Start": "50",
+        "End": "44",
+        "Name": "Great Civil War",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "",
+        "References": ""
+    },
+    "49": {
+        "ID": "49",
         "Type": "Event",
         "Location": "Center",
         "Start": "49",
@@ -593,8 +660,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "45": {
-        "ID": "45",
+    "50": {
+        "ID": "50",
         "Type": "Coin",
         "Location": "Above",
         "Start": "49",
@@ -608,8 +675,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/49_denarius_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/49_denarius_of_julius_caesar_reverse.png"
     },
-    "46": {
-        "ID": "46",
+    "51": {
+        "ID": "51",
         "Type": "Coin",
         "Location": "Below",
         "Start": "47",
@@ -623,8 +690,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/47_denarius_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/47_denarius_of_julius_caesar_reverse.png"
     },
-    "47": {
-        "ID": "47",
+    "52": {
+        "ID": "52",
         "Type": "Coin",
         "Location": "Above",
         "Start": "46",
@@ -638,8 +705,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/46_aureus_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/46_aureus_of_julius_caesar_reverse.png"
     },
-    "48": {
-        "ID": "48",
+    "53": {
+        "ID": "53",
         "Type": "Event",
         "Location": "Center",
         "Start": "44",
@@ -651,8 +718,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "49": {
-        "ID": "49",
+    "54": {
+        "ID": "54",
         "Type": "Coin",
         "Location": "Above",
         "Start": "43",
@@ -666,8 +733,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/43_quinarius_of_marc_antony_obverse.png",
         "Reverse": "assets/images/43_quinarius_of_marc_antony_reverse.png"
     },
-    "50": {
-        "ID": "50",
+    "55": {
+        "ID": "55",
         "Type": "Coin",
         "Location": "Below",
         "Start": "43",
@@ -681,8 +748,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/43_eid_mar_coin_of_brutus_obverse.png",
         "Reverse": "assets/images/43_eid_mar_coin_of_brutus_reverse.png"
     },
-    "51": {
-        "ID": "51",
+    "56": {
+        "ID": "56",
         "Type": "Coin",
         "Location": "Above",
         "Start": "38",
@@ -696,8 +763,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/38_coin_of_octavian_obverse.png",
         "Reverse": "assets/images/38_coin_of_octavian_reverse.png"
     },
-    "52": {
-        "ID": "52",
+    "57": {
+        "ID": "57",
         "Type": "Event",
         "Location": "Center",
         "Start": "31",
@@ -709,76 +776,11 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "53": {
-        "ID": "53",
+    "58": {
+        "ID": "58",
         "Type": "Marker",
         "Location": "Above",
         "Start": "0",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "54": {
-        "ID": "54",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "55": {
-        "ID": "55",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "56": {
-        "ID": "56",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "57": {
-        "ID": "57",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "58": {
-        "ID": "58",
-        "Type": "",
-        "Location": "",
-        "Start": "",
         "End": "",
         "Name": "",
         "Person": "",
@@ -802,97 +804,6 @@ export const TimeLineData = {
     },
     "60": {
         "ID": "60",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "61": {
-        "ID": "61",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "62": {
-        "ID": "62",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "63": {
-        "ID": "63",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "64": {
-        "ID": "64",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "65": {
-        "ID": "65",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "66": {
-        "ID": "66",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "67": {
-        "ID": "67",
         "Type": "",
         "Location": "",
         "Start": "",
