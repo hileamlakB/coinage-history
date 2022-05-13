@@ -317,7 +317,7 @@ export const TimeLineData = {
         "Subtitle": "AV Sixty-As",
         "Mass": "3.36",
         "Detail": "Worth an incredible 60 asses, this coin is an example of the gold coins minted in the Second Punic War as a result of financial emergency. On the obverse is a bellicose design very appropriate for the times: the head of Mars, wearing a Corinthian helmet. Letters below the head indicate the value of this coin at 60 asses. On the reverse is an eagle standing on Zeus's thunderbolt, with the word ROMA below.",
-        "References": "",
+        "References": "Harvard Art Museums Collections #1.1965.81. Retrieved May 11, 2022, from https://hvrd.art/o/197522\n",
         "Obverse": "assets/images/211_sixty_as_coin_obverse.png",
         "Reverse": "assets/images/211_sixty_as_coin_reverse.png"
     },
@@ -331,8 +331,8 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "",
-        "References": ""
+        "Detail": "The death of Ptolemy IV of Egypt left a power vacuum in the region, which was capitalized upon by Philip V of Macedonia. This resulted in conflict between Philip and the Rhodes, Pergamon, Egypt, and Athens. Rome decided to intervene, fearing that an unchecked Philip could eventually pose a threat to the Italian mainland as Carthaginians once did. Rome was led to victory by the consul Titus Flamininus who, aided by the Achaean Confederacy, forced Philip to relinquish his hold on Greece. Thus began the diminishing of Macedonian influence in the region.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan."
     },
     "26": {
         "ID": "26",
@@ -357,8 +357,8 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "",
-        "References": ""
+        "Detail": "The Aetolians were not satisfied with the outcome of the Second Macedonian War, wishing to seen their enemies the Macedonians be completedly deposed rather than only restricted in their expansion. Although they had fought on the side of the Romans against Philip, now they conspired against them by encouraging Antiochus to invade Greece. The Romans eventually defeated Antiochus and extracted 15,000 talents of silver from him as well as territory and a promise to not attack Roman allies. Like with the Macedonians, Roman policy in Asia Minor was to maintain competing factions of small states so that each could check the rise of the others, preventing the consolidation of power dangerous to Rome.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan."
     },
     "28": {
         "ID": "28",
@@ -370,8 +370,8 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "",
-        "References": ""
+        "Detail": "Philip V's son Perseus was forced into war by the Romans when it came to light that he was liaising once more with Rome's enemies in Greece. He was defeated within a few years and Macedonia was divided into four Roman puppet states, from which Rome took control of not only the royal mines but also exacted a tribute of 50 talents per year. This new source of income for the Roman state meant that it no longer had to tax its citizens.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan."
     },
     "29": {
         "ID": "29",
@@ -388,6 +388,19 @@ export const TimeLineData = {
     },
     "30": {
         "ID": "30",
+        "Type": "Event",
+        "Location": "Center",
+        "Start": "149",
+        "End": "148",
+        "Name": "Fourth Macedonian War",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "Widespread resentment among the Greek states under Roman purview induced a rebellion to happen under Andriscus, the alleged son of Perseus. This was quickly quelled and Macedonia was made the first Roman province.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nEncyclop\u00e6dia Britannica, inc. (n.d.). Macedonian Wars. Encyclop\u00e6dia Britannica. Retrieved May 13, 2022, from https://www.britannica.com/event/Macedonian-Wars "
+    },
+    "31": {
+        "ID": "31",
         "Type": "Coin",
         "Location": "Below",
         "Start": "148",
@@ -401,8 +414,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/148_denarius_of_l_sempronius_pitio_obverse.png",
         "Reverse": "assets/images/148_denarius_of_l_sempronius_pitio_reverse.png"
     },
-    "31": {
-        "ID": "31",
+    "32": {
+        "ID": "32",
         "Type": "Event",
         "Location": "Above",
         "Start": "146",
@@ -411,11 +424,11 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "",
-        "References": ""
+        "Detail": "The Achaean League, which had at various points in time been either fighting alongside or against the Romans, once more became the enemies of Rome when they attacked Sparta. Rome responded by sacking Corinth and, with the threat of a similar fate befalling the other cities of the League, broke up this confederation and made its constituents either Roman allies or tributes.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan."
     },
-    "32": {
-        "ID": "32",
+    "33": {
+        "ID": "33",
         "Type": "Marker",
         "Location": "Above",
         "Start": "100",
@@ -427,8 +440,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "33": {
-        "ID": "33",
+    "34": {
+        "ID": "34",
         "Type": "Coin",
         "Location": "Above",
         "Start": "90",
@@ -442,8 +455,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/90_denarius_of_the_social_war_obverse.png",
         "Reverse": "assets/images/90_denarius_of_the_social_war_reverse.png"
     },
-    "34": {
-        "ID": "34",
+    "35": {
+        "ID": "35",
         "Type": "Coin",
         "Location": "Below",
         "Start": "90",
@@ -457,8 +470,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/90_quinarius_of_q_titius_mutto_obverse.png",
         "Reverse": "assets/images/90_quinarius_of_q_titius_mutto_reverse.png"
     },
-    "35": {
-        "ID": "35",
+    "36": {
+        "ID": "36",
         "Type": "Event",
         "Location": "Center",
         "Start": "88",
@@ -470,8 +483,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "36": {
-        "ID": "36",
+    "37": {
+        "ID": "37",
         "Type": "Coin",
         "Location": "Above",
         "Start": "76",
@@ -485,8 +498,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/76_denarius_of_l_lucretius_trio_obverse.png",
         "Reverse": "assets/images/76_denarius_of_l_lucretius_trio_reverse.png"
     },
-    "37": {
-        "ID": "37",
+    "38": {
+        "ID": "38",
         "Type": "Coin",
         "Location": "Below",
         "Start": "67",
@@ -500,8 +513,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/67_denarius_of_m_plaetorius_mf_cestianus_obverse.png",
         "Reverse": "assets/images/67_denarius_of_m_plaetorius_mf_cestianus_reverse.png"
     },
-    "38": {
-        "ID": "38",
+    "39": {
+        "ID": "39",
         "Type": "Event",
         "Location": "Center",
         "Start": "63",
@@ -513,8 +526,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "39": {
-        "ID": "39",
+    "40": {
+        "ID": "40",
         "Type": "Event",
         "Location": "Center",
         "Start": "63",
@@ -526,8 +539,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "40": {
-        "ID": "40",
+    "41": {
+        "ID": "41",
         "Type": "Coin",
         "Location": "Above",
         "Start": "63",
@@ -541,8 +554,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/63_denarius_of_l_furius_cnf_brocchus_obverse.png",
         "Reverse": "assets/images/63_denarius_of_l_furius_cnf_brocchus_reverse.png"
     },
-    "41": {
-        "ID": "41",
+    "42": {
+        "ID": "42",
         "Type": "Event",
         "Location": "Center",
         "Start": "60",
@@ -554,8 +567,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "42": {
-        "ID": "42",
+    "43": {
+        "ID": "43",
         "Type": "Event",
         "Location": "Center",
         "Start": "58",
@@ -567,8 +580,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "43": {
-        "ID": "43",
+    "44": {
+        "ID": "44",
         "Type": "Event",
         "Location": "Center",
         "Start": "49",
@@ -580,8 +593,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "44": {
-        "ID": "44",
+    "45": {
+        "ID": "45",
         "Type": "Coin",
         "Location": "Above",
         "Start": "49",
@@ -595,8 +608,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/49_denarius_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/49_denarius_of_julius_caesar_reverse.png"
     },
-    "45": {
-        "ID": "45",
+    "46": {
+        "ID": "46",
         "Type": "Coin",
         "Location": "Below",
         "Start": "47",
@@ -610,8 +623,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/47_denarius_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/47_denarius_of_julius_caesar_reverse.png"
     },
-    "46": {
-        "ID": "46",
+    "47": {
+        "ID": "47",
         "Type": "Coin",
         "Location": "Above",
         "Start": "46",
@@ -625,8 +638,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/46_aureus_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/46_aureus_of_julius_caesar_reverse.png"
     },
-    "47": {
-        "ID": "47",
+    "48": {
+        "ID": "48",
         "Type": "Event",
         "Location": "Center",
         "Start": "44",
@@ -638,8 +651,8 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "48": {
-        "ID": "48",
+    "49": {
+        "ID": "49",
         "Type": "Coin",
         "Location": "Above",
         "Start": "43",
@@ -653,8 +666,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/43_quinarius_of_marc_antony_obverse.png",
         "Reverse": "assets/images/43_quinarius_of_marc_antony_reverse.png"
     },
-    "49": {
-        "ID": "49",
+    "50": {
+        "ID": "50",
         "Type": "Coin",
         "Location": "Below",
         "Start": "43",
@@ -668,8 +681,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/43_eid_mar_coin_of_brutus_obverse.png",
         "Reverse": "assets/images/43_eid_mar_coin_of_brutus_reverse.png"
     },
-    "50": {
-        "ID": "50",
+    "51": {
+        "ID": "51",
         "Type": "Coin",
         "Location": "Above",
         "Start": "38",
@@ -683,8 +696,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/38_coin_of_octavian_obverse.png",
         "Reverse": "assets/images/38_coin_of_octavian_reverse.png"
     },
-    "51": {
-        "ID": "51",
+    "52": {
+        "ID": "52",
         "Type": "Event",
         "Location": "Center",
         "Start": "31",
@@ -696,24 +709,11 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "52": {
-        "ID": "52",
+    "53": {
+        "ID": "53",
         "Type": "Marker",
         "Location": "Above",
         "Start": "0",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "53": {
-        "ID": "53",
-        "Type": "",
-        "Location": "",
-        "Start": "",
         "End": "",
         "Name": "",
         "Person": "",
@@ -880,6 +880,19 @@ export const TimeLineData = {
     },
     "66": {
         "ID": "66",
+        "Type": "",
+        "Location": "",
+        "Start": "",
+        "End": "",
+        "Name": "",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "",
+        "References": ""
+    },
+    "67": {
+        "ID": "67",
         "Type": "",
         "Location": "",
         "Start": "",
