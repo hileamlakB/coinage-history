@@ -379,14 +379,14 @@ export const TimeLineData = {
         "Location": "Above",
         "Start": "157",
         "End": "",
-        "Name": "Anonymous Denarius",
+        "Name": "New Denarius",
         "Person": "Anonymous",
         "Subtitle": "AV Denarius",
         "Mass": "",
         "Detail": "The defeat of Macedonia by the Romans brought many Greek tetradrachmae to the mints of Rome to be re-coined into denarii. This coin is an example of the new denarius design, with Victory driving a two-horse chariot (biga) in celebration of the Roman victory. The obverse depicts the helmeted head of Roma, with a mark of value (X) below. ",
         "References": "Harvard Art Museums Collections #1986.498. Retrieved May 11, 2022, from https://hvrd.art/o/195228\n\nHarl, K. W. (1996). Coinage in the Roman economy, 300 B.C. to A.D. 700. Johns Hopkins University Press.",
-        "Obverse": "assets/images/157_anonymous_denarius_obverse.png",
-        "Reverse": "assets/images/157_anonymous_denarius_reverse.png"
+        "Obverse": "assets/images/157_new_denarius_obverse.png",
+        "Reverse": "assets/images/157_new_denarius_reverse.png"
     },
     "30": {
         "ID": "30",
@@ -539,19 +539,6 @@ export const TimeLineData = {
     },
     "41": {
         "ID": "41",
-        "Type": "Event",
-        "Location": "Center",
-        "Start": "78",
-        "End": "",
-        "Name": "Rise of Pompey",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "With Sulla's retirement, his enemies once again staged revolts against ",
-        "References": ""
-    },
-    "42": {
-        "ID": "42",
         "Type": "Coin",
         "Location": "Above",
         "Start": "76",
@@ -564,6 +551,19 @@ export const TimeLineData = {
         "References": "Harvard Art Museums Collections #1942.176.25. Retrieved May 11, 2022, from https://hvrd.art/o/179833",
         "Obverse": "assets/images/76_denarius_of_l_lucretius_trio_obverse.png",
         "Reverse": "assets/images/76_denarius_of_l_lucretius_trio_reverse.png"
+    },
+    "42": {
+        "ID": "42",
+        "Type": "Event",
+        "Location": "Center",
+        "Start": "70",
+        "End": "",
+        "Name": "Consulate of Pompey and Crassus",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "After Sulla's retirement, Pompey and Crassus had consolidated power through their successful military campaigns in Spain and against the slave revolt led by Spartacus. In 70 BCE, they joined forces to gain the consulship and, despite neither of them being eligible for the position, won over the Populares and secured a special exemption. They removed many of Sulla's reforms and returned some power to the hands of the plebeian tribunes. Some time later, Pompey was given the command of the Roman military once more, first to deal with a pirate nuisance in the Mediterranean and then to Greece to fight Mithridates. Both of these conflicts Pompey won handily, and further cemented his reputation by conquering Syria and making it a Roman province.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan."
     },
     "43": {
         "ID": "43",
@@ -584,45 +584,17 @@ export const TimeLineData = {
         "ID": "44",
         "Type": "Event",
         "Location": "Center",
-        "Start": "63",
-        "End": "",
-        "Name": "Pompey captures Syria",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "45": {
-        "ID": "45",
-        "Type": "Coin",
-        "Location": "Above",
-        "Start": "63",
-        "End": "",
-        "Name": "Denarius of L. Furius Cn.f. Brocchus",
-        "Person": "L. Furius Cn.f. Brocchus",
-        "Subtitle": "AR Denarius",
-        "Mass": "",
-        "Detail": "",
-        "References": "Harvard Art Museums Collections #1942.176.27. Retrieved May 11, 2022, from https://hvrd.art/o/180687",
-        "Obverse": "assets/images/63_denarius_of_l_furius_cnf_brocchus_obverse.png",
-        "Reverse": "assets/images/63_denarius_of_l_furius_cnf_brocchus_reverse.png"
-    },
-    "46": {
-        "ID": "46",
-        "Type": "Event",
-        "Location": "Center",
         "Start": "60",
         "End": "",
         "Name": "First Triumvirate (Caesar, Crassus, & Pompey)",
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "",
-        "References": ""
+        "Detail": "The first Triumvirate was an unofficial alliance between Pompey, Crassus, and a rising champion of the Populares, Julius Caesar. First as Pontifex Maximus and then as the governor of Hispania, Caesar had established friendships with Pompey and Crassus and demonstrated his competence as a leader. He managed to obtain the consulship and while in the position he used his newfound power to back the policies of Pompey and Crassus. These aims were directed in service of the Populares and thus Caesar made many enemies among the Optimates.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nMark, J. J. (2011, April 28). Julius Caesar. World History Encyclopedia. Retrieved May 14, 2022, from https://www.worldhistory.org/Julius_Caesar/ "
     },
-    "47": {
-        "ID": "47",
+    "45": {
+        "ID": "45",
         "Type": "Event",
         "Location": "Center",
         "Start": "58",
@@ -631,24 +603,24 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "",
-        "References": ""
+        "Detail": "To protect himself from prosecution after the end of his consulship, Caesar decided to invade Gaul. In little more than five years he achieved this goal, as well as completed an invasion of Britain in retribution for the Britons' support of the Gallic tribes. Caesar's exploits were cellebrated back home in Rome, and secured him not only a growing reputation but also newfound wealth and a loyal army. These came to the attention and alarm of Pompey who, after the death of Crassus, regained favor with the Optimates and sought to destroy Caesar. Pompey revoked Caesar's governorship and tried to recall him to Rome as a private citizen, opening up the opportunity to prosecute him. The Senate declared Caesar a public enemy in 49 BCE and sparked yet another civil war.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nMark, J. J. (2011, April 28). Julius Caesar. World History Encyclopedia. Retrieved May 14, 2022, from https://www.worldhistory.org/Julius_Caesar/ "
     },
-    "48": {
-        "ID": "48",
+    "46": {
+        "ID": "46",
         "Type": "Event",
         "Location": "Center",
-        "Start": "50",
-        "End": "44",
+        "Start": "49",
+        "End": "46",
         "Name": "Great Civil War",
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "",
-        "References": ""
+        "Detail": "The civil war between Caesar and the Senate ",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nMark, J. J. (2011, April 28). Julius Caesar. World History Encyclopedia. Retrieved May 14, 2022, from https://www.worldhistory.org/Julius_Caesar/ "
     },
-    "49": {
-        "ID": "49",
+    "47": {
+        "ID": "47",
         "Type": "Event",
         "Location": "Center",
         "Start": "49",
@@ -657,11 +629,11 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "",
-        "References": ""
+        "Detail": "Knowing that his enemies were quickly closing in on him politically, Caesar decided to make use of his loyal army and march into Italy via the Rubicon river. Pompey abandoned Italy and fled eventually to Egypt in search of support, but the Egyptians killed him. When Caesar arrived in Egypt, having pursued Pompey across the Roman territories, he decided to restore to power Cleopatra VII. Cleopatra had been exiled by the people of Alexandria, and upon her return made war against Caesar's troops. Caesar and Cleopatra eventually defeated the Egyptians and during this time had also fallen in love with each other.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nMark, J. J. (2011, April 28). Julius Caesar. World History Encyclopedia. Retrieved May 14, 2022, from https://www.worldhistory.org/Julius_Caesar/ "
     },
-    "50": {
-        "ID": "50",
+    "48": {
+        "ID": "48",
         "Type": "Coin",
         "Location": "Above",
         "Start": "49",
@@ -669,14 +641,14 @@ export const TimeLineData = {
         "Name": "Denarius of Julius Caesar",
         "Person": "Julius Caesar",
         "Subtitle": "AR Denarius",
-        "Mass": "",
-        "Detail": "",
-        "References": "Harvard Art Museums Collections #1942.176.45. Retrieved May 11, 2022, from https://hvrd.art/o/180991",
+        "Mass": "3.89",
+        "Detail": "This is a coin struck by Caesar to promote his military and other achievements. The obverse features an elephant trampling a serpent, in what is presumed to be a mockery of Pompey regarding the latter's obsession with elephants. The reverse shows the priestly implements of Caesar's time as Pontifex Maximus, including a cap, a holy brush, an ax, and a ladle.",
+        "References": "Harvard Art Museums Collections #1942.176.45. Retrieved May 11, 2022, from https://hvrd.art/o/180991\n\nJulius Caesar and the Roman Civil War. NGC Collectors Society. (n.d.). Retrieved May 14, 2022, from https://coins.www.collectors-society.com/wcm/coinview.aspx?sc=339962 ",
         "Obverse": "assets/images/49_denarius_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/49_denarius_of_julius_caesar_reverse.png"
     },
-    "51": {
-        "ID": "51",
+    "49": {
+        "ID": "49",
         "Type": "Coin",
         "Location": "Below",
         "Start": "47",
@@ -690,8 +662,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/47_denarius_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/47_denarius_of_julius_caesar_reverse.png"
     },
-    "52": {
-        "ID": "52",
+    "50": {
+        "ID": "50",
         "Type": "Coin",
         "Location": "Above",
         "Start": "46",
@@ -705,21 +677,21 @@ export const TimeLineData = {
         "Obverse": "assets/images/46_aureus_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/46_aureus_of_julius_caesar_reverse.png"
     },
-    "53": {
-        "ID": "53",
+    "51": {
+        "ID": "51",
         "Type": "Event",
         "Location": "Center",
         "Start": "44",
         "End": "",
-        "Name": "Caesar assasinated",
+        "Name": "Caesar declared dictator perpetuus, Caesar assassinated",
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "",
+        "Detail": "Upon his return to Rome, Caesar was declared dictator for life ad ",
         "References": ""
     },
-    "54": {
-        "ID": "54",
+    "52": {
+        "ID": "52",
         "Type": "Coin",
         "Location": "Above",
         "Start": "43",
@@ -733,8 +705,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/43_quinarius_of_marc_antony_obverse.png",
         "Reverse": "assets/images/43_quinarius_of_marc_antony_reverse.png"
     },
-    "55": {
-        "ID": "55",
+    "53": {
+        "ID": "53",
         "Type": "Coin",
         "Location": "Below",
         "Start": "43",
@@ -748,8 +720,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/43_eid_mar_coin_of_brutus_obverse.png",
         "Reverse": "assets/images/43_eid_mar_coin_of_brutus_reverse.png"
     },
-    "56": {
-        "ID": "56",
+    "54": {
+        "ID": "54",
         "Type": "Coin",
         "Location": "Above",
         "Start": "38",
@@ -763,8 +735,8 @@ export const TimeLineData = {
         "Obverse": "assets/images/38_coin_of_octavian_obverse.png",
         "Reverse": "assets/images/38_coin_of_octavian_reverse.png"
     },
-    "57": {
-        "ID": "57",
+    "55": {
+        "ID": "55",
         "Type": "Event",
         "Location": "Center",
         "Start": "31",
@@ -776,37 +748,11 @@ export const TimeLineData = {
         "Detail": "",
         "References": ""
     },
-    "58": {
-        "ID": "58",
+    "56": {
+        "ID": "56",
         "Type": "Marker",
         "Location": "Above",
         "Start": "0",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "59": {
-        "ID": "59",
-        "Type": "",
-        "Location": "",
-        "Start": "",
-        "End": "",
-        "Name": "",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "",
-        "References": ""
-    },
-    "60": {
-        "ID": "60",
-        "Type": "",
-        "Location": "",
-        "Start": "",
         "End": "",
         "Name": "",
         "Person": "",
