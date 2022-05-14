@@ -178,7 +178,6 @@ function HistoryEvent({
         position: 'absolute',
         margin: '0 65px',
         left: `${eventPeriod}px`,
-        zIndex: '4',
       }}
       onClick={changeVisibility}
       onMouseOver={() => {
@@ -497,8 +496,11 @@ function App() {
 
             {content.upper_timeline.map((x) => x)}
 
-            <CoinEvent
+            {/* <CoinEvent
               special="true"
+              style={{
+                display: 'none',
+              }}
               element={
                 <IconButton
                   onClick={addCoin}
@@ -508,7 +510,6 @@ function App() {
                     background: 'orange',
                     width: '40px',
                     height: '40px',
-                    display: 'none',
                   }}
                 >
                   <AddIcon sx={{ color: 'white' }} />
@@ -517,7 +518,7 @@ function App() {
               maxheight="40"
               direction="up"
               motion={false}
-            />
+            /> */}
           </div>
           <div
             className="time_line"

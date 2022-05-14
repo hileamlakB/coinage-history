@@ -35,6 +35,7 @@ export function DottedLines({ color, width, inverted = true }) {
         width: `${width}px`,
         flexDirection: inverted ? 'column' : 'row',
         alignItems: 'center',
+        zIndex: '-1',
       }}
     >
       {dots.map((x) => x)}
@@ -59,14 +60,13 @@ export function OverLay({
     <div
       className="overlay"
       style={{
-        width: '100vw',
+        minWidth: '100vw',
         top: '0',
         left: '0',
         position: 'fixed',
         zIndex: '20',
         minHeight: '100vh',
         marginTop: '0',
-        borderRadius: '10px',
         background: '#00000099',
         display: `${visible}`,
         flexDirection: 'column',
@@ -82,7 +82,7 @@ export function OverLay({
           justifyContent: 'center',
           alignItems: 'center',
           minHeight: '100vh',
-          background: 'black',
+          background: '#00000052',
           color: 'white',
           maxWidth: '90vw',
           flexWrap: 'wrap',
@@ -100,6 +100,7 @@ export function OverLay({
             maxHeight: '90vw',
             overflowY: 'auto',
             position: 'relative',
+            background: 'black',
           }}
         >
           <IconButton
