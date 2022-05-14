@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/coinage-history/precache-manifest.5ff1a2359784b3a59cfb5e3f0ca23a31.js"
+  "/coinage-history/precache-manifest.63d8ef952087b896e949566bd906a444.js"
 );
 
 workbox.clientsClaim();
