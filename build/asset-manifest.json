@@ -1,7 +1,7 @@
 {
   "main.css": "/coinage-history/static/css/main.6f861c1e.chunk.css",
-  "main.js": "/coinage-history/static/js/main.05313450.chunk.js",
-  "main.js.map": "/coinage-history/static/js/main.05313450.chunk.js.map",
+  "main.js": "/coinage-history/static/js/main.1a98ad72.chunk.js",
+  "main.js.map": "/coinage-history/static/js/main.1a98ad72.chunk.js.map",
   "static/js/1.7ef87339.chunk.js": "/coinage-history/static/js/1.7ef87339.chunk.js",
   "static/js/1.7ef87339.chunk.js.map": "/coinage-history/static/js/1.7ef87339.chunk.js.map",
   "static/js/2.54c236d2.chunk.js": "/coinage-history/static/js/2.54c236d2.chunk.js",
@@ -10,6 +10,6 @@
   "runtime~main.js.map": "/coinage-history/static/js/runtime~main.2f524beb.js.map",
   "static/css/main.6f861c1e.chunk.css.map": "/coinage-history/static/css/main.6f861c1e.chunk.css.map",
   "index.html": "/coinage-history/index.html",
-  "precache-manifest.cc1b30d09330b1c98d8f8188e01129a6.js": "/coinage-history/precache-manifest.cc1b30d09330b1c98d8f8188e01129a6.js",
+  "precache-manifest.c34d19e922e73b9a5b25da2e9e17dc21.js": "/coinage-history/precache-manifest.c34d19e922e73b9a5b25da2e9e17dc21.js",
   "service-worker.js": "/coinage-history/service-worker.js"
 }
