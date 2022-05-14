@@ -447,8 +447,8 @@ function App() {
       
     </div>
     <footer>
-
-    <IconButton color="warning" variant="contained" onClick={()=>{changeTheam()}}><ModeNightIcon /></IconButton>
+{/* 
+    <IconButton color="warning" variant="contained" onClick={()=>{changeTheam()}}><ModeNightIcon /></IconButton> */}
      
     </footer>
   </>
