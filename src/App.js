@@ -557,6 +557,18 @@ function App() {
         >
           <ModeNightIcon />
         </IconButton>
+        <p
+          className="cnizel"
+          style={{
+            position: 'fixed',
+            right: '10px',
+            bottom: '8px',
+            color: 'white',
+            zIndex: '8',
+          }}
+        >
+          &copy; 2022 Hileamlak Yitayew & Andrew Zhang
+        </p>
       </footer>
     </>
   )
