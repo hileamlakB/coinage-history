@@ -1,15 +1,15 @@
 {
-  "main.css": "/coinage-history/static/css/main.8ce8c293.chunk.css",
-  "main.js": "/coinage-history/static/js/main.25b1fdcf.chunk.js",
-  "main.js.map": "/coinage-history/static/js/main.25b1fdcf.chunk.js.map",
+  "main.css": "/coinage-history/static/css/main.6f861c1e.chunk.css",
+  "main.js": "/coinage-history/static/js/main.a9d826f8.chunk.js",
+  "main.js.map": "/coinage-history/static/js/main.a9d826f8.chunk.js.map",
   "static/js/1.cf6b6bf5.chunk.js": "/coinage-history/static/js/1.cf6b6bf5.chunk.js",
   "static/js/1.cf6b6bf5.chunk.js.map": "/coinage-history/static/js/1.cf6b6bf5.chunk.js.map",
-  "static/js/2.69dea87e.chunk.js": "/coinage-history/static/js/2.69dea87e.chunk.js",
-  "static/js/2.69dea87e.chunk.js.map": "/coinage-history/static/js/2.69dea87e.chunk.js.map",
+  "static/js/2.15d6f1ed.chunk.js": "/coinage-history/static/js/2.15d6f1ed.chunk.js",
+  "static/js/2.15d6f1ed.chunk.js.map": "/coinage-history/static/js/2.15d6f1ed.chunk.js.map",
   "runtime~main.js": "/coinage-history/static/js/runtime~main.2356cec2.js",
   "runtime~main.js.map": "/coinage-history/static/js/runtime~main.2356cec2.js.map",
-  "static/css/main.8ce8c293.chunk.css.map": "/coinage-history/static/css/main.8ce8c293.chunk.css.map",
+  "static/css/main.6f861c1e.chunk.css.map": "/coinage-history/static/css/main.6f861c1e.chunk.css.map",
   "index.html": "/coinage-history/index.html",
-  "precache-manifest.8701d00d144fdca9ab39dfe36a3d7fb6.js": "/coinage-history/precache-manifest.8701d00d144fdca9ab39dfe36a3d7fb6.js",
+  "precache-manifest.63d8ef952087b896e949566bd906a444.js": "/coinage-history/precache-manifest.63d8ef952087b896e949566bd906a444.js",
   "service-worker.js": "/coinage-history/service-worker.js"
 }
