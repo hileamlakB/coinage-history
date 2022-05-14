@@ -126,7 +126,7 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "In a major win for the plebeians in their struggle for political representation, the first plebeian consul was elected in 362 BCE. IN 340 BCE it became required for at least one consul to be plebeian. During the mid-fourth century BCE, plebeians occupied at various times the positions of the dictatorship, the censorship, and the praetorship, all major political positions within the Roman government. Plebians eventually occupied a large fraction of the Senate, although in some ways class divisions were perpetuated by the fact that only prominent plebian families were represented in these offices.",
+        "Detail": "In a major win for the plebeians in their struggle for political representation, the first plebeian consul was elected in 362 BCE. IN 340 BCE it became required for at least one consul to be plebeian. During the mid-fourth century BCE, plebeians occupied at various times the positions of the dictatorship, the censorship, and the praetorship, all major political positions within the Roman government. Plebeians eventually occupied a large fraction of the Senate, although in some ways class divisions were perpetuated by the fact that only prominent plebeian families were represented in these offices.",
         "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan."
     },
     "11": {
@@ -331,7 +331,7 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "The death of Ptolemy IV of Egypt left a power vacuum in the region, which was capitalized upon by Philip V of Macedonia. This resulted in conflict between Philip and the Rhodes, Pergamon, Egypt, and Athens. Rome decided to intervene, fearing that an unchecked Philip could eventually pose a threat to the Italian mainland as Carthaginians once did. Rome was led to victory by the consul Titus Flamininus who, aided by the Achaean Confederacy, forced Philip to relinquish his hold on Greece. Thus began the diminishing of Macedonian influence in the region.",
+        "Detail": "The death of Ptolemy IV of Egypt left a power vacuum in the region, which was capitalized upon by Philip V of Macedonia. This resulted in conflict between Philip and the Rhodes, Pergamon, Egypt, and Athens. Rome decided to intervene, fearing that an unchecked Philip could eventually pose a threat to the Italian mainland as the Carthaginians once did. Rome was led to victory by the consul Titus Flamininus who, aided by the Achaean Confederacy, forced Philip to relinquish his hold on Greece. Thus began the diminishing of Macedonian influence in the region.",
         "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan."
     },
     "26": {
@@ -357,7 +357,7 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "The Aetolians were not satisfied with the outcome of the Second Macedonian War, wishing to seen their enemies the Macedonians be completedly deposed rather than only restricted in their expansion. Although they had fought on the side of the Romans against Philip, now they conspired against them by encouraging Antiochus to invade Greece. The Romans eventually defeated Antiochus and extracted 15,000 talents of silver from him as well as territory and a promise to not attack Roman allies. Like with the Macedonians, Roman policy in Asia Minor was to maintain competing factions of small states so that each could check the rise of the others, preventing the consolidation of power dangerous to Rome.",
+        "Detail": "The Aetolians were not satisfied with the outcome of the Second Macedonian War, wishing to have seen their enemies the Macedonians be completedly deposed rather than only restricted in their expansion. Although they had fought on the side of the Romans against Philip, now they conspired against them by encouraging Antiochus to invade Greece. The Romans eventually defeated Antiochus and extracted 15,000 talents of silver from him as well as territory and a promise to not attack Roman allies. Like with the Macedonians, Roman policy in Asia Minor was to maintain competing factions of small states so that each could check the rise of the others, preventing the consolidation of power dangerous to Rome.",
         "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan."
     },
     "28": {
@@ -382,7 +382,7 @@ export const TimeLineData = {
         "Name": "New Denarius",
         "Person": "Anonymous",
         "Subtitle": "AR Denarius",
-        "Mass": "",
+        "Mass": "3.83",
         "Detail": "The defeat of Macedonia by the Romans brought many Greek tetradrachmae to the mints of Rome to be re-coined into denarii. This coin is an example of the new denarius design, with Victory driving a two-horse chariot (biga) in celebration of the Roman victory. The obverse depicts the helmeted head of Roma, with a mark of value (X) below. ",
         "References": "Harvard Art Museums Collections #1986.498. Retrieved May 11, 2022, from https://hvrd.art/o/195228\n\nHarl, K. W. (1996). Coinage in the Roman economy, 300 B.C. to A.D. 700. Johns Hopkins University Press.",
         "Obverse": "assets/images/157_new_denarius_obverse.png",
@@ -480,26 +480,13 @@ export const TimeLineData = {
         "Person": "Q. Titius Mutto",
         "Subtitle": "AR Quinarius",
         "Mass": "2.12",
-        "Detail": "This is a quinarius minted by Q. Titius Mutto in Rome. The quinarius was a silver denomination introduced in the Second Punic War, worth half as much as a denarius (thus five asses instead of 10). However with the revaluing of the denarius in 141 BCE to 16 asses (due to the steadily decreasing weight of the bronze as), the quinarius became worth 8 asses. This particular example shows the draped bust of Victory on the obverse and a pegasus on the reverse with the cognomen of the moneyer. From this perriod onwards we begin to see increasing diversity in the design of Roman coinage, reflecting the desire of the moneyers for self-promotion and mirroring the fractious politics which would eventually culminate in civil war and the end of the Republic.",
+        "Detail": "This is a quinarius minted by Q. Titius Mutto in Rome. The quinarius was a silver denomination introduced in the Second Punic War, worth half as much as a denarius (thus five asses instead of 10). However with the revaluing of the denarius in 141 BCE to 16 asses (due to the steadily decreasing weight of the bronze as), the quinarius became worth 8 asses. This particular example shows the draped bust of Victory on the obverse and a pegasus on the reverse with the cognomen of the moneyer. From this period onwards we begin to see increasing diversity in the design of Roman coinage, reflecting the desire of the moneyers for self-promotion and mirroring the fractious politics which would eventually culminate in civil war and the end of the Republic.",
         "References": "Harvard Art Museums Collections #1942.176.39. Retrieved May 11, 2022, from https://hvrd.art/o/181440\n\nMarkowitz, M. (2022, February 22). The quinarius: An ancient roman coin you've never heard of. CoinWeek. Retrieved May 13, 2022, from https://coinweek.com/ancient-coins/the-quinarius-an-ancient-roman-coin-youve-never-heard-of/ ",
         "Obverse": "assets/images/90_quinarius_of_q_titius_mutto_obverse.png",
         "Reverse": "assets/images/90_quinarius_of_q_titius_mutto_reverse.png"
     },
     "37": {
         "ID": "37",
-        "Type": "Event",
-        "Location": "Center",
-        "Start": "90",
-        "End": "88",
-        "Name": "Social War",
-        "Person": "",
-        "Subtitle": "",
-        "Mass": "",
-        "Detail": "Rome's Italian allies (known as socii) were discontent with their lack of power in their relationship with Rome, and pressed for Roman citizenship. When refused, they declared independence and attacked Campania. Rome ended the war not by unconditional military victory but by passing laws which granted citizenship rights to rebels who would give up the fight. Thus the socii ultimately achieved what they wanted, and the Italian peninsula became integrated into a single Latin nation.",
-        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nRoman Republic Timeline. World History Encyclopedia RSS. (n.d.). Retrieved May 13, 2022, from https://www.worldhistory.org/timeline/Roman_Republic/ "
-    },
-    "38": {
-        "ID": "38",
         "Type": "Event",
         "Location": "Center",
         "Start": "89",
@@ -510,6 +497,19 @@ export const TimeLineData = {
         "Mass": "",
         "Detail": "In 89 BCE Mithradates VI saw that Rome was distracted by its war against the socii and took the opportunity to attack the Roman province of Asia. The destruction of the Roman port at Delos prompted the appointment of the consul Sulla to command the Roman response. Gaius Marius, a general who was jealous of Sulla's achievements, enlisted the help of the equestrians and the plebeian tribunes to wrest control of the command from Sulla. The equestrians were a Roman social class which developed in the second century BCE and often opposed the Senate, and the plebeians had cause to diminish the power of the patrician aristocrats. In this way, the conflict between Sulla and Marius rekindled the centuries-old struggle between the aristocrats (known as the Optimates) and the common people (known as the Populares) which had been simmering since the early Republic. The ensuing civil wars would eventually bring about the Republic's demise.",
         "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nEncyclop\u00e6dia Britannica, inc. (n.d.). Sulla. Encyclop\u00e6dia Britannica. Retrieved May 13, 2022, from https://www.britannica.com/biography/Sulla \n\nSulla's First Civil War (88-87 BC). History of War. (n.d.). Retrieved May 13, 2022, from http://www.historyofwar.org/articles/wars_sullas_first_civil_war.html "
+    },
+    "38": {
+        "ID": "38",
+        "Type": "Event",
+        "Location": "Center",
+        "Start": "90",
+        "End": "88",
+        "Name": "Social War",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "Rome's Italian allies (known as socii) were discontent with their lack of power in their relationship with Rome, and pressed for Roman citizenship. When refused, they declared independence and attacked Campania. Rome ended the war not by unconditional military victory but by passing laws which granted citizenship rights to rebels who would give up the fight. Thus the socii ultimately achieved what they wanted, and the Italian peninsula became integrated into a single Latin nation.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nRoman Republic Timeline. World History Encyclopedia RSS. (n.d.). Retrieved May 13, 2022, from https://www.worldhistory.org/timeline/Roman_Republic/ "
     },
     "39": {
         "ID": "39",
@@ -611,13 +611,13 @@ export const TimeLineData = {
         "Type": "Event",
         "Location": "Center",
         "Start": "49",
-        "End": "46",
+        "End": "45",
         "Name": "Great Civil War",
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "The civil war between Caesar and the Senate ",
-        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nMark, J. J. (2011, April 28). Julius Caesar. World History Encyclopedia. Retrieved May 14, 2022, from https://www.worldhistory.org/Julius_Caesar/ "
+        "Detail": "The civil war between Caesar and the Senate began with his crossing of the Rubicon. Thought neither he nor Pompey and the Optimates wanted war, at this point it was essentially an act of self-preservation for Caesar, for he could no longer reconcile with his enemies without putting his life at their mercy. After a series of defeats, Pompey abandoned Italy and fled to Egypt in search of support, but the Egyptians killed him. When Caesar arrived in Egypt, having pursued Pompey across the Roman territories, he decided to restore to power Cleopatra VII. Cleopatra had been exiled by the people of Alexandria, and upon her return they made war against Caesar's troops. Caesar and Cleopatra eventually defeated the Egyptians and during this time also fell in love with each other. Though Caesar left Egypt after nine months, Cleopatra would enter Caesar's sphere of influence again two decades later, in a bitter battle with his adopted son for the right to the Roman throne.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nMark, J. J. (2011, April 28). Julius Caesar. World History Encyclopedia. Retrieved May 14, 2022, from https://www.worldhistory.org/Julius_Caesar/ \n\nEncyclop\u00e6dia Britannica, inc. (n.d.). Antecedents and outcome of the Civil War of 49\u201345 BCE. Encyclop\u00e6dia Britannica. Retrieved May 14, 2022, from https://www.britannica.com/biography/Julius-Caesar-Roman-ruler/Antecedents-and-outcome-of-the-civil-war-of-49-45-bce"
     },
     "47": {
         "ID": "47",
@@ -629,7 +629,7 @@ export const TimeLineData = {
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "Knowing that his enemies were quickly closing in on him politically, Caesar decided to make use of his loyal army and march into Italy via the Rubicon river. Pompey abandoned Italy and fled eventually to Egypt in search of support, but the Egyptians killed him. When Caesar arrived in Egypt, having pursued Pompey across the Roman territories, he decided to restore to power Cleopatra VII. Cleopatra had been exiled by the people of Alexandria, and upon her return made war against Caesar's troops. Caesar and Cleopatra eventually defeated the Egyptians and during this time had also fallen in love with each other.",
+        "Detail": "Knowing that his enemies were quickly closing in on him politically, Caesar decided to make use of his loyal army and march into Italy via the Rubicon river. This began the great civil war that marked the end of the Republic.",
         "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nMark, J. J. (2011, April 28). Julius Caesar. World History Encyclopedia. Retrieved May 14, 2022, from https://www.worldhistory.org/Julius_Caesar/ "
     },
     "48": {
@@ -672,7 +672,7 @@ export const TimeLineData = {
         "Person": "A. Hirtius A.f.",
         "Subtitle": "AV Aureus",
         "Mass": "8.05",
-        "Detail": "After his many successful military campaigns, Caesar had both the need and the means to convert his war booty into payments for his soldiers. Therefore he struck large quantities of high-value gold aureii, of which this is one example. The obverse shows the goddess Vesta, while the reverse again features priestly implements including a lituus, jug, and axe. By including Vesta on his coin and reminders of his position as Pontifex Maximus, Caesar wished to advertise his respect for conservative values. The inscriptions C.CAESAR COS.TER on the obverse (\"third consulship of Caesar\" and A.HIRTIVS.PR (\"praetor A. Hirtius\") denoted Caesar's current position of power and the magistrate who minted this coin for him, respectively.",
+        "Detail": "After his many successful military campaigns, Caesar had both the need and the means to convert his war booty into payments for his soldiers. Therefore he struck large quantities of high-value gold aureii, of which this is one example. The obverse shows the goddess Vesta, while the reverse again features priestly implements including a lituus, jug, and axe. By including Vesta on his coin and reminders of his position as Pontifex Maximus, Caesar wished to advertise his respect for conservative values. The inscriptions C.CAESAR COS.TER on the obverse (\"third consulship of Caesar\") and A.HIRTIVS.PR (\"praetor A. Hirtius\") denoted Caesar's current position of power and the magistrate who minted this coin for him, respectively.",
         "References": "Harvard Art Museums Collections #1942.176.50. Retrieved May 11, 2022, from https://hvrd.art/o/181625\n\nDominic. (2021, March 24). The gold aureus of Julius Caesar. Baldwin's. Retrieved May 14, 2022, from https://www.baldwin.co.uk/news/the-gold-aureus-of-julius-caesar/\n\nRoman Gold Aureus of Julius Caesar. CoinWeek. (2021, December 8). Retrieved May 14, 2022, from https://coinweek.com/coins/coin-profiles/ancient-coins-coin-profiles/ancient-coin-profiles-roman-gold-aureus-julius-caesar/  ",
         "Obverse": "assets/images/46_aureus_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/46_aureus_of_julius_caesar_reverse.png"
@@ -715,7 +715,7 @@ export const TimeLineData = {
         "Person": "Octavian",
         "Subtitle": "AE Sestertius (?)",
         "Mass": "19.58",
-        "Detail": "This coin is one of the last coins of the Roman Republic, showing Octavian and Caesar on the obverse and reverse, respectively. Octavian presents himself as the divine son of Caesar (CAESAR DIVI.F) and Caesar as himself divine (DIVOS IVLIVS). Thus he reinforced his claim to power even before his decisive victory against Mark Antony, and this timeline places this coin comfortably in the realm of propaganda.",
+        "Detail": "This coin is one of the last of the Roman Republic, showing Octavian and Caesar on the obverse and reverse, respectively. Octavian presents himself as the divine son of Caesar (CAESAR DIVI.F) and Caesar himself as divine (DIVOS IVLIVS). Thus Octavian reinforced his claim to power even before his decisive victory against Mark Antony, and this fact places this coin comfortably in the realm of propaganda which, evidently, was successful in ensuring his ascension to the throne. From a design perspective, now both sides of a coin served to explicity glorify the individual rather than the state. Rome's transition to an autocracy was all but complete.",
         "References": "Harvard Art Museums Collections #1942.176.57. Retrieved May 11, 2022, from https://hvrd.art/o/181346\n\nSestertius of Octavian and Caesar. Omeka RSS. (n.d.). Retrieved May 14, 2022, from http://classicalchopped.artinterp.org/omeka/items/show/41 ",
         "Obverse": "assets/images/38_coin_of_octavian_obverse.png",
         "Reverse": "assets/images/38_coin_of_octavian_reverse.png"
@@ -724,17 +724,30 @@ export const TimeLineData = {
         "ID": "54",
         "Type": "Event",
         "Location": "Center",
+        "Start": "42",
+        "End": "31",
+        "Name": "Rise of Octavian",
+        "Person": "",
+        "Subtitle": "",
+        "Mass": "",
+        "Detail": "The death of Caesar was not wholly well received by the Romans. His supporters included Mark Antony and Marcus Aemilius Lepidus. It came to light that in Caesar's will he had promised money and civil improvements to the people, and Mark Antony managed to drum up popular support for the late dictator once more. Antony himself wished to succeed Caesar in power, but he had competing claims to the throne by Octavian, Caesar's adopted son, as well as Brutus and Cassius, two of Caesar's murderers. Antony and Octavian joined forces to defeat Brutus and Cassius and, after that, battled with each other.",
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nMark, J. J. (2011, April 28). Julius Caesar. World History Encyclopedia. Retrieved May 14, 2022, from https://www.worldhistory.org/Julius_Caesar/ "
+    },
+    "55": {
+        "ID": "55",
+        "Type": "Event",
+        "Location": "Center",
         "Start": "31",
         "End": "",
         "Name": "Octavian becomes first Roman emperor",
         "Person": "",
         "Subtitle": "",
         "Mass": "",
-        "Detail": "The death of Caesar was not wholly well received by the Romans. His supporters included Mark Antony and Marcus Aemilius Lepidus. It came to light that in Caesar's will he had promised money and civil improvements to the people, and Mark Antony managed to drum up popular support for the late dictator once more. Antony himself wished to succeed Caesar in power, but he had competing claims to the throne by Octavian, Caesar's adopted son, as well as Brutus and Cassius, two of Caesar's murderers. Antony and Octavian joined forces to defeat Brutus and Cassius and, after that, battled with each other. In this final showdown at the Battle of Actium, Mark Antony was allied with Cleopatra and both were overcome by Octavian. Octavian declared himself emperor, and the Republic was no more.",
+        "Detail": "In the final showdown at the Battle of Actium, Mark Antony was allied with Cleopatra and both were overcome by Octavian. Octavian declared himself emperor, and the Republic was no more.",
         "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nMark, J. J. (2011, April 28). Julius Caesar. World History Encyclopedia. Retrieved May 14, 2022, from https://www.worldhistory.org/Julius_Caesar/ "
     },
-    "55": {
-        "ID": "55",
+    "56": {
+        "ID": "56",
         "Type": "Marker",
         "Location": "Above",
         "Start": "0",
