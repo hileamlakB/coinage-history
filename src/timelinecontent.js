@@ -179,7 +179,7 @@ export const TimeLineData = {
         "Subtitle": "AE Aes signatum",
         "Mass": "1389",
         "Detail": "Unlike their Greek neighbors, the inhabitants of the Italian peninsula did not enjoy large natural deposits of silver and gold. Thus the earliest Roman currencies were made of bronze (aes) or copper. The aes signatum was a large cast brick of bronze with animal or mythological motifs on either side, and were preceded only by the aes rude, which were lumps of bronze lacking any shape whatsoever. \n\nThis example of an aes signatum exhibits an eagle standing on a thunderbolt on the obverse and a pegasus on the reverse. Both were common Greek motifs, illustrating the heavy Greek influence on early Roman coinage. The reverse inscription ROMANOM, however, makes it clear the identity of the issuers. The obverse and reverse style indicate that this piece is of Romano-Campanian origin. At 1.39 kilograms, this bronze bar would have been quite cumbersome to transport and is theorized to have been restricted to ceremonial use, large transactions, or for export.",
-        "References": "British Museum Collections #1867,0212.1. Retrieved May 11, 2022, from https://www.britishmuseum.org/collection/object/C_1867-0212-1\n\nForsythe, G. (2006). A critical history of early Rome: From prehistory to the first Punic War. University of California Press.\n\nComparette, T. L. (1918). Aes Signatum. American Journal of Numismatics (1897-1924), 52, 1-61.",
+        "References": "British Museum, Coins and Medals, 1867,0212.1\n\nForsythe, G. (2006). A critical history of early Rome: From prehistory to the first Punic War. University of California Press.\n\nComparette, T. L. (1918). Aes Signatum. American Journal of Numismatics (1897-1924), 52, 1-61.",
         "Obverse": "assets/images/280_aes_signatum_obverse.png",
         "Reverse": "assets/images/280_aes_signatum_reverse.png"
     },
@@ -207,7 +207,7 @@ export const TimeLineData = {
         "Subtitle": "AR Didrachm",
         "Mass": "6.87",
         "Detail": "Despite occasional conflict between the Romans and the Greeks, the latter had an undoubtably large influence on the former in the early years of the Republic. In fact, the earliest silver Roman coins were Greek denominations: the didrachm, worth two drachmae. The style of these coins were also very Greek, featuring Greek gods such as Apollo. This did not exclude the presence of certain Roman motifs, however; as shown here, the she-wolf suckling Romulus and Remus was a motif which would remain popular on Roman coinage for at least seven centuries. The obverse of this coin shows the head of Hercules with a Greek headband (tainia), along with his traditional gear: a club over his right shoulder and lion skin around his neck. The reverse features, along with the she-wolf and twins, the inscription ROMANO in the exergue.\n\nThe source of metal for these newly minted silver coins was not local mines, but rather war booty. Rome's ongoing wars of expansion gave it the resources to establish sophisticated Hellenistic monetary systems, even as it fueled the need for increasingly complex economies. These coins were most likely used to fund anbitious building projects such as the Via Appia as well as the Pyrrhic War of the early third century BCE.",
-        "References": "Harvard Art Museums Collections #1.1965.78. Retrieved May 11, 2022, from https://hvrd.art/o/197428\n\nForsythe, G. (2006). A critical history of early Rome: From prehistory to the first Punic War. University of California Press.",
+        "References": "Harvard Art Museums, Asian and Mediterranean Art, 1.1965.78\n\nForsythe, G. (2006). A critical history of early Rome: From prehistory to the first Punic War. University of California Press.",
         "Obverse": "assets/images/269_romano_campanian_didrachm_obverse.png",
         "Reverse": "assets/images/269_romano_campanian_didrachm_reverse.png"
     },
@@ -248,7 +248,7 @@ export const TimeLineData = {
         "Subtitle": "AE Aes Grave",
         "Mass": "262.5",
         "Detail": "Concurrently with the early Greek-style silver coinage, Rome continued to mint bronze currency in order to meet the financial needs of the First Punic War. In fact, bronze was still the major currency as silver and gold were scarce. The bronze aes signatum bars had evolved into circular cast aes grave, which are considered as one of the first bronze Roman coins. These were large and heavy, and served mostly as a means of standardizing the measurement and transfer of bronze metal. The denominations of aes grave were based on the as, a Roman pound (~324 g). Each as was worth 12 ounces (unciae), and intermediate denominations such as semis (six unciae), triens (four unciae), quadrans (three unciae) and sextans (two unciae) were also produced.\n\nThis as is significantly undersized, weighing in at only 262.5 grams. Though the first aes grave minted in 290 BCE were full-sized and obeyed the libral standard, later issues suffered from inflation due to the First and Second Punic Wars. The reduced libral standard was introduced in 270 BCE at 274 grams (10 unciae) per as, and this is closest to the weight of this example. Shortly after this coin was minted, the standard dropped again to the semilibral standard, meaning that one as was only 137 grams (6 unciae). The weight standard would continue to drop until 91 BCE, well into the late Republic. As all the successive sub-as denominations also dropped in weight and adopted more manageable sizes, they heralded a new stage of minting in which coins were struck rather than cast. Denominational marks, such as the vertical line on the obverse and reverse of this coin, also became necessary to indicate the value of each coin, which was no longer its intrinsic metal value.\n\nThe design of the as was fairly standardized, with a janiform head on the obverse and a ship's prow on the reverse. The coin shown here is one such example.",
-        "References": "Harvard Art Museums Collections #1979.428.595. Retrieved May 11, 2022, from https://hvrd.art/o/180981\n\nRoman Republican Coinage. The British Museum. (n.d.). Retrieved May 12, 2022, from https://www.britishmuseum.org/research/publications/online_research_catalogues/rrc/roman_republican_coins/roman_republican_coinage.aspx\n\nAes Grave (Heavy Bronze) Coinage (290 BC to 211 BC). Collecting Ancient Coins. (2019, August 28). Retrieved May 12, 2022, from https://collectingancientcoins.co.uk/getting-started-with-roman-coins-aes-grave-heavy-bronze-coinage-290-bc-to-211-bc/ ",
+        "References": "Harvard Art Museums, Asian and Mediterranean Art, 1979.428.595\n\nRoman Republican Coinage. The British Museum. (n.d.). Retrieved May 12, 2022, from https://www.britishmuseum.org/research/publications/online_research_catalogues/rrc/roman_republican_coins/roman_republican_coinage.aspx\n\nAes Grave (Heavy Bronze) Coinage (290 BC to 211 BC). Collecting Ancient Coins. (2019, August 28). Retrieved May 12, 2022, from https://collectingancientcoins.co.uk/getting-started-with-roman-coins-aes-grave-heavy-bronze-coinage-290-bc-to-211-bc/ ",
         "Obverse": "assets/images/225_aes_grave_as_obverse.png",
         "Reverse": "assets/images/225_aes_grave_as_reverse.png"
     },
@@ -263,7 +263,7 @@ export const TimeLineData = {
         "Subtitle": "AR Didrachm",
         "Mass": "6.63",
         "Detail": "With new influxes of silver from Rome's victories against Carthage, the didrachm silver coinage became standardized towards the end of the 3rd century BCE, with a janiform head on the obverse and a quadriga (four-horse chariot) on the reverse. The coin shown here depicts the Dioscuri, twin brothers Castor and Pollux who were children of Leda. Castor was the mortal son of Leda and King Tyndareus of Lacedaemon, and Pollux was the demigod son of Leda and Zeus. They were associated with horsemanship and travelers. The incuse inscription ROMA on the reverse indicates that this coin was struck at Rome itself.\n\nInterestingly, this coin exhibits evidence of a double-strike, as shown by the doubled profiles of the nose, chin, and lips on the obverse. It is unclear whether this is a true double strike, however, as other elements of the obverse (such as the beaded border) are normal. Regardless, this coin showcases the Romans' adoption of struck coinage, which would become the norm in the later days of the Republic and then Empire. The design also marks the transition from Greek style to the distinctively Roman denarius, which would appear during the Second Punic War.",
-        "References": "Harvard Art Museums Collections #1.1965.80. Retrieved May 11, 2022, from https://hvrd.art/o/197429\n\nDioskouroi. Theoi Greek Mythology. (n.d.). Retrieved May 12, 2022, from https://www.theoi.com/Ouranios/Dioskouroi.html\n\nRoman Republican Coinage. The British Museum. (n.d.). Retrieved May 12, 2022, from https://www.britishmuseum.org/research/publications/online_research_catalogues/rrc/roman_republican_coins/roman_republican_coinage.aspx\n\nHarl, K. W. (1996). Coinage in the Roman economy, 300 B.C. to A.D. 700. Johns Hopkins University Press.",
+        "References": "Harvard Art Museums, Asian and Mediterranean Art, 1.1965.80\n\nDioskouroi. Theoi Greek Mythology. (n.d.). Retrieved May 12, 2022, from https://www.theoi.com/Ouranios/Dioskouroi.html\n\nRoman Republican Coinage. The British Museum. (n.d.). Retrieved May 12, 2022, from https://www.britishmuseum.org/research/publications/online_research_catalogues/rrc/roman_republican_coins/roman_republican_coinage.aspx\n\nHarl, K. W. (1996). Coinage in the Roman economy, 300 B.C. to A.D. 700. Johns Hopkins University Press.",
         "Obverse": "assets/images/225_romano_campanian_didrachm_obverse.png",
         "Reverse": "assets/images/225_romano_campanian_didrachm_reverse.png"
     },
@@ -317,7 +317,7 @@ export const TimeLineData = {
         "Subtitle": "AV Sixty-As",
         "Mass": "3.36",
         "Detail": "Worth an incredible 60 asses, this coin is an example of the gold coins minted in the Second Punic War as a result of financial emergency. On the obverse is a bellicose design very appropriate for the times: the head of Mars, wearing a Corinthian helmet. Letters below the head indicate the value of this coin at 60 asses. On the reverse is an eagle standing on Zeus's thunderbolt, with the word ROMA below.",
-        "References": "Harvard Art Museums Collections #1.1965.81. Retrieved May 11, 2022, from https://hvrd.art/o/197522\n",
+        "References": "Harvard Art Museums, Asian and Mediterranean Art, 1.1965.81",
         "Obverse": "assets/images/211_sixty_as_coin_obverse.png",
         "Reverse": "assets/images/211_sixty_as_coin_reverse.png"
     },
@@ -384,7 +384,7 @@ export const TimeLineData = {
         "Subtitle": "AR Denarius",
         "Mass": "3.83",
         "Detail": "The defeat of Macedonia by the Romans brought many Greek tetradrachmae to the mints of Rome to be re-coined into denarii. This coin is an example of the new denarius design, with Victory driving a two-horse chariot (biga) in celebration of the Roman victory. The obverse depicts the helmeted head of Roma, with a mark of value (X) below. ",
-        "References": "Harvard Art Museums Collections #1986.498. Retrieved May 11, 2022, from https://hvrd.art/o/195228\n\nHarl, K. W. (1996). Coinage in the Roman economy, 300 B.C. to A.D. 700. Johns Hopkins University Press.",
+        "References": "Harvard Art Museums, Asian and Mediterranean Art, 1986.498\n\nHarl, K. W. (1996). Coinage in the Roman economy, 300 B.C. to A.D. 700. Johns Hopkins University Press.",
         "Obverse": "assets/images/157_new_denarius_obverse.png",
         "Reverse": "assets/images/157_new_denarius_reverse.png"
     },
@@ -425,7 +425,7 @@ export const TimeLineData = {
         "Subtitle": "AR Denarius",
         "Mass": "3.64",
         "Detail": "By now the new currency system of the denarius had become firmly established in the Roman economy. In fact, devaluation had already begun, with the original weight of 4.5 grams (72 to the pound) being reduced to 3.86 grams (84 to the pound). This example weighs only 3.64 grams. It displays the helmeted head of Roma on the obverse and the Dioscuri riding two horses on the reverse. An X below the chin of Roma indicates the coin's value at 10 asses. As with the old didrachms, ROMA appears in the exergue. Of note is the mark of the moneyer, Lucius Sempronius Pitio, which now appears on the obverse and reverse of the coin. The Sempronii were a prominent Roman family who occupied positions such as the consulship in the early Republic. L. Sempronius Pitio was one example of a Roman moneyer, a private citizen given the authority to mint coinage, and his role reflected the need for the Republic to quickly expand its coinage to meet the financial necessities of war.\n\nRome's transition to a monetized economy was finally complete, with vast reserves of wealth acquired from its foreign conquests. Countless gold and silver coins from Sicily, Carthage, and Rome's enemies on the Italian peninsula were melted and re-coined, meaning that the denarii such as this one became the dominant form of currency in the region. The Roman population had also learned to accept and use coins for their transactions, with so many men having served in the military and received the new denarii as wages. In contrast with the Greeks, Rome did not need large silver denominations such as the tetradrachm, and the minting of gold coins was largely restricted to times of financial emergency. Therefore its bimetallic (silver and bronze) currency system was ideally designed for small domestic transactions, and quickly entered the everyday lives of Mediterraneans.",
-        "References": "Harvard Art Museums Collections #1954.70.3. Retrieved May 11, 2022, from https://hvrd.art/o/180925\n\nCoppola, B. P. (2018, July 7). Sempronius Pitio Roman Republic Denarius (minted 148 BCE). University of Michigan LSA. Retrieved May 12, 2022, from https://sites.lsa.umich.edu/bcoppola/2018/07/07/sempronius-pitio-roman-republic-denarius-minted-148-bce/\n\nDenarius Coinage (Sextanal Standard) (211 BC - 82 BC). Collecting Ancient Coins. (2019, August 28). Retrieved May 12, 2022, from https://collectingancientcoins.co.uk/getting-started-with-roman-coins-denarius-coinage-sextanal-standard-211-bc-82-bc/\n\nHarl, K. W. (1996). Coinage in the Roman economy, 300 B.C. to A.D. 700. Johns Hopkins University Press.",
+        "References": "Harvard Art Museums, Asian and Mediterranean Art, 1954.70.3\n\nCoppola, B. P. (2018, July 7). Sempronius Pitio Roman Republic Denarius (minted 148 BCE). University of Michigan LSA. Retrieved May 12, 2022, from https://sites.lsa.umich.edu/bcoppola/2018/07/07/sempronius-pitio-roman-republic-denarius-minted-148-bce/\n\nDenarius Coinage (Sextanal Standard) (211 BC - 82 BC). Collecting Ancient Coins. (2019, August 28). Retrieved May 12, 2022, from https://collectingancientcoins.co.uk/getting-started-with-roman-coins-denarius-coinage-sextanal-standard-211-bc-82-bc/\n\nHarl, K. W. (1996). Coinage in the Roman economy, 300 B.C. to A.D. 700. Johns Hopkins University Press.",
         "Obverse": "assets/images/148_denarius_of_l_sempronius_pitio_obverse.png",
         "Reverse": "assets/images/148_denarius_of_l_sempronius_pitio_reverse.png"
     },
@@ -466,7 +466,7 @@ export const TimeLineData = {
         "Subtitle": "AR Denarius",
         "Mass": "3.69",
         "Detail": "Here is a coin minted by a member of the socii, modeled after the Roman denarius. Instead of Roma, however, the obverse features the head of Italia, which symbolized the united socii. Behind the head is the Oscan inscription VITELIV, meaning Italia. The reverse shows a solder trampling a Roman standard, in defiance of Rome. A bull, a mascot of the Italians, reclines to the left of the soldier. ",
-        "References": "Harvard Art Museums Collections #1.1965.77. Retrieved May 11, 2022, from https://hvrd.art/o/197427\n\nChatigny, C. (2014, December 23). Choice Social War Denarius of the Marsic Confederation. Stacks Bowers Rare Money Blog. Retrieved May 13, 2022, from http://stacksbowers.com/News/Pages/Blogs.aspx?ArticleID=social-war-denarius ",
+        "References": "Harvard Art Museums, Asian and Mediterranean Art, 1.1965.77\n\nChatigny, C. (2014, December 23). Choice Social War Denarius of the Marsic Confederation. Stacks Bowers Rare Money Blog. Retrieved May 13, 2022, from http://stacksbowers.com/News/Pages/Blogs.aspx?ArticleID=social-war-denarius ",
         "Obverse": "assets/images/90_denarius_of_the_social_war_obverse.png",
         "Reverse": "assets/images/90_denarius_of_the_social_war_reverse.png"
     },
@@ -481,7 +481,7 @@ export const TimeLineData = {
         "Subtitle": "AR Quinarius",
         "Mass": "2.12",
         "Detail": "This is a quinarius minted by Q. Titius Mutto in Rome. The quinarius was a silver denomination introduced in the Second Punic War, worth half as much as a denarius (thus five asses instead of 10). However with the revaluing of the denarius in 141 BCE to 16 asses (due to the steadily decreasing weight of the bronze as), the quinarius became worth 8 asses. This particular example shows the draped bust of Victory on the obverse and a pegasus on the reverse with the cognomen of the moneyer. From this period onwards we begin to see increasing diversity in the design of Roman coinage, reflecting the desire of the moneyers for self-promotion and mirroring the fractious politics which would eventually culminate in civil war and the end of the Republic.",
-        "References": "Harvard Art Museums Collections #1942.176.39. Retrieved May 11, 2022, from https://hvrd.art/o/181440\n\nMarkowitz, M. (2022, February 22). The quinarius: An ancient roman coin you've never heard of. CoinWeek. Retrieved May 13, 2022, from https://coinweek.com/ancient-coins/the-quinarius-an-ancient-roman-coin-youve-never-heard-of/ ",
+        "References": "Harvard Art Museums, Asian and Mediterranean Art, 1942.176.39\n\nMarkowitz, M. (2022, February 22). The quinarius: An ancient roman coin you've never heard of. CoinWeek. Retrieved May 13, 2022, from https://coinweek.com/ancient-coins/the-quinarius-an-ancient-roman-coin-youve-never-heard-of/ ",
         "Obverse": "assets/images/90_quinarius_of_q_titius_mutto_obverse.png",
         "Reverse": "assets/images/90_quinarius_of_q_titius_mutto_reverse.png"
     },
@@ -548,7 +548,7 @@ export const TimeLineData = {
         "Subtitle": "AR Denarius",
         "Mass": "3.72",
         "Detail": "This denarius was minted just a few years after Sulla's retirement of the dictatorship in 79 BCE, during the rise of Pompey the Great. It depicts the laureate head of Neptune and his trident on the obverse, along with a control mark XXIIII specific to the moneyer (L. Lucretius Trio). On the reverse is a winged boy riding a dolphin and the moneyer's name.",
-        "References": "Harvard Art Museums Collections #1942.176.25. Retrieved May 11, 2022, from https://hvrd.art/o/179833",
+        "References": "Harvard Art Museums, Asian and Mediterranean Art, 1942.176.25",
         "Obverse": "assets/images/76_denarius_of_l_lucretius_trio_obverse.png",
         "Reverse": "assets/images/76_denarius_of_l_lucretius_trio_reverse.png"
     },
@@ -576,7 +576,7 @@ export const TimeLineData = {
         "Subtitle": "AR Denarius",
         "Mass": "3.86",
         "Detail": "Another example of a late Republican denarius, with the head of the goddess Cybele on the obverse, next to a globe and forepart of lion and surrounded by a fancy beaded border. The name of the moneyer, M. Plaetorius M.f. Cestianus, can also be found on the obverse. The reverse has notably more text than is typical on coins up to this point, surrounding a curule chair (the chair of magistrates and, by extension, of power in Rome). The text, M.PLAETORIVS.AED.CVR.EX.S.C., expands to read \"Marcus Plaetorius Aedilis Curulis Ex Senatus Consulto\", or \"Marcus Plaetorius, Aedile Curule, By Decree of the Senate\". The Aedile Curulis was a prominent position within the Roman government, and the inclusion of this title, as well as the chair, on Cestianus's coin indicates his desire to be recognized for his power. The design of Roman coinage thus transitioned from glorifying the Republic to glorifying individuals of power, and this reflected the power struggles and civil wars of increasing frequency and severity.",
-        "References": "Harvard Art Museums Collections #1942.176.35. Retrieved May 11, 2022, from https://hvrd.art/o/180997\n\nDenarius, Roman Republic (ancient). Numista. (n.d.). Retrieved May 13, 2022, from https://en.numista.com/catalogue/pieces66908.html ",
+        "References": "Harvard Art Museums, Asian and Mediterranean Art, 1942.176.35\n\nDenarius, Roman Republic (ancient). Numista. (n.d.). Retrieved May 13, 2022, from https://en.numista.com/catalogue/pieces66908.html ",
         "Obverse": "assets/images/67_denarius_of_m_plaetorius_mf_cestianus_obverse.png",
         "Reverse": "assets/images/67_denarius_of_m_plaetorius_mf_cestianus_reverse.png"
     },
@@ -643,7 +643,7 @@ export const TimeLineData = {
         "Subtitle": "AR Denarius",
         "Mass": "3.89",
         "Detail": "This is a coin struck by Caesar to promote his military and other achievements. The obverse features an elephant trampling a serpent, in what is presumed to be a mockery of Pompey regarding the latter's obsession with elephants. The reverse shows the priestly implements of Caesar as Pontifex Maximus, including a cap, a holy brush, an ax, and a ladle. Caesar's name is prominently emblazoned on the obverse.",
-        "References": "Harvard Art Museums Collections #1942.176.45. Retrieved May 11, 2022, from https://hvrd.art/o/180991\n\nJulius Caesar and the Roman Civil War. NGC Collectors Society. (n.d.). Retrieved May 14, 2022, from https://coins.www.collectors-society.com/wcm/coinview.aspx?sc=339962 ",
+        "References": "Harvard Art Museums, Asian and Mediterranean Art, 1942.176.45\n\nJulius Caesar and the Roman Civil War. NGC Collectors Society. (n.d.). Retrieved May 14, 2022, from https://coins.www.collectors-society.com/wcm/coinview.aspx?sc=339962 ",
         "Obverse": "assets/images/49_denarius_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/49_denarius_of_julius_caesar_reverse.png"
     },
@@ -658,7 +658,7 @@ export const TimeLineData = {
         "Subtitle": "AR Denarius",
         "Mass": "3.76",
         "Detail": "This denarius was minted by Caesar while in Africa. The obverse depicts the diademed head of Venus and the reverse shows Aeneas carrying his father Anchises, a well-known story from Rome's founding myths. Like on the previous denarius, Caear's name also appears on this coin. Perhaps by associating himself with Aeneas, Caesar foresaw his role in founding a new imperial age for Rome.",
-        "References": "Harvard Art Museums Collections #1942.176.47. Retrieved May 11, 2022, from https://hvrd.art/o/181008",
+        "References": "Harvard Art Museums, Asian and Mediterranean Art, 1942.176.47",
         "Obverse": "assets/images/47_denarius_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/47_denarius_of_julius_caesar_reverse.png"
     },
@@ -673,7 +673,7 @@ export const TimeLineData = {
         "Subtitle": "AV Aureus",
         "Mass": "8.05",
         "Detail": "After his many successful military campaigns, Caesar had both the need and the means to convert his war booty into payments for his soldiers. Therefore he struck large quantities of high-value gold aureii, of which this is one example. The obverse shows the goddess Vesta, while the reverse again features priestly implements including a lituus, jug, and axe. By including Vesta on his coin and reminders of his position as Pontifex Maximus, Caesar wished to advertise his respect for conservative values. The inscriptions C.CAESAR COS.TER on the obverse (\"third consulship of Caesar\") and A.HIRTIVS.PR (\"praetor A. Hirtius\") denoted Caesar's current position of power and the magistrate who minted this coin for him, respectively.",
-        "References": "Harvard Art Museums Collections #1942.176.50. Retrieved May 11, 2022, from https://hvrd.art/o/181625\n\nDominic. (2021, March 24). The gold aureus of Julius Caesar. Baldwin's. Retrieved May 14, 2022, from https://www.baldwin.co.uk/news/the-gold-aureus-of-julius-caesar/\n\nRoman Gold Aureus of Julius Caesar. CoinWeek. (2021, December 8). Retrieved May 14, 2022, from https://coinweek.com/coins/coin-profiles/ancient-coins-coin-profiles/ancient-coin-profiles-roman-gold-aureus-julius-caesar/  ",
+        "References": "Harvard Art Museums, Asian and Mediterranean Art, 1942.176.50\n\nDominic. (2021, March 24). The gold aureus of Julius Caesar. Baldwin's. Retrieved May 14, 2022, from https://www.baldwin.co.uk/news/the-gold-aureus-of-julius-caesar/\n\nRoman Gold Aureus of Julius Caesar. CoinWeek. (2021, December 8). Retrieved May 14, 2022, from https://coinweek.com/coins/coin-profiles/ancient-coins-coin-profiles/ancient-coin-profiles-roman-gold-aureus-julius-caesar/  ",
         "Obverse": "assets/images/46_aureus_of_julius_caesar_obverse.png",
         "Reverse": "assets/images/46_aureus_of_julius_caesar_reverse.png"
     },
@@ -688,7 +688,7 @@ export const TimeLineData = {
         "Subtitle": "",
         "Mass": "",
         "Detail": "Upon his return to Rome, Caesar was declared dictator for life, to the alarm of the aristocracy. His assassination was planned and carried out by senators who sought to preserve the Republic, knowing that Caesar meant to establish a monarchy. Though the plot was successful, Caesar's rise to power and the events which had preceded him had irrevocably damaged the functions of the Republic and meant that an autocratic government was guaranteed to arise.",
-        "References": "Roman Gold Aureus of Julius Caesar. CoinWeek. (2021, December 8). Retrieved May 14, 2022, from https://coinweek.com/coins/coin-profiles/ancient-coins-coin-profiles/ancient-coin-profiles-roman-gold-aureus-julius-caesar/ "
+        "References": "Boak, A. E. R. (1921). A History of Rome to 565 A.D. Macmillan.\n\nMark, J. J. (2011, April 28). Julius Caesar. World History Encyclopedia. Retrieved May 14, 2022, from https://www.worldhistory.org/Julius_Caesar/ "
     },
     "52": {
         "ID": "52",
@@ -701,7 +701,7 @@ export const TimeLineData = {
         "Subtitle": "AR Denarius",
         "Mass": "3.76",
         "Detail": "This famous coin was minted by Brutus to commemorate the assassination of Caesar, a feat he viewed as liberating the Republic from a tyrant. The obverse shows Brutus's head with the inscription BRVT.IMP L.PLAET.CEST, referring to Brutus as Imperator (military commander) and his moneyer L. Plaetorius Cestianus. The reverse displays the daggers used in the assassination and a cap of liberty, as well as the date on which the deed occurred: EID MAR, or the Ides of March. In celebrating his freeing of the Romans, however, Brutus ironically chose to put his likeness on a coin, a transgression committed by Caesar just a few years before.",
-        "References": "Harvard Art Museums Collections #1972.244. Retrieved May 11, 2022, from https://hvrd.art/o/195435\n\nThe Spruce Crafts. (2021, March 25). The fascinating history behind the Eid Mar Coin. The Spruce Crafts. Retrieved May 14, 2022, from https://www.thesprucecrafts.com/eid-mar-denarius-768790 ",
+        "References": "Harvard Art Museums, Asian and Mediterranean Art, 1972.244\n\nThe Spruce Crafts. (2021, March 25). The fascinating history behind the Eid Mar Coin. The Spruce Crafts. Retrieved May 14, 2022, from https://www.thesprucecrafts.com/eid-mar-denarius-768790 ",
         "Obverse": "assets/images/43_eid_mar_coin_of_brutus_obverse.png",
         "Reverse": "assets/images/43_eid_mar_coin_of_brutus_reverse.png"
     },
@@ -716,7 +716,7 @@ export const TimeLineData = {
         "Subtitle": "AE Sestertius (?)",
         "Mass": "19.58",
         "Detail": "This coin is one of the last of the Roman Republic, showing Octavian and Caesar on the obverse and reverse, respectively. Octavian presents himself as the divine son of Caesar (CAESAR DIVI.F) and Caesar himself as divine (DIVOS IVLIVS). Thus Octavian reinforced his claim to power even before his decisive victory against Mark Antony, and this fact places this coin comfortably in the realm of propaganda which, evidently, was successful in ensuring his ascension to the throne. From a design perspective, now both sides of a coin served to explicity glorify the individual rather than the state. Rome's transition to an autocracy was all but complete.",
-        "References": "Harvard Art Museums Collections #1942.176.57. Retrieved May 11, 2022, from https://hvrd.art/o/181346\n\nSestertius of Octavian and Caesar. Omeka RSS. (n.d.). Retrieved May 14, 2022, from http://classicalchopped.artinterp.org/omeka/items/show/41 ",
+        "References": "Harvard Art Museums, Asian and Mediterranean Art, 1942.176.57\n\nSestertius of Octavian and Caesar. Omeka RSS. (n.d.). Retrieved May 14, 2022, from http://classicalchopped.artinterp.org/omeka/items/show/41 ",
         "Obverse": "assets/images/38_coin_of_octavian_obverse.png",
         "Reverse": "assets/images/38_coin_of_octavian_reverse.png"
     },
