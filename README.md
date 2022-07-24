@@ -46,7 +46,7 @@ the [./public/assets/images/](./public/assets/images/) folder.
    specific, there are three types of events.
 
    The markers, the history events and the coin events. 
-   ![differntEvents](./differntEvents.png)
+   ![differntEvents](./differntEvents.jpg)
 
    The component for each of this can be found in [App.js](./src/App.js); the code here is self explanatory. Helper components for these are found in the [componnet.js](./src/components.js) file.
 
