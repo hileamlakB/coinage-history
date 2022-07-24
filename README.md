@@ -38,7 +38,7 @@ It also uses python to parse data from csv format to a javascript object in the 
 If you want to work on this project, here is a quick guid on how it is setup. 
 
 1. In the [Tool](./Tool/) folder you have the python script that changes the csv to json.
-The CSV file must have some required headers, which you can look at the sample ![file](./Tool/timelinecontent.csv)
+The CSV file must have some required headers, which you can look at the sample [file](./Tool/timelinecontent.csv)
 One thing to note here is the name of the coin-images. The convention used is explained in the script. Also you can look at [this](./Tool/img_namer.ipynb) to see how the image names are generated. The images should then be located in 
 the [./public/assets/images/](./public/assets/images/) folder.
 
@@ -46,7 +46,7 @@ the [./public/assets/images/](./public/assets/images/) folder.
    specific, there are three types of events.
 
    The markers, the history events and the coin events. 
-   ![differntEvents](./differntEvents.jpg)
+   ![differntEvents](./differentEvents.jpg)
 
    The component for each of this can be found in [App.js](./src/App.js); the code here is self explanatory. Helper components for these are found in the [componnet.js](./src/components.js) file.
 
