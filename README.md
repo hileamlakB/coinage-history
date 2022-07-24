@@ -24,6 +24,8 @@ Coinage of the roman repulic is a chronological timeline tool that presents visu
 different roman coins from different times. The app is built with react js and uses data researched from 
 different books.
 
+The app is targated for bigger screens like tablets and laptops.
+
 ## Screen shots
 
 ![](./coins.png)
