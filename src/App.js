@@ -2,20 +2,19 @@ import './App.css'
 import React from 'react'
 import { useState, useEffect, useRef } from 'react'
 
-import AddIcon from '@mui/icons-material/Add'
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'
-import ModeNightIcon from '@mui/icons-material/ModeNight'
 import IconButton from '@mui/material/IconButton'
 import LocationOnIcon from '@mui/icons-material/LocationOn'
-
 import { Typography } from '@mui/material'
+
 import {
   DottedLines,
   OverLay,
   ImageButton,
   useWindowSize,
-} from './BasicComponents.js'
+} from './components.js'
+
 import { TimeLineData } from './timelinecontent'
 
 function CoinEvent({
@@ -30,47 +29,49 @@ function CoinEvent({
   maxheight,
   animationStartTime,
   coinPeriodP,
-  direction,
-  empty,
-  special,
-  element,
+  orientation,
   motion = false,
 }) {
-  const [visible, setvisible] = useState('none')
+  const [visible, setvisible] = useState(false)
   const [height, setheight] = useState(motion ? 0 : maxheight)
-  const [hover_visibility, sethover_visibility] = useState('none')
-  const dir = useRef(-1)
+  const [hoverVisibility, sethoverVisibility] = useState(false)
+  const direction = useRef(-1)
 
+  // Animation interval starter
   useEffect(() => {
-    setTimeout(() => setInterval(update_height, 5), animationStartTime)
+    let interval = null
+    setTimeout(() => {
+      interval = setInterval(update_height, 5)
+    }, animationStartTime)
+
+    return () => {
+      clearInterval(interval)
+    }
   }, [])
 
   function update_height() {
     if (motion) {
       setheight((height) => {
         if (height >= maxheight || height === 0) {
-          dir.current = dir.current * -1
+          direction.current = direction.current * -1
         }
 
-        return height + dir.current
+        return height + direction.current
       })
     }
   }
 
-  function moreInfo() {
-    changeVisibility()
-  }
+  let coinButton = (
+    <ImageButton
+      pic={obverse}
+      on_click={() => {
+        setvisible(!visible)
+      }}
+      className="clickable"
+    />
+  )
 
-  function changeVisibility() {
-    visible === 'none' ? setvisible('flex') : setvisible('none')
-  }
-
-  // element.setAttribute('onClick', moreInfo);
-  return empty ? (
-    <div
-      style={{ minWidth: '100px', position: 'absolute', margin: '0 20px' }}
-    ></div>
-  ) : (
+  return (
     <div
       style={{
         position: 'absolute',
@@ -82,10 +83,10 @@ function CoinEvent({
         left: `${coinPeriodP}px`,
       }}
       onMouseOver={() => {
-        sethover_visibility('block')
+        sethoverVisibility(false)
       }}
       onMouseOut={() => {
-        sethover_visibility('none')
+        sethoverVisibility(true)
       }}
     >
       <div
@@ -97,8 +98,8 @@ function CoinEvent({
           border: '1px solid white',
           color: 'white',
           position: 'absolute',
-          display: `${hover_visibility}`,
-          top: direction === 'up' ? '-80px' : '220px',
+          display: hoverVisibility ? 'flex' : 'none',
+          top: orientation === 'up' ? '-80px' : '220px',
           left: '-100px',
           justifyContent: 'center',
           alignItems: 'center',
@@ -118,34 +119,16 @@ function CoinEvent({
         detail={detail}
         visible={visible}
         referances={referances}
-        changeVisibility={changeVisibility}
+        changeVisibility={() => {
+          setvisible(!visible)
+        }}
       />
 
-      {direction === 'up' ? (
-        special ? (
-          element
-        ) : (
-          <ImageButton
-            pic={obverse}
-            on_click={moreInfo}
-            className="clickable"
-          />
-        )
-      ) : null}
+      {orientation === 'up' ? coinButton : null}
 
       <DottedLines color="white" width={height} />
 
-      {direction === 'down' ? (
-        special ? (
-          element
-        ) : (
-          <ImageButton
-            pic={obverse}
-            on_click={moreInfo}
-            className="clickable"
-          />
-        )
-      ) : null}
+      {orientation === 'down' ? coinButton : null}
     </div>
   )
 }
@@ -159,12 +142,8 @@ function HistoryEvent({
   referances,
   width = 20,
 }) {
-  const [visible, setvisible] = useState('none')
-  const [hover_visibility, sethover_visibility] = useState('none')
-
-  function changeVisibility() {
-    visible === 'none' ? setvisible('flex') : setvisible('none')
-  }
+  const [visible, setvisible] = useState(false)
+  const [hoverVisibility, sethoverVisibility] = useState(false)
 
   return (
     <div
@@ -179,12 +158,14 @@ function HistoryEvent({
         margin: '0 65px',
         left: `${eventPeriod}px`,
       }}
-      onClick={changeVisibility}
+      onClick={() => {
+        setvisible(!visible)
+      }}
       onMouseOver={() => {
-        sethover_visibility('block')
+        sethoverVisibility(true)
       }}
       onMouseOut={() => {
-        sethover_visibility('none')
+        sethoverVisibility(false)
       }}
     >
       <div
@@ -196,7 +177,7 @@ function HistoryEvent({
           border: '1px solid white',
           color: 'white',
           position: 'absolute',
-          display: `${hover_visibility}`,
+          display: hoverVisibility ? 'flex' : 'none',
           top: '-110px',
           left: '-130px',
           justifyContent: 'center',
@@ -217,7 +198,9 @@ function HistoryEvent({
         detail={detail}
         visible={visible}
         referances={referances}
-        changeVisibility={changeVisibility}
+        changeVisibility={() => {
+          setvisible(!visible)
+        }}
       />
     </div>
   )
@@ -247,7 +230,6 @@ function MarkerEvent({ name, eventPeriod }) {
 }
 
 function App() {
-  const [bg, setbg] = useState('black')
   const [maxWidth, setmaxWidth] = useState(0)
   const [scrollLeft, setscrollLeft] = useState(0)
   const [scrollRight, setscrollRight] = useState(0)
@@ -267,7 +249,7 @@ function App() {
     function timeToPixel(period) {
       // 1 year = 25 pixels, when screen_width = 2000 can't be more than 100
       // and less than 15
-      // To adjust screen ration for different screen view, the bench screen
+      // To adjust screen ratio for different screen view, the base screen
       // width = 2000
       let base_ratio = Math.min(20, Math.min((30 * winSize.width) / 2000, 50))
       return period * base_ratio
@@ -301,7 +283,7 @@ function App() {
               referances={TimeLineData[`${i}`].References}
               obverse={TimeLineData[`${i}`].Obverse}
               maxheight="90"
-              direction="up"
+              orientation="up"
               coinPeriodP={plocation}
               animationStartTime={0}
             />,
@@ -360,19 +342,6 @@ function App() {
     setmaxWidth(new_max)
   }, [winSize.width])
 
-  function changeTheam() {
-    if (bg === 'white') {
-      setbg('black')
-      document.body.style.background = 'black'
-    } else {
-      setbg('white')
-      document.body.style.background = 'white'
-    }
-  }
-
-  function addCoin() {
-    alert('You just found an ester egg. AYE! Contact me!!')
-  }
   return (
     <>
       <div
@@ -495,30 +464,6 @@ function App() {
             {/* background:"linear-gradient(0deg, grey, white)",  */}
 
             {content.upper_timeline.map((x) => x)}
-
-            {/* <CoinEvent
-              special="true"
-              style={{
-                display: 'none',
-              }}
-              element={
-                <IconButton
-                  onClick={addCoin}
-                  aria-label="fingerprint"
-                  sx={{
-                    padding: 0,
-                    background: 'orange',
-                    width: '40px',
-                    height: '40px',
-                  }}
-                >
-                  <AddIcon sx={{ color: 'white' }} />
-                </IconButton>
-              }
-              maxheight="40"
-              direction="up"
-              motion={false}
-            /> */}
           </div>
           <div
             className="time_line"
@@ -547,16 +492,6 @@ function App() {
         </div>
       </div>
       <footer>
-        <IconButton
-          sx={{ display: 'none' }}
-          color="warning"
-          variant="contained"
-          onClick={() => {
-            changeTheam()
-          }}
-        >
-          <ModeNightIcon />
-        </IconButton>
         <p
           className="cnizel"
           style={{

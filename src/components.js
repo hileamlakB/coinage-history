@@ -1,32 +1,46 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { Typography } from '@mui/material'
-
 import IconButton from '@mui/material/IconButton'
 import CloseIcon from '@mui/icons-material/Close'
 
-export function DottedLines({ color, width, inverted = true }) {
+/* DottedLines - Vertical/Horizontal Dotted Lines that are
+ * created by stacking multiple divs
+ * The dots and the space between them are spaced out evenly
+ * @color - determines the color of the dots
+ * @width - eidth determines the length of the dotted line
+ * @inverted - determines if the dotted line is Horizontal or Vertical
+ */
+
+export const DottedLines = ({ color, width, inverted = true }) => {
+  // Size of each dot and the space between dots
   const [dot_width, space_width] = [5, 5]
-  let dots = []
 
-  let ndots = width / (dot_width + space_width)
+  // Number of dots
+  let ndots = useMemo(() => width / (dot_width + space_width), [width])
 
-  for (let i = 0; i < ndots; i++) {
-    dots.push(
-      <div
-        style={{
-          background: color,
-          width: `${dot_width}px`,
-          minWidth: `${dot_width}px`,
-          height: `${dot_width}px`,
-          marginBottom: inverted ? `${space_width}px` : 0,
-          marginRight: !inverted ? `${space_width}px` : 0,
-        }}
-      >
-        {' '}
-      </div>,
-    )
-  }
+  // Create the dots by stacking divs
+  let dots = useMemo(() => {
+    let dots = []
+
+    for (let i = 0; i < ndots; i++) {
+      dots.push(
+        <div
+          style={{
+            background: color,
+            width: `${dot_width}px`,
+            minWidth: `${dot_width}px`,
+            height: `${dot_width}px`,
+            marginBottom: inverted ? `${space_width}px` : 0,
+            marginRight: !inverted ? `${space_width}px` : 0,
+          }}
+        >
+          {' '}
+        </div>,
+      )
+    }
+    return dots
+  }, [color, ndots, inverted])
 
   return (
     <div
@@ -43,7 +57,11 @@ export function DottedLines({ color, width, inverted = true }) {
   )
 }
 
-export function OverLay({
+/* 
+Overlay - A customer overlay component to explain details on 
+about each coin component.
+*/
+export const OverLay = ({
   title,
   subtitle,
   period,
@@ -55,7 +73,7 @@ export function OverLay({
   visible,
   changeVisibility,
   image = true,
-}) {
+}) => {
   return (
     <div
       className="overlay"
@@ -68,7 +86,7 @@ export function OverLay({
         minHeight: '100vh',
         marginTop: '0',
         background: '#00000099',
-        display: `${visible}`,
+        display: visible ? 'flex' : 'none',
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
@@ -189,7 +207,11 @@ export function OverLay({
   )
 }
 
-export function ImageButton({ pic, on_click }) {
+/*
+ * ImageButton - Component to make a button with an image
+
+ */
+export const ImageButton = ({ pic, on_click }) => {
   return (
     <IconButton
       aria-label="fingerprint"
@@ -201,16 +223,21 @@ export function ImageButton({ pic, on_click }) {
         src={pic}
         alt="overlay_name"
         style={{ borderRadius: '50px', width: '120px', height: '120px' }}
-      ></img>
+      />
     </IconButton>
   )
 }
 
-export function useWindowSize() {
+/*
+useWindowSize - A custom hook to get tha
+listenes to window size changes
+*/
+export const useWindowSize = () => {
   const [windowSize, setWindowSize] = useState({
     width: undefined,
     height: undefined,
   })
+
   useEffect(() => {
     function handleResize() {
       // Set window width/height to state
@@ -224,5 +251,6 @@ export function useWindowSize() {
     handleResize()
     return () => window.removeEventListener('resize', handleResize)
   }, [])
+
   return windowSize
 }
