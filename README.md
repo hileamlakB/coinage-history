@@ -10,34 +10,54 @@ Access the site here on [github](https://hileamlakb.github.io/coinage-history/)
   - [Demo link:](#demo-link)
   - [Table of Content:](#table-of-content)
   - [About The App](#about-the-app)
+  - [Screen shots](#screen-shots)
   - [Technologies](#technologies)
+  - [Getting started with this repo](#getting-started-with-this-repo)
   - [Setup](#setup)
-  - [Status](#status)
   - [Credits](#credits)
-  - [License](#license)
 
 ## About The App
+
 Coinage of the roman repulic is a chronological timeline tool that presents visual and textual information on  
-different roman coins from different areas. The app is built with react js and uses data researched from 
+different roman coins from different times. The app is built with react js and uses data researched from 
 different books.
 
+## Screen shots
+
+![](./coins.png)
+Most of the advancment in coins appear in the late eras, so you will have to scroll a bit to the right before
+you start seeing anything intersting.
 
 ## Technologies
-I used `html`, `css`, ...
+For this project we used react js, material-ui, and google-fonts for the ui and finally python to parse data from csv to a javascript object in the form of json.
+
+## Getting started with this repo
+If you want to work on this project, here is a quick guid on how it is setup. 
+
+1. In the ![Tool](./Tool/) folder you have the python script that changes the csv to json.
+The CSV file must have some required headers, which you can look at the sample ![file](./Tool/timelinecontent.csv)
+One thing to note here is the name of the coins image. The convention used is explained in the script. Also you can look at ![this](./Tool/img_namer.ipynb) to see how the image names are generated. The images should then be located in 
+the ![./public/assets/images/](./public/assets/images/) folder.
+
+2. On rending the UI side, you have the main app that fetches the data and creats the differnt type of events. To be
+   specific, there are three types of events.
+
+   The markers, the history events and the coin events. 
+   ![differntEvents](./differntEvents.png)
+
+   The component for each of this can be found in ![App.js](./src/App.js) and the code is self explanatory. Helper components for these are found in the ![componnet.js](./src/components.js) file.
+
+   Each component are positioned in the timeline depending on the events starting period using css's absolute position 
+   property. 
 
 ## Setup
 - download or clone the repository
 - run `npm install`
-- ...
+- and start hacking
 
-## Status
-[name of project] is still in progress. `Version 2` will be out soon.
 
 ## Credits
 List of contriubutors:
-- [John Doe](johndoe.com)
-- [Beginners guide to BEM](link-goes-here.com)
+- [Andrew Zhang](@asparte)
+- [Hileamlak Yitayew](@hileamlakb)
 
-## License
-
-MIT license @ [author](author.com)
